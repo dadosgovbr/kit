@@ -1,5 +1,5 @@
-kit-dadosgovbr
-==============
+kit
+====
 
 Kit de implementação do Plano de Dados Abertos
 
