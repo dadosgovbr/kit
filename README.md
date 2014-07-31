@@ -31,3 +31,8 @@ As organizações públicas que desenvolvem Planos de Dados Abertos necessitam d
 * ..
 * ..
 
+## Casos de uso
+
+* [Plano de Dados Abertos do Ministério do Planejamento](http://www.planejamento.gov.br/aberto/pda/)
+* [Plano de Dados Abertos do Ministério da Justiça](http://participa.br/dadosabertos/galeria-encontro-nacional-de-dados-abertos/pdae-mj.pdf)
+
