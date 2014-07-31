@@ -8,6 +8,8 @@ Kit de implementação do Plano de Dados Abertos
 * Contexto e objetivo
 * Definições e conceitos
 * Guia para implementação de um Plano de Dados Abertos
+** Manual para criar um Plano de Dados Abertos
+** Executar o PDA: Estratégias para publicar dados abertos
 * Ferramentas
 * Mais Recursos
 
