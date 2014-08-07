@@ -31,7 +31,7 @@ As organizações públicas que desenvolvem Planos de Dados Abertos necessitam d
 
 ## Mais Recursos
 
-* ..
+* [Perguntas Frequentes]() - link para um faq, talvez o do dados.gov.br
 * ..
 
 ## Casos de uso
