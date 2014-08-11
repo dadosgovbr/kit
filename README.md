@@ -5,7 +5,7 @@ Kit para implementação de uma política de dados abertos
 
 ## Contexto e objetivo
 
-Que problema o kit resolve
+#### Que problema o kit resolve
 
 As organizações públicas que desenvolvem Planos de Dados Abertos necessitam de orientação e recursos para sua criação e implementação. A proposta do Kit é fornecer os insumos necessários para esses momentos.
 
@@ -13,15 +13,12 @@ As organizações públicas que desenvolvem Planos de Dados Abertos necessitam d
 
 ## Guia para implementação de um Plano de Dados Abertos
 
-
-
-### Processo sistêmico de um Plano de Dados Abertos
+A criação e implementação de de Plano de Dados Abertos envolve um conjunto de preocupações que estão listadas a seguir como um processo sistêmico. O processo pode ser dividido em 3 partes:
+* Processo para desenvolvimento de um Plano de Dados Abertos
+* Processo de execução e monitoramento do PDA
+* Processo de abertura de bases de dados
 
 ![Processo Sistêmico de um PDA](https://raw.githubusercontent.com/dadosgovbr/kit/master/public/img/Processo%20Sist%C3%AAmico%20de%20um%20PDA.png)
-
-### Manual para criar um Plano de Dados Abertos
-
-### Executar o PDA: Estratégias para publicar dados abertos
 
 
 ## Ferramentas
