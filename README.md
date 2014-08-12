@@ -13,10 +13,12 @@ As organizações públicas que desenvolvem Planos de Dados Abertos necessitam d
 
 ## Guia para implementação de um Plano de Dados Abertos
 
-A criação e implementação de de Plano de Dados Abertos envolve um conjunto de preocupações que estão listadas a seguir como um processo sistêmico. O processo pode ser dividido em 3 partes:
+A criação e implementação de de Plano de Dados Abertos envolve um conjunto de preocupações que podem ser divididas em 3 partes:
 * [Desenvolver um Plano de Dados Abertos](https://github.com/dadosgovbr/kit/blob/master/PDA.md)
 * Executar e monitorar do PDA
 * Abrir as bases de dados
+
+Abaixo uma visualização do processo como um todo, para facilitar o pensamento sistêmico:
 
 ![Processo Sistêmico de um PDA](https://raw.githubusercontent.com/dadosgovbr/kit/master/public/img/Processo%20Sist%C3%AAmico%20de%20um%20PDA.png)
 
