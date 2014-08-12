@@ -13,4 +13,4 @@ O Conteúdo que orienta a criação de um PDA está estruturado no [Manual para 
 
 ## Plano de ação
 
-## Catalogação no dados.gov.br
+## Publicação do PDA na web
