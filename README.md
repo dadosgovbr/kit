@@ -19,7 +19,7 @@ A criação e implementação de um Plano de Dados Abertos para uma instituiçã
 
 
 * [Elaboração do Plano de Dados Abertos](https://github.com/dadosgovbr/kit/blob/master/Elabora%C3%A7%C3%A3o-do-PDA.md)
-* Executar e monitorar do PDA
+* [Execução do Plano de Dados Abertos](https://github.com/dadosgovbr/kit/blob/master/Execu%C3%A7%C3%A3o-do-PDA.md)
 * Abrir as bases de dados
 
 
