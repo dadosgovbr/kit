@@ -18,7 +18,7 @@ A criação e implementação de um Plano de Dados Abertos para uma instituiçã
 ![Processo Sistêmico de um PDA](https://raw.githubusercontent.com/dadosgovbr/kit/master/public/img/Processo%20Sist%C3%AAmico%20de%20um%20PDA.png)
 
 
-* [Elaborar um Plano de Dados Abertos](https://github.com/dadosgovbr/kit/blob/master/Elaborar-PDA.md)
+* [Elaborar um Plano de Dados Abertos](https://github.com/dadosgovbr/kit/blob/master/Elaboração-PDA.md)
 * Executar e monitorar do PDA
 * Abrir as bases de dados
 
