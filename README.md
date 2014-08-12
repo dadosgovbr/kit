@@ -14,7 +14,7 @@ As organizações públicas que desenvolvem Planos de Dados Abertos necessitam d
 ## Guia para implementação de um Plano de Dados Abertos
 
 A criação e implementação de de Plano de Dados Abertos envolve um conjunto de preocupações que estão listadas a seguir como um processo sistêmico. O processo pode ser dividido em 3 partes:
-* Desenvolvimer um Plano de Dados Abertos
+* Desenvolver um Plano de Dados Abertos
 * Executar e monitorar do PDA
 * Abrir as bases de dados
 
