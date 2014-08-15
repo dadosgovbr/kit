@@ -2,12 +2,16 @@ kit Dados Abertos
 ====
 
 Kit para implementação de uma política de dados abertos
+...
 
 ## Contexto e objetivo
 
 As organizações públicas que desenvolvem Planos de Dados Abertos necessitam de orientação e recursos para sua criação e implementação. A proposta do Kit é fornecer os insumos necessários para esses momentos.
+...
 
 ## Definições e conceitos
+
+...
 
 ## Guia para implementação de um Plano de Dados Abertos
 
