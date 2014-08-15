@@ -1,0 +1,21 @@
+<img src="Processo Sistêmico de um PDA-reduzida.png" width="728" height="460" border="0" usemap="#sistemico_map" />
+
+<map name="sistemico_map">
+<!-- #$-:Image map file created by GIMP Image Map plug-in -->
+<!-- #$-:GIMP Image Map plug-in by Maurits Rijk -->
+<!-- #$-:Please do not edit lines starting with "#$" -->
+<!-- #$VERSION:2.3 -->
+<!-- #$AUTHOR:Augusto Herrmann  -->
+<!-- #$DESCRIPTION: Diagrama do Processo Sistêmico de um PDA -->
+<area shape="rect" coords="85,132,229,186" alt="Atividade 1" href="#A01" />
+<area shape="rect" coords="280,123,439,195" alt="Atividade 2" href="#A02" />
+<area shape="rect" coords="555,50,690,94" alt="Processo Piloto Ágil" href="#P_piloto" />
+<area shape="rect" coords="518,127,724,190" alt="Atividade 3" href="#A03" />
+<area shape="rect" coords="557,328,711,374" alt="Processo Oficina para construção do PDA da instituição" href="#P_oficina_pda_orgao" />
+<area shape="poly" coords="445,239,445,275,460,278,474,280,491,278,510,274,526,270,541,271,554,273,560,275,560,239" alt="Documento 1" href="#D01" />
+<area shape="rect" coords="246,335,435,369" alt="Processo Elaboração do PDA" href="#P_elaboracao_pda" />
+<area shape="rect" coords="50,332,175,369" alt="Atividade 4" href="#A04" />
+<area shape="rect" coords="187,420,314,457" alt="Processo Execução do PDA" href="#P_execucao_pda" />
+<area shape="poly" coords="365,421,365,448,379,450,399,452,418,451,438,448,458,445,475,445,491,446,506,449,506,421" alt="Documento 2" href="#D02" />
+<area shape="default" href="https://raw.githubusercontent.com/dadosgovbr/kit/master/public/img/Processo%20Sist%C3%AAmico%20de%20um%20PDA-reduzida.png" />
+</map>
