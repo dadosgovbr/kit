@@ -25,8 +25,11 @@ A criação e implementação de um Plano de Dados Abertos para uma instituiçã
 
 ## Ferramentas
 
-* ..
-* ..
+Esta seção é uma lista de ferramentas úteis para projetos de abertura de dados. Todas são ferramentas livres, criadas por comunidades de software livre, e podem ser utilizadas pelos órgãos governamentais sem restrição. Em geral, são soluções para extração e manipulação e preparação dos dados para sua publicação na Internet. A lista é uma extração do [_Project Open Data_](http://project-open-data.github.io/#tools) e [_ODI open data tech review_](https://github.com/dadosgovbr/open-data-tech-review/wiki).
+
+* [CSV to API](https://github.com/project-open-data/csv-to-api) - Dinamicamenta gera APIs Restful de arquivos CSVs estáticos. 
+* [JSON-to-CSV Converter] - Conversor manual e online de arquivos JSON para visulizar como planilha e baixá-la no formato CSV.
+* ...
 
 ## Mais Recursos
 
