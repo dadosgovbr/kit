@@ -41,29 +41,8 @@ A criação e implementação de um Plano de Dados Abertos para uma instituiçã
 <area shape="default" href="https://raw.githubusercontent.com/dadosgovbr/kit/master/public/img/Processo%20Sist%C3%AAmico%20de%20um%20PDA-reduzida.png" />
 </map>
 
-#### Atividade 1 <a name="A01"></a>
-
-Apresentar a política de dados abertos e motivação de criação do PDA para
-alcançar alinhamento com líder da instituição.
-
-Mediada pelo responsável pela política central de dados abertos.
-
-*Próximo passo:* [Atividade 2](#A02)
-
-#### Atividade 2 <a name="A02"></a>
-
-Definir ponto focal na instituição para coordenar a elaboração do PDA.
-
-Perfil:
-
-* Conhecedor dos sistemas e bases  de dados mantidos pela instituição; 
-* Familiaridade com o tema Acesso à Informação, formatos de arquivos de
- dados, e conceitos da Web
-
-*Próximos passos:*
-
-* Iniciar [processo Piloto Ágil](#P_piloto) (opcional)
-* [Atividade 3](#A03)
+* [Apresentar a política de dados abertos](https://github.com/dadosgovbr/kit/blob/master/Processo-sistêmico.md#apresentar-politica)
+* [Definir ponto focal para coordenar o trabalho](https://github.com/dadosgovbr/kit/blob/master/Processo-sistêmico.md#ponto-focal)
 
 #### Processo Piloto Ágil <a name="P_piloto"></a>
 
