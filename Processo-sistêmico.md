@@ -49,7 +49,7 @@ do [Manual para elaboração de PDA](http://www.planejamento.gov.br/editoria.asp
 
 *Próximo passo:* [Plano de ação para elaboração do PDA](#plano-para-pda)
 
-## Plano de ação para elaboração do PDA <a name="plano-criar-pda"></a>
+## Plano de ação para elaboração do PDA <a name="plano-para-pda"></a>
 
 Plano de ação para elaboração do PDA da instituição
 
