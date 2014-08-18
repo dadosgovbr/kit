@@ -41,8 +41,8 @@ A criação e implementação de um Plano de Dados Abertos para uma instituiçã
 <area shape="default" href="https://raw.githubusercontent.com/dadosgovbr/kit/master/public/img/Processo%20Sist%C3%AAmico%20de%20um%20PDA-reduzida.png" />
 </map>
 
-* [Apresentar a política de dados abertos](https://github.com/dadosgovbr/kit/blob/master/Processo-sistêmico.md#apresentar-politica)
-* [Definir ponto focal para coordenar o trabalho](https://github.com/dadosgovbr/kit/blob/master/Processo-sistêmico.md#ponto-focal)
+1. [Apresentar a política de dados abertos](https://github.com/dadosgovbr/kit/blob/master/Processo-sistêmico.md#apresentar-politica)
+2. [Definir ponto focal para coordenar o trabalho](https://github.com/dadosgovbr/kit/blob/master/Processo-sistêmico.md#ponto-focal)
 
 #### Processo Piloto Ágil <a name="P_piloto"></a>
 
