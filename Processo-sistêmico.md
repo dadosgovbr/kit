@@ -9,7 +9,7 @@ Apresentar a política de dados abertos e motivação de criação do PDA para a
 
 Mediada pelo responsável pela política central de dados abertos.
 
-*Próximo passo:* [Definir ponto focal](ponto-focal)
+*Próximo passo:* [Definir ponto focal](#ponto-focal)
 
 ## Definir ponto focal para coordenar o trabalho <a name="ponto-focal"></a>
 
