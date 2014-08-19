@@ -38,7 +38,7 @@ Os seguintes subprocesso estão detalhados:
 
 * [Elaboração de um PDA](Elabora%C3%A7%C3%A3o-do-PDA.md)
 * [Execução de um PDA](Execu%C3%A7%C3%A3o-do-PDA.md)
-** [Abertura de bases de dados](Abertura-de-dados.md)
+  * [Abertura de bases de dados](Abertura-de-dados.md)
 
 Sugere-se, no entanto, que primeiro sejam observados os processos de uma forma sistêmica, como no seguinte diagrama.
 
