@@ -1,8 +1,14 @@
-kit Dados Abertos
+Kit de dados abertos
 ====
 
-Kit para implementação de uma política de dados abertos
-...
+Kit para implementação de uma política de dados abertos.
+
+O kit é um conjunto de documentos que descreve o processo, métodos e técnicas
+para a implementação de uma política de dados abertos no âmbito de uma
+instituição. Ele é primariamente focado em órgãos e entidades da administração
+pública federal para a criação e implementação de seus respectivos planos de
+dados abertos, mas procura-se ser genérico o suficiente para que possa ser
+aproveitado em outras instituições.
 
 ## Contexto e objetivo
 
