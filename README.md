@@ -51,11 +51,13 @@ Esta seção é uma lista exemplificativa, e não exaustiva, de ferramentas úte
 ### Conversão de dados
 
 * [JSON-to-CSV Converter](http://konklone.io/json/) - Conversor manual e online de arquivos JSON para visulizar como planilha e baixá-la no formato CSV.
+* [dat](https://github.com/maxogden/dat) - ferramenta para conversão e tranformação de dados em linha de comando
+* 
 
 ### Higienização de dados
 
 * [Open Refine](http://openrefine.org/) - Limpeza e transformação de dados, unificação de registros duplicados, etc.
-* ...
+* [csvkit](http://csvkit.readthedocs.org/en/0.8.0/) - Transformações e tratamento de arquivos csv
 
 ## Mais Recursos
 
