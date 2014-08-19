@@ -57,7 +57,7 @@ Esta seção é uma lista exemplificativa, e não exaustiva, de ferramentas úte
 
 * [Perguntas Frequentes]() - link para um faq, talvez o do dados.gov.br
 * Guia de Dados Abertos ([_Open Data Handbook_](http://opendatahandbook.org/pt_BR/)) - da [_Open Knowledge_](https://okfn.org/)
-* [Manual dos dados abertos: governo](http://www.w3c.br/pub/Materiais/PublicacoesW3C/Manual_Dados_Abertos_WEB.pdf) - [W3C Brasil](http://www.w3c.br)
+* [Manual dos dados abertos: governo](http://www.w3c.br/pub/Materiais/PublicacoesW3C/Manual_Dados_Abertos_WEB.pdf) - do [W3C Brasil](http://www.w3c.br)
 
 ## PDAs publicados
 
