@@ -24,7 +24,7 @@ A priorização ocorre porque não vale a pena a organização fazer um esforço
 
 Conforme o [manual para elaboração de PDA](http://www.planejamento.gov.br/secretarias/upload/Arquivos/governo_aberto/manual_elaboracao_plano_dados_abertos.pdf), a etapa de priorização deve considerar esses critérios:
 
-1. O grau de relevância para o cidadão, observando-se especialmente as **demandas encaminhadas via e-SIC**, bem como os setores e serviços mais procurados nos sítios eletrônicos do órgão; 
+1. O grau de relevância para o cidadão, observando-se especialmente as **demandas encaminhadas via e-SIC**, bem como os setores e serviços mais procurados nos sítios eletrônicos do órgão. Adicionalmente, a organização pode também realizar um encontro com os principais consumidores de seus dados (ex: organizações da sociedade civil, ONGs, pesquisadores, outros órgãos públicos) para entender aonde concentram-se suas necessidades;
 2. Os normativos legais e os compromissos formalmente assumidos pelo Ministério, inclusive perante organismos internacionais (OGP); 
 3. O alinhamento perante o Planejamento Estratégico Institucional (PEI) e os planejamentos setoriais, bem como os relacionados às áreas de tecnologia da informação;
 4. O conjunto de informações e sistemas sob a gestão do órgão, em especial, se houver, sistemas estruturadores que são de uso obrigatório transversal para os órgãos da APF;
