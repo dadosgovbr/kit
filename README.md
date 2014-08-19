@@ -36,7 +36,7 @@ A criação e implementação de um Plano de Dados Abertos para uma instituiçã
 
 Sugerimos, no entanto, que primeiro sejam observados os processos de uma forma sistêmica, como no seguinte diagrama.
 
-[<img src="https://raw.githubusercontent.com/dadosgovbr/kit/master/public/img/Processo%20Sist%C3%AAmico%20de%20um%20PDA.png">](Processo-sist%C3%AAmico.md)
+[<img alt="Diagrama do processo sistêmico de um plano de dados abertos" src="https://raw.githubusercontent.com/dadosgovbr/kit/master/public/img/Processo%20Sist%C3%AAmico%20de%20um%20PDA.png">](Processo-sist%C3%AAmico.md)
 
 Esse processo pode ser visto com maiores detalhes no documento [Processo sistêmico de um Plano de Dados Abertos - PDA](Processo-sist%C3%AAmico.md).
 
