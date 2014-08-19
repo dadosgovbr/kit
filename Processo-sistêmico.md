@@ -1,7 +1,7 @@
 Processo sistêmico de um Plano de Dados Abertos - PDA
 ====
 
-![Processo Sistêmico de um PDA](https://raw.githubusercontent.com/dadosgovbr/kit/master/public/img/Processo%20Sist%C3%AAmico%20de%20um%20PDA.png)
+[<img alt="Diagrama do processo sistêmico de um plano de dados abertos" src="https://raw.githubusercontent.com/dadosgovbr/kit/master/public/img/Processo%20Sist%C3%AAmico%20de%20um%20PDA.png">](https://raw.githubusercontent.com/dadosgovbr/kit/master/public/img/Processo%20Sist%C3%AAmico%20de%20um%20PDA%20-%20com%20titulo.png)
 
 ## Apresentar a política de dados abertos <a name="apresentar-politica"></a>
 
@@ -28,7 +28,7 @@ Perfil:
 
 ## Processo Piloto Ágil <a name="piloto"></a>
 
-Iniciar piloto ágil de abertura de um conjunto de dados (opcional).
+Iniciar [piloto ágil de abertura de um conjunto de dados](Piloto-ágil.md) (opcional).
 
 ## Identificação dos representantes nos setores estratégicos <a name="representantes"></a>
 

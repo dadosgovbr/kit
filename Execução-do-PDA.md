@@ -1,7 +1,7 @@
 Execução do Plano de Dados Abertos
 ====
 
-![Processo de execução de um PDA](https://raw.githubusercontent.com/dadosgovbr/kit/master/public/img/Processo%20Execu%C3%A7%C3%A3o%20PDA.png)
+[<img alt="Diagrama do processo de execução de um PDA" src="https://raw.githubusercontent.com/dadosgovbr/kit/master/public/img/Processo%20Execu%C3%A7%C3%A3o%20PDA.png">](https://raw.githubusercontent.com/dadosgovbr/kit/master/public/img/Processo%20Execu%C3%A7%C3%A3o%20PDA%20-%20com%20titulo.png)
 
 A execução do PDA na organização se divide nesses passos:
 
@@ -21,5 +21,7 @@ Esse é o momento onde cada área se compromete com uma parte do trabalho:
 * Áreas de negócio - realizar a abertura das bases de dados com o apoio da área de TI; definir a melhor forma de estruturar os dados, os campos mais relevantes, etc.
 
 ## Iniciar processos de abertura de base de dados
+
+Dar início a um ou mais [processos de abertura de dados](Abertura-de-dados.md).
 
 ## Monitorar a execução de cada processo
