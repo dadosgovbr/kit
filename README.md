@@ -62,9 +62,10 @@ Esta seção é uma lista exemplificativa, e não exaustiva, de ferramentas úte
 ## Mais Recursos
 
 * [Perguntas Frequentes]() - link para um faq, talvez o do dados.gov.br
-* ..
+* Guia de Dados Abertos ([_Open Data Handbook_](http://opendatahandbook.org/pt_BR/)) - OKF
+* [Manual dos dados abertos: governo](http://www.w3c.br/pub/Materiais/PublicacoesW3C/Manual_Dados_Abertos_WEB.pdf) - W3C
 
-## Casos de uso
+## PDAs publicados
 
 * [Plano de Dados Abertos do Ministério do Planejamento](http://www.planejamento.gov.br/aberto/pda/)
 * [Plano de Dados Abertos do Ministério da Justiça](http://participa.br/dadosabertos/galeria-encontro-nacional-de-dados-abertos/pdae-mj.pdf)
