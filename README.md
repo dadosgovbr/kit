@@ -42,10 +42,19 @@ Esse processo pode ser visto com maiores detalhes no documento [Processo sistêm
 
 ## Ferramentas
 
-Esta seção é uma lista de ferramentas úteis para projetos de abertura de dados. Todas são ferramentas livres, criadas por comunidades de software livre, e podem ser utilizadas pelos órgãos governamentais sem restrição. Em geral, são soluções para extração e manipulação e preparação dos dados para sua publicação na Internet. A lista é uma extração do [_Project Open Data_](http://project-open-data.github.io/#tools) e [_ODI open data tech review_](https://github.com/dadosgovbr/open-data-tech-review/wiki).
+Esta seção é uma lista exemplificativa, e não exaustiva, de ferramentas úteis para projetos de abertura de dados. Todas são ferramentas livres, criadas por comunidades de software livre, e podem ser utilizadas pelos órgãos governamentais sem restrição. Em geral, são soluções para extração e manipulação e preparação dos dados para sua publicação na Internet. A lista é baseada no [_Project Open Data_](http://project-open-data.github.io/#tools) e [_ODI open data tech review_](https://github.com/dadosgovbr/open-data-tech-review/wiki).
+
+### Criação de APIs de dados abertos
 
 * [CSV to API](https://github.com/project-open-data/csv-to-api) - Dinamicamenta gera APIs Restful de arquivos CSVs estáticos. 
+
+### Conversão de dados
+
 * [JSON-to-CSV Converter](http://konklone.io/json/) - Conversor manual e online de arquivos JSON para visulizar como planilha e baixá-la no formato CSV.
+
+### Higienização de dados
+
+* [Open Refine](http://openrefine.org/) - Limpeza e transformação de dados, unificação de registros duplicados, etc.
 * ...
 
 ## Mais Recursos
