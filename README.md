@@ -1,8 +1,14 @@
-kit Dados Abertos
+Kit de dados abertos
 ====
 
-Kit para implementação de uma política de dados abertos
-...
+Kit para implementação de uma política de dados abertos.
+
+O kit é um conjunto de documentos que descreve o processo, métodos e técnicas
+para a implementação de uma política de dados abertos no âmbito de uma
+instituição. Ele é primariamente focado em órgãos e entidades da administração
+pública federal para a criação e implementação de seus respectivos planos de
+dados abertos, mas procura-se ser genérico o suficiente para que possa ser
+aproveitado em outras instituições.
 
 ## Contexto e objetivo
 
@@ -24,23 +30,31 @@ As organizações que desenvolvem Planos de Dados Abertos precisam de orientaç�
 
 A criação e implementação de um Plano de Dados Abertos para uma instituição pode ser organizado em 3 etapas:
 
-* [Desenvolvimento de um PDA](https://github.com/dadosgovbr/kit/blob/master/Elabora%C3%A7%C3%A3o-do-PDA.md)
-* [Execução de um PDA](https://github.com/dadosgovbr/kit/blob/master/Execu%C3%A7%C3%A3o-do-PDA.md)
-* [Abertura de base de dados]()
+* [Desenvolvimento de um PDA](Elabora%C3%A7%C3%A3o-do-PDA.md)
+* [Execução de um PDA](Execu%C3%A7%C3%A3o-do-PDA.md)
+* Abertura de base de dados
 
-Sugerimos, no entanto, que primeiro sejam observados os processos de uma forma sistêmica, abaixo um diagrama sobre como isso foi estruturado, clique na imagem para ver mais.
+Sugerimos, no entanto, que primeiro sejam observados os processos de uma forma sistêmica, como no seguinte diagrama.
 
-### Processo sistêmico de um Plano de Dados Abertos - PDA
+[<img alt="Diagrama do processo sistêmico de um plano de dados abertos" src="https://raw.githubusercontent.com/dadosgovbr/kit/master/public/img/Processo%20Sist%C3%AAmico%20de%20um%20PDA.png">](Processo-sist%C3%AAmico.md)
 
-[<img src="https://raw.githubusercontent.com/dadosgovbr/kit/master/public/img/Processo%20Sist%C3%AAmico%20de%20um%20PDA.png">](https://github.com/dadosgovbr/kit/blob/master/Processo-sist%C3%AAmico.md)
-
+Esse processo pode ser visto com maiores detalhes no documento [Processo sistêmico de um Plano de Dados Abertos - PDA](Processo-sist%C3%AAmico.md).
 
 ## Ferramentas
 
-Esta seção é uma lista de ferramentas úteis para projetos de abertura de dados. Todas são ferramentas livres, criadas por comunidades de software livre, e podem ser utilizadas pelos órgãos governamentais sem restrição. Em geral, são soluções para extração e manipulação e preparação dos dados para sua publicação na Internet. A lista é uma extração do [_Project Open Data_](http://project-open-data.github.io/#tools) e [_ODI open data tech review_](https://github.com/dadosgovbr/open-data-tech-review/wiki).
+Esta seção é uma lista exemplificativa, e não exaustiva, de ferramentas úteis para projetos de abertura de dados. Todas são ferramentas livres, criadas por comunidades de software livre, e podem ser utilizadas pelos órgãos governamentais sem restrição. Em geral, são soluções para extração e manipulação e preparação dos dados para sua publicação na Internet. A lista é baseada no [_Project Open Data_](http://project-open-data.github.io/#tools) e [_ODI open data tech review_](https://github.com/dadosgovbr/open-data-tech-review/wiki).
+
+### Criação de APIs de dados abertos
 
 * [CSV to API](https://github.com/project-open-data/csv-to-api) - Dinamicamenta gera APIs Restful de arquivos CSVs estáticos. 
+
+### Conversão de dados
+
 * [JSON-to-CSV Converter](http://konklone.io/json/) - Conversor manual e online de arquivos JSON para visulizar como planilha e baixá-la no formato CSV.
+
+### Higienização de dados
+
+* [Open Refine](http://openrefine.org/) - Limpeza e transformação de dados, unificação de registros duplicados, etc.
 * ...
 
 ## Mais Recursos
