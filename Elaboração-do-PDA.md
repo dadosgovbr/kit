@@ -32,6 +32,18 @@ Conforme o [manual para elaboração de PDA](http://www.planejamento.gov.br/secr
 
 ## Definir estratégias de abertura
 
+Priorizados os dados mais importantes, é hora de definir de que maneira eles serão publicados. Essa maneira será influenciada pelos seguintes fatores:
+
+* Local onde os dados estão estruturados
+* Forma como os dados estão estruturados
+* Capacidade técnica da organização
+* Capacidade orçamentária da organização
+
+Na prática, esses fatores se traduzem em possíveis cenários de status dos dados, como dados estruturados em várias planilhas, bancos de dados locais, bancos de dados situados no fornecedor, conjuntos muito volumosos, plataforma alta ou baixa, data warehouse, etc. 
+
+Cada cenário envolve uma tática diferente, em casos de dados muito volumosos, uma separação em diversos arquivos compactados, por exemplo, ou a criação de API, a depender também da capacidade dos órgãos. Dados de data warehouse devem ser evitados por causa dos princípios dos dados brutos e primários, mas excepcionalmente podem ser utilizados quando a extração direta não for viável.
+
+Além da forma de publicação, a periodicidade de publicação e a forma de hospedagem precisam ser definidas, a depender das particularidades da área de negócio, dos sistemas de informação relacionados e dos recursos de infraestrutura disponíveis.
 
 
 ## Definir cronograma e marcos
