@@ -48,4 +48,14 @@ Além da forma de publicação, a periodicidade de publicação e a forma de hos
 
 ## Definir cronograma e marcos
 
+Nesse momento já está definido, para cada um dos dados priorizados, a tática de publicação, dentro das limitações da organização e das particularidades das bases de dados. Resta agora pensar nas datas de publicação de cada um deles.
+
+Essa é a ocasião certa para pensar em ações de comunicação e articulação com a sociedade civil para aumentar a legitimidade e potencializar a publicação dos dados. Exemplos de ação como essas são: 
+
+* realizar encontros com os interessados nos dados
+* realizar concursos de aplicativos
+* utilizar os dados mais pedidos do SIC
+* estimular o uso interno e por outros órgãos públicos dos dados publicados
+* disseminar na organização a cultura de acesso à informação e de disponibilização de dados públicos.
+
 
