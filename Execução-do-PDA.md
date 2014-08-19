@@ -12,7 +12,13 @@ Considerando que num primeiro momento o gestor [identificou os representantes da
 
 ## Definir Papéis e responsabilidades
 
+Esse é o momento onde cada área se compromete com uma parte do trabalho:
 
+* Área de tecnologia da informação: realizar a abertura das bases de dados, diretamente ou na definição dos requisitos aos fornecedores; Fazer o refinamento e a publicação dos dados, através do desenvolvimento de solução ou publicação de arquivos.
+* Serviço de Informação ao Cidadão: Apoiar a interlocução com consumidores dos dados para definir dados mais prioritários para a abertura e obter feedback sobre as publicações.
+* Assessoria de Comunicação Social: apoiar o planejamento e desenvolver ações de comunicação coordenadas com a publicação dos dados; planejar e realizar a interlocução com consumidores dos dados para definir dados mais prioritários para a abertura e obter feedback sobre as publicações.
+* Ouvidoria: Apoiar a interlocução com consumidores dos dados para definir dados mais prioritários para a abertura e obter feedback sobre as publicações.
+* Áreas de negócio - realizar a abertura das bases de dados com o apoio da área de TI; definir a melhor forma de estruturar os dados, os campos mais relevantes, etc.
 
 ## Iniciar processos de abertura de base de dados
 
