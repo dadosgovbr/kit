@@ -30,16 +30,15 @@ As organizações que desenvolvem Planos de Dados Abertos precisam de orientaç�
 
 A criação e implementação de um Plano de Dados Abertos para uma instituição pode ser organizado em 3 etapas:
 
-* [Desenvolvimento de um PDA](https://github.com/dadosgovbr/kit/blob/master/Elabora%C3%A7%C3%A3o-do-PDA.md)
-* [Execução de um PDA](https://github.com/dadosgovbr/kit/blob/master/Execu%C3%A7%C3%A3o-do-PDA.md)
-* [Abertura de base de dados]()
+* [Desenvolvimento de um PDA](Elabora%C3%A7%C3%A3o-do-PDA.md)
+* [Execução de um PDA](Execu%C3%A7%C3%A3o-do-PDA.md)
+* Abertura de base de dados
 
-Sugerimos, no entanto, que primeiro sejam observados os processos de uma forma sistêmica, abaixo um diagrama sobre como isso foi estruturado, clique na imagem para ver mais.
+Sugerimos, no entanto, que primeiro sejam observados os processos de uma forma sistêmica, como no seguinte diagrama.
 
-### Processo sistêmico de um Plano de Dados Abertos - PDA
+[<img src="https://raw.githubusercontent.com/dadosgovbr/kit/master/public/img/Processo%20Sist%C3%AAmico%20de%20um%20PDA.png">](Processo-sist%C3%AAmico.md)
 
-[<img src="https://raw.githubusercontent.com/dadosgovbr/kit/master/public/img/Processo%20Sist%C3%AAmico%20de%20um%20PDA.png">](https://github.com/dadosgovbr/kit/blob/master/Processo-sist%C3%AAmico.md)
-
+Esse processo pode ser visto com maiores detalhes no documento [Processo sistêmico de um Plano de Dados Abertos - PDA](Processo-sist%C3%AAmico.md).
 
 ## Ferramentas
 
