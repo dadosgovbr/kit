@@ -44,61 +44,6 @@ A criação e implementação de um Plano de Dados Abertos para uma instituiçã
 1. [Apresentar a política de dados abertos](https://github.com/dadosgovbr/kit/blob/master/Processo-sistêmico.md#apresentar-politica)
 2. [Definir ponto focal para coordenar o trabalho](https://github.com/dadosgovbr/kit/blob/master/Processo-sistêmico.md#ponto-focal)
 
-#### Processo Piloto Ágil <a name="P_piloto"></a>
-
-Iniciar piloto ágil de abertura de um conjunto de dados (opcional).
-
-#### Atividade 3 <a name="A03"></a>
-
-Identificação de reprensentantes nos seguintes setores da instituição:
-
-* área de tecnologia da informação, 
-* Serviço de Informação ao Cidadão,
-* Assessoria de Comunicação Social,
-* Ouvidoria e
-* áreas finalísticas
-
-*Próximo passo:* Iniciar [processo Oficina para construção do PDA da instituição](#P_oficina_pda_instituicao)
-
-#### Processo Oficina para construção do PDA da instituição <a name="P_oficina_pda_instituicao"></a>
-
-Realização da Oficina para construção do PDA seguindo roteiro no Anexo II
-do [Manual para elaboração de PDA](http://www.planejamento.gov.br/editoria.asp?p=editoria&index=115&ler=c820).
-
-*Próximo passo:* Elaborar [Documento 1](#D01)
-
-#### Documento 1 <a name="D01"></a>
-
-Plano de ação para elaboração do PDA da instituição
-
-*Próximo passo:* Iniciar [processo Elaboração do PDA](#P_elaboracao_pda)
-
-#### Processo Elaboração do PDA <a name="P_elaboracao_pda"></a>
-
-[Elaboração do Plano de Dados Abertos](https://github.com/dadosgovbr/kit/blob/master/Elabora%C3%A7%C3%A3o-do-PDA.md) (Processo iterativo)
-
-*Próximos passos:*
-
-* [Atividade 4](#A04)
-* Iniciar [processo Execução do PDA](#P_execucao_pda)
-* Elaborar [Documento 2](#D02)
-
-#### Atividade 4 <a name="A04"></a>
-
-Convocação de todos envolvidos para etapa de revisão do PDA.
-
-Essa é uma atividade recorrente que pode ter periodicidade, por exemplo, de uma vez por ano.
-
-*Próximo passo:* Iniciar [processo Elaboração do PDA](#P_elaboracao_pda) (revisão do PDA)
-
-#### Processo Execução do PDA <a name="P_execucao_pda"></a>
-
-[Execução do Plano de Dados Abertos](https://github.com/dadosgovbr/kit/blob/master/Execu%C3%A7%C3%A3o-do-PDA.md).
-Dispara vários processos de abertura de dados, como previsto no cronograma do PDA.
-
-#### Documento 2 <a name="D02"></a>
-
-Publicação do PDA no sítio da instituição, nos formatos HTML e PDF.
 
 ## Ferramentas
 
