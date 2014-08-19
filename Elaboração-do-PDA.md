@@ -1,7 +1,7 @@
 Elaboração do Plano de Dados Abertos
 ====
 
-O Conteúdo que orienta a criação de um PDA está estruturado no [Manual para elaboração de Plano de Dados Abertos](http://www.planejamento.gov.br/secretarias/upload/Arquivos/governo_aberto/manual_elaboracao_plano_dados_abertos.pdf). Este guia se dispõe a resumir os passos do manual e trazer novas referências necessárias.
+O Conteúdo que orienta a criação de um PDA está estruturado no [Manual para elaboração de Plano de Dados Abertos](http://www.planejamento.gov.br/secretarias/upload/Arquivos/governo_aberto/manual_elaboracao_plano_dados_abertos.pdf). Este guia se dispõe a resumir os principais passos do manual e trazer novas referências.
 
 Antes de mergulhar na construção do PDA, há uma etapa anterior muito importante: Definir quem serão os responsáveis pela iniciativa e juntar as pessoas relevantes para as atividades em questão. Essas atividades estão estruturadas no [processo sistêmico](https://github.com/dadosgovbr/kit/blob/master/Processo-sist%C3%AAmico.md), vale a pena conferir antes de começar.
 
@@ -11,16 +11,24 @@ De maneira resumida, o processo de criação do PDA se resume a 4 etapas:
 
 Antes de definir quais dados são publicados é imprescindível que a organização faça um levantamento de quais dados possui. Por incrível que pareça, poucos órgãos públicos tem esse levantamento feito.
 
-Existem algumas formas de fazer esse levantamento, provavelmente a melhor estratégia é uma combinação delas:
+Existem poucas formas de fazer esse levantamento, provavelmente a melhor estratégia é uma combinação delas:
 
 * Levantar, junto com os representantes das diversas áreas, quais são os sistemas usados por cada uma
 * Fazer uma lista com os dados pedidos pelo SIC
 * Caso a manutenção de todos os sistemas seja centralizada em uma única área de TI, obter a lista dos sistemas com a área
-* ...
+
 
 ## Priorizar os dados que serão abertos
 
+A priorização ocorre porque não vale a pena a organização fazer um esforço para publicar todos os seus dados simultaneamente, o custo é muito alto e isso não implica necessariamente na publicação de **dados relevantes para o público**. 
 
+Conforme o [manual para elaboração de PDA](http://www.planejamento.gov.br/secretarias/upload/Arquivos/governo_aberto/manual_elaboracao_plano_dados_abertos.pdf), a etapa de priorização deve considerar esses critérios:
+
+1. O grau de relevância para o cidadão, observando-se especialmente as **demandas encaminhadas via e-SIC**, bem como os setores e serviços mais procurados nos sítios eletrônicos do órgão; 
+2. Os normativos legais e os compromissos formalmente assumidos pelo Ministério, inclusive perante organismos internacionais (OGP); 
+3. O alinhamento perante o Planejamento Estratégico Institucional (PEI) e os planejamentos setoriais, bem como os relacionados às áreas de tecnologia da informação;
+4. O conjunto de informações e sistemas sob a gestão do órgão, em especial, se houver, sistemas estruturadores que são de uso obrigatório transversal para os órgãos da APF;
+5. O nível de maturidade e organização das informações e dados existentes.
 
 ## Definir estratégias de abertura
 
