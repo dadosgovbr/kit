@@ -38,13 +38,13 @@ Os seguintes subprocesso estão detalhados:
 
 * [Elaboração de um PDA](Elabora%C3%A7%C3%A3o-do-PDA.md)
 * [Execução de um PDA](Execu%C3%A7%C3%A3o-do-PDA.md)
-* Abertura de base de dados
+** [Abertura de bases de dados](Abertura-de-dados.md)
 
 Sugere-se, no entanto, que primeiro sejam observados os processos de uma forma sistêmica, como no seguinte diagrama.
 
 ## Ferramentas ︻╦╤─
 
-Esta seção é uma lista exemplificativa, e não exaustiva, de ferramentas úteis para projetos de abertura de dados. Todas são ferramentas livres, criadas por comunidades de software livre, e podem ser utilizadas pelos órgãos governamentais sem restrição. Em geral, são soluções para extração e manipulação e preparação dos dados para sua publicação na Internet. A lista é baseada no [_Project Open Data_](http://project-open-data.github.io/#tools) e [_ODI open data tech review_](https://github.com/dadosgovbr/open-data-tech-review/wiki). Contudo, está restrita a ferramentas que podem ser utilizadas sem a necessidade de conhecimentos de programação.
+Esta seção é uma lista exemplificativa, e não exaustiva, de ferramentas úteis para [projetos de abertura de dados](Abertura-de-dados.md). Todas são ferramentas livres, criadas por comunidades de software livre, e podem ser utilizadas pelos órgãos governamentais sem restrição. Em geral, são soluções para extração e manipulação e preparação dos dados para sua publicação na Internet. A lista é baseada no [_Project Open Data_](http://project-open-data.github.io/#tools) e [_ODI open data tech review_](https://github.com/dadosgovbr/open-data-tech-review/wiki). Contudo, está restrita a ferramentas que podem ser utilizadas sem a necessidade de conhecimentos de programação.
 
 ### Criação de APIs de dados abertos
 

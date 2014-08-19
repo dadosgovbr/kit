@@ -16,4 +16,6 @@ Considerando que num primeiro momento o gestor [identificou os representantes da
 
 ## Iniciar processos de abertura de base de dados
 
+Dar início a um ou mais [processos de abertura de dados](Abertura-de-dados.md).
+
 ## Monitorar a execução de cada processo
