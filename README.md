@@ -15,7 +15,10 @@ As organizações desenvolvem Planos de Dados Abertos precisam de orientação, 
 
 ## Definições e conceitos
 
-...
+1. [O que são dados abertos](http://dados.gov.br/dados-abertos/) - Definições básicas sobre características dos dados abertos
+2. [Parceria para Governo Aberto](http://www.cgu.gov.br/governoaberto/a-ogp/iniciativa.asp) - Sobre a parceria
+3. [Portal Brasileiro de Dados Abertos](http://dados.gov.br/sobre/) - O que é
+4. [Infraestrutura Nacional de Dados Abertos](http://dados.gov.br/instrucao-normativa-da-inda/) - INDA e porque estamos fazendo isso
 
 ## Guia para implementação de um Plano de Dados Abertos
 
