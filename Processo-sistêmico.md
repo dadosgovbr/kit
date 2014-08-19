@@ -28,7 +28,7 @@ Perfil:
 
 ## Processo Piloto Ágil <a name="piloto"></a>
 
-Iniciar piloto ágil de abertura de um conjunto de dados (opcional).
+Iniciar [piloto ágil de abertura de um conjunto de dados](Piloto-ágil.md) (opcional).
 
 ## Identificação dos representantes nos setores estratégicos <a name="representantes"></a>
 
