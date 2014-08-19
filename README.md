@@ -22,15 +22,15 @@ As organizações que desenvolvem Planos de Dados Abertos precisam de orientaç�
 ## Definições e conceitos
 
 1. [O que são dados abertos](http://dados.gov.br/dados-abertos/) - Definições básicas sobre características dos dados abertos
-2. [Parceria para Governo Aberto](http://www.cgu.gov.br/governoaberto/a-ogp/iniciativa.asp) - Sobre a parceria
-3. [Portal Brasileiro de Dados Abertos](http://dados.gov.br/sobre/) - O que é
-4. [Infraestrutura Nacional de Dados Abertos](http://dados.gov.br/instrucao-normativa-da-inda/) - INDA e porque estamos fazendo isso
+2. [Parceria para Governo Aberto](http://www.cgu.gov.br/governoaberto/a-ogp/iniciativa.asp) - Sobre a parceria internacional
+3. O [Portal Brasileiro de Dados Abertos](http://dados.gov.br/sobre/) - Sobre o catálogo de dados
+4. Sobre a [Infraestrutura Nacional de Dados Abertos - INDA](http://dados.gov.br/instrucao-normativa-da-inda/) e porque estamos fazendo isso
 
 ## Guia para implementação de um Plano de Dados Abertos
 
 A criação e implementação de um Plano de Dados Abertos para uma instituição pode ser organizado em 3 etapas:
 
-* [Desenvolvimento de um PDA](Elabora%C3%A7%C3%A3o-do-PDA.md)
+* [Elaboração de um PDA](Elabora%C3%A7%C3%A3o-do-PDA.md)
 * [Execução de um PDA](Execu%C3%A7%C3%A3o-do-PDA.md)
 * Abertura de base de dados
 
