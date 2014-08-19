@@ -3,6 +3,8 @@ Execução do Plano de Dados Abertos
 
 ![Processo de execução de um PDA](https://raw.githubusercontent.com/dadosgovbr/kit/master/public/img/Processo%20Execu%C3%A7%C3%A3o%20PDA.png)
 
+[<img alt="Diagrama do processo de execução de um PDA" src="https://raw.githubusercontent.com/dadosgovbr/kit/master/public/img/Processo%20Execu%C3%A7%C3%A3o%20PDA.png">](https://raw.githubusercontent.com/dadosgovbr/kit/master/public/img/Processo%20Execu%C3%A7%C3%A3o%20PDA%20-%20com%20titulo.png)
+
 A execução do PDA na organização se divide nesses passos:
 
 
