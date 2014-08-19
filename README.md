@@ -25,8 +25,8 @@ Abaixo os processos estruturados de forma sistêmica
 
 ### Processo sistêmico de um Plano de Dados Abertos - PDA
 
-<img alt="Diagrama do Processo Sistêmico de um PDA" src="https://raw.githubusercontent.com/dadosgovbr/kit/master/public/img/Processo%20Sist%C3%AAmico%20de%20um%20PDA.png" width="728" height="460" border="0" usemap="#sistemico_map" />
 
+[<img src="https://raw.githubusercontent.com/dadosgovbr/kit/master/public/img/Processo%20Sist%C3%AAmico%20de%20um%20PDA.png">](https://github.com/dadosgovbr/kit/blob/master/Processo-sist%C3%AAmico.md)
 
 
 ## Ferramentas
