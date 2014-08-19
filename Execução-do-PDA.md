@@ -26,4 +26,5 @@ Após as definições passadas, chega a hora de abrir as bases de dados. Aqui s�
 
 ## Monitorar a execução de cada processo
 
+Esse é um processo de monitoramento e controle comum. O Gestor deve agendar reuniões periódicas para essa atividade e, durante as reuniões, acompanhar as metas estabelecidas no PDA e verificar suas entregas.
 
