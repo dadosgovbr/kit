@@ -28,7 +28,13 @@ As organizações que desenvolvem Planos de Dados Abertos precisam de orientaç�
 
 ## Guia para implementação de um Plano de Dados Abertos
 
-A criação e implementação de um Plano de Dados Abertos para uma instituição pode ser organizado em 3 etapas:
+A criação e implementação de um Plano de Dados Abertos para uma instituição pode ser organizado em fluxos de atividade como no diagrama a seguir:
+
+[<img alt="Diagrama do processo sistêmico de um plano de dados abertos" src="https://raw.githubusercontent.com/dadosgovbr/kit/master/public/img/Processo%20Sist%C3%AAmico%20de%20um%20PDA.png">](Processo-sist%C3%AAmico.md)
+
+Esse processo pode ser visto com maiores detalhes no documento [Processo sistêmico de um Plano de Dados Abertos - PDA](Processo-sist%C3%AAmico.md).
+
+Os seguintes subprocesso estão detalhados:
 
 * [Elaboração de um PDA](Elabora%C3%A7%C3%A3o-do-PDA.md)
 * [Execução de um PDA](Execu%C3%A7%C3%A3o-do-PDA.md)
@@ -36,11 +42,7 @@ A criação e implementação de um Plano de Dados Abertos para uma instituiçã
 
 Sugere-se, no entanto, que primeiro sejam observados os processos de uma forma sistêmica, como no seguinte diagrama.
 
-[<img alt="Diagrama do processo sistêmico de um plano de dados abertos" src="https://raw.githubusercontent.com/dadosgovbr/kit/master/public/img/Processo%20Sist%C3%AAmico%20de%20um%20PDA.png">](Processo-sist%C3%AAmico.md)
-
-Esse processo pode ser visto com maiores detalhes no documento [Processo sistêmico de um Plano de Dados Abertos - PDA](Processo-sist%C3%AAmico.md).
-
-## Ferramentas
+## Ferramentas ︻╦╤─
 
 Esta seção é uma lista exemplificativa, e não exaustiva, de ferramentas úteis para projetos de abertura de dados. Todas são ferramentas livres, criadas por comunidades de software livre, e podem ser utilizadas pelos órgãos governamentais sem restrição. Em geral, são soluções para extração e manipulação e preparação dos dados para sua publicação na Internet. A lista é baseada no [_Project Open Data_](http://project-open-data.github.io/#tools) e [_ODI open data tech review_](https://github.com/dadosgovbr/open-data-tech-review/wiki). Contudo, está restrita a ferramentas que podem ser utilizadas sem a necessidade de conhecimentos de programação.
 
