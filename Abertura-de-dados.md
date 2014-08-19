@@ -11,3 +11,64 @@ simultaneamente em um dado momento.
 
 (árvore de decisões)
 
+## Documento Plano de Dados Abertos
+
+O Plano de Dados Abertos da instituição norteará o processo de abertura de
+dados quanto ao escopo, prazo, partes interessadas, etc.
+
+*Insumo para:* Solicitar documentação
+
+## Solicitar documentação
+
+Solicitar esquema e documentação da base de dados. Ex.: modelos UML ou
+entidade-relacionamento, dicionário de dados, etc.
+
+*Próximo passo:* Definir estrutura dos dados
+
+## Definir estrutura dos dados
+
+Definir campos e estrutura dos dados. XML, CSV e JSON são úteis para situações
+específicas.
+
+*Próximo passo:* Decidir qualidade mínima
+
+## Decidir qualidade mínima
+
+Definir por acordo entre as partes interessadas a qualidade mínima dos dados
+abertos publicados, de forma a viabilizar a sua publicação tempestiva dentro
+da capacidade da instituição.
+
+*Próximo passo:* Realizar extração
+
+## Realizar extração
+
+Realizar extração dos dados, a partir do ambiente de produção da base de dados,
+para o local onde a base será disponibilizada como dados abertos.
+
+Por exemplo, se tiver sido decidido publicar os dados em arquivos csv, essa
+etapa contempla hospedar a extração em csv em um servidor de arquivos para a
+web. Se tiver sido decidido publicar uma API de dados abertos, essa etapa
+contempla a carga da base de dados que é acessada diretamente pela camada de
+aplicação da API.
+
+*Próximo passo:* Atualização automática
+
+## Atualização automática
+
+Definir e implementar processo automático de atualização dos dados. Inclui a
+negociação da periodicidade e forma de acesso aos dados, bem como a criação de
+scripts de transformação carga (ETL).
+
+*Próximo passo:* Publicar na web
+
+## Publicar na web
+
+Publicar os dados na web. Inclui homologar a forma como os dados são
+apresentados e disponibilizar o acesso ao público externo.
+
+*Próximo passo:* Catalogar no dados.gov.br
+
+## Catalogar no dados.gov.br
+
+Catalogar o novo conjunto de dados no Portal Brasileiro de Dados Abertos.
+
