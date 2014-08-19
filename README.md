@@ -1,13 +1,13 @@
 Kit de dados abertos
 ====
 
-O kit é um conjunto de documentos que descreve o processo, métodos e técnicas para a implementação de uma política de dados abertos no âmbito de uma instituição. Ele é primariamente focado em órgãos e entidades da administração pública federal para a criação e implementação de seus respectivos planos de dados abertos, mas procura-se ser genérico o suficiente para que possa ser aproveitado em outras instituições.
+O kit é um conjunto de documentos que descreve o processo, métodos e técnicas para a implementação de uma política de dados abertos no âmbito de uma instituição. Ele é primariamente focado em órgãos e entidades da administração pública federal para a criação e implementação de seus respectivos planos de dados abertos, mas procura ser genérico o suficiente para que possa ser aproveitado em outras instituições.
 
 ## Contexto e objetivo
 
 A publicação de dados abertos é a nova tendência presente na estratégia de governo digital do Brasil e de diversos países do mundo. Seu compromisso foi assumido pela presidente Dilma no momento da assinatura da [declaração](http://www.cgu.gov.br/governoaberto/a-ogp/o_que_e_Governo_Aberto.html) da [Parceria para Governo Aberto](http://www.cgu.gov.br/governoaberto/a-ogp/iniciativa.asp) ([OGP](http://www.opengovpartnership.org/)) e pelos diversos órgãos do executivo nos dois [Planos de Ação da Parceria](http://www.cgu.gov.br/governoaberto/no_Brasil/plano-brasileiro/index.html).
 
-A recomendação da Presidência da República e do Ministério do Planejamento, Orçamento e Gestão é que os gestores públicos tratem a pauta [criando Planos de Dados Abertos](http://www.planejamento.gov.br/editoria.asp?p=editoria&index=115&ler=c820) em suas organizações.
+A recomendação da Presidência da República e do Ministério do Planejamento, Orçamento e Gestão é que os gestores públicos tratem a pauta [criando Planos de Dados Abertos](http://www.planejamento.gov.br/editoria.asp?p=editoria&index=115&ler=c820)(PDAs) em suas organizações.
 
 As organizações que desenvolvem Planos de Dados Abertos precisam de orientação, métodos e técnicas para sua criação e implementação. A proposta do Kit é fornecer os insumos necessários para esses momentos e servir como guia para referência futura.
 
@@ -33,11 +33,10 @@ Os seguintes subprocesso estão detalhados:
 * [Execução de um PDA](Execu%C3%A7%C3%A3o-do-PDA.md)
   * [Abertura de bases de dados](Abertura-de-dados.md)
 
-Sugere-se, no entanto, que primeiro sejam observados os processos de uma forma sistêmica, como no seguinte diagrama.
 
-## Ferramentas ︻╦╤─
+## Ferramentas
 
-Esta seção é uma lista exemplificativa, e não exaustiva, de ferramentas úteis para [projetos de abertura de dados](Abertura-de-dados.md). Todas são ferramentas livres, criadas por comunidades de software livre, e podem ser utilizadas pelos órgãos governamentais sem restrição. Em geral, são soluções para extração e manipulação e preparação dos dados para sua publicação na Internet. A lista é baseada no [_Project Open Data_](http://project-open-data.github.io/#tools) e [_ODI open data tech review_](https://github.com/dadosgovbr/open-data-tech-review/wiki). Contudo, está restrita a ferramentas que podem ser utilizadas sem a necessidade de conhecimentos de programação.
+Esta seção é uma lista exemplificativa, e não exaustiva, de ferramentas úteis para [projetos de abertura de dados](Abertura-de-dados.md). Todas são ferramentas livres, criadas por comunidades de software livre, e podem ser utilizadas pelos órgãos governamentais sem restrição. Em geral, são soluções para extração, manipulação e preparação dos dados para sua publicação na Internet. A lista é baseada no [_Project Open Data_](http://project-open-data.github.io/#tools) e [_ODI open data tech review_](https://github.com/dadosgovbr/open-data-tech-review/wiki). Contudo, está restrita a ferramentas que podem ser utilizadas sem a necessidade de conhecimentos de programação.
 
 ### Criação de APIs de dados abertos
 
@@ -57,8 +56,8 @@ Esta seção é uma lista exemplificativa, e não exaustiva, de ferramentas úte
 ## Mais Recursos
 
 * [Perguntas Frequentes]() - link para um faq, talvez o do dados.gov.br
-* Guia de Dados Abertos ([_Open Data Handbook_](http://opendatahandbook.org/pt_BR/)) - OKF
-* [Manual dos dados abertos: governo](http://www.w3c.br/pub/Materiais/PublicacoesW3C/Manual_Dados_Abertos_WEB.pdf) - W3C
+* Guia de Dados Abertos ([_Open Data Handbook_](http://opendatahandbook.org/pt_BR/)) - da [_Open Knowledge_](https://okfn.org/)
+* [Manual dos dados abertos: governo](http://www.w3c.br/pub/Materiais/PublicacoesW3C/Manual_Dados_Abertos_WEB.pdf) - [W3C Brasil](http://www.w3c.br)
 
 ## PDAs publicados
 
