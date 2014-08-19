@@ -71,7 +71,7 @@ Convocação de todos envolvidos para etapa de revisão do PDA.
 
 Essa é uma atividade recorrente que pode ter periodicidade, por exemplo, de uma vez por ano.
 
-*Próximo passo:* Iniciar [processo Elaboração do PDA](#elaborar-pda) (revisão do PDA)
+*Próximo passo:* Iniciar [processo de Elaboração do PDA](#elaborar-pda) (revisão do PDA)
 
 ## Publicação do PDA <a name="publicar-pda"></a>
 
