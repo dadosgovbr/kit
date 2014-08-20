@@ -22,6 +22,6 @@ Nos últimos anos, vários eventos exclusivos sobre dados abertos foram realizad
 
 
 #### Gerar receita e criar novos empregos <a name="receita"></a>
-
+*Inserir aqui conteúdo referências sobre a economia de dados abertos na europa e nos estados unidos*
 
 Traduzido e adaptado do [Project Open Data](http://project-open-data.github.io/business-case/)
