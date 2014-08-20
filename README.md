@@ -69,3 +69,4 @@ Esta seção é uma lista exemplificativa, e não exaustiva, de ferramentas úte
 * [Lei de acesso à informação](http://www.lexml.gov.br/urn/urn:lex:br:federal:lei:2011-11-18;12527) - Dispõe sobre o acesso a informações públicas, inclusive pela internet
 * [Decreto nº 7724](http://www.lexml.gov.br/urn/urn:lex:br:federal:decreto:2012-05-16;7724) - Regulamenta a Lei de acesso à informação no âmbito do poder executivo federal
 * [Instrução Normativa da INDA](http://dados.gov.br/instrucao-normativa-da-inda/) - Institui a Infraestrutura Nacional de Dados abertos e seu funcionamento
+* [Decreto de 15 de setembro de 2011](http://www.lexml.gov.br/urn/urn:lex:br:federal:decreto:2011-09-15;seq-sf-0) - Institui o CIGA e o Plano Nacional de Governo Aberto
