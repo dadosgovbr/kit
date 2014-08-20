@@ -10,6 +10,8 @@ Quando os dados são abertos, os cidadãos podem acessar os dados e informaçõe
 
 #### Evitar ações duplicadas <a name="evitar-acoes-duplicadas"></a>
 
+A melhoria da gestão de dados e informações da organização ajuda a prevenir a possibilidade de gastar orçamento pela coleta ou tratamento de dados de maneira duplicada em iniciativas distintas, fato que costuma acontecer quando um departamento desconhece a existência dos dados dos demais. Além disso, é possível reduzir o escopo e o custo de novas coletas baseando-se na habilidade de reusar ou cruzar os dados disponíveis. Mantendo um catálogo de dados central para sua organização torna mais fácil entender quais dados e informações estã disponíveis, e revisar esse catálogo antes do início de qualquer sistema é uma prática recomendada.
+
 #### Descobrir conjuntos de dados complementares possuídos por outros órgãos <a name="descobrir-dados"></a>
 
 #### Atenção positiva dos ciadãos, mídia e outros órgãos <a name="midia"></a>
