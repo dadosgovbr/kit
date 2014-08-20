@@ -1,3 +1,11 @@
+---
+published: true
+permalink: /Processo-sist%C3%AAmico/
+layout: slate
+filename: Processo-sistêmico.md
+title: Processo sistêmico de um Plano de Dados Abertos - PDA
+---
+
 Processo sistêmico de um Plano de Dados Abertos - PDA
 ====
 
