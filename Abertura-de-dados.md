@@ -15,21 +15,21 @@ simultaneamente em um dado momento.
 O Plano de Dados Abertos da instituição norteará o processo de abertura de
 dados quanto ao escopo, prazo, partes interessadas, etc.
 
-*Insumo para:* Solicitar documentação
+*Insumo para:* [Solicitar documentação](#solicitar-documenta%C3%A7%C3%A3o)
 
 ## Solicitar documentação
 
 Solicitar esquema e documentação da base de dados. Ex.: modelos UML ou
 entidade-relacionamento, dicionário de dados, etc.
 
-*Próximo passo:* Definir estrutura dos dados
+*Próximo passo:* [Definir estrutura dos dados](#definir-estrutura-dos-dados)
 
 ## Definir estrutura dos dados
 
 Definir campos e estrutura dos dados. XML, CSV e JSON são úteis para situações
 específicas.
 
-*Próximo passo:* Decidir qualidade mínima
+*Próximo passo:* [Decidir qualidade mínima](#decidir-qualidade-m%C3%ADnima)
 
 ## Decidir qualidade mínima
 
@@ -37,7 +37,7 @@ Definir por acordo entre as partes interessadas a qualidade mínima dos dados
 abertos publicados, de forma a viabilizar a sua publicação tempestiva dentro
 da capacidade da instituição.
 
-*Próximo passo:* Realizar extração
+*Próximo passo:* [Realizar extração](#realizar-extra%C3%A7%C3%A3o)
 
 ## Realizar extração
 
@@ -50,7 +50,7 @@ web. Se tiver sido decidido publicar uma API de dados abertos, essa etapa
 contempla a carga da base de dados que é acessada diretamente pela camada de
 aplicação da API.
 
-*Próximo passo:* Atualização automática
+*Próximo passo:* [Atualização automática](#atualiza%C3%A7%C3%A3o-autom%C3%A1tica)
 
 ## Atualização automática
 
@@ -58,14 +58,14 @@ Definir e implementar processo automático de atualização dos dados. Inclui a
 negociação da periodicidade e forma de acesso aos dados, bem como a criação de
 scripts de transformação carga (ETL).
 
-*Próximo passo:* Publicar na web
+*Próximo passo:* [Publicar na web](#publicar-na-web)
 
 ## Publicar na web
 
 Publicar os dados na web. Inclui homologar a forma como os dados são
 apresentados e disponibilizar o acesso ao público externo.
 
-*Próximo passo:* Catalogar no dados.gov.br
+*Próximo passo:* [Catalogar no dados.gov.br](#catalogar-no-dadosgovbr)
 
 ## Catalogar no dados.gov.br
 
