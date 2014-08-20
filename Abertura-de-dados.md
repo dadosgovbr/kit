@@ -1,4 +1,4 @@
-Processo de abertura de dados
+Processo de abertura de bases de dados
 ====
 
 Este é o processo que será executado em cada projeto de abertura de dados
@@ -13,9 +13,41 @@ simultaneamente em um dado momento.
 ## Documento Plano de Dados Abertos
 
 O Plano de Dados Abertos da instituição norteará o processo de abertura de
-dados quanto ao escopo, prazo, partes interessadas, etc.
+dados quanto ao escopo, prazo estimado, partes interessadas, entre outros.
+Deve-se trazer do Plano de Dados Abertos para o Projeto de Abertura de Dados
+as suas partes que tratem dos seguintes aspectos:
+
+* Escopo
+  * dos dados: qual é (ou quais são) as bases de dados, quais são as tabelas,
+    planilhas, parte ou secção dos dados é viável para essa iteração do
+    processo de abertura;
+  * de granularidade: se os dados serão separados por algum critério
+    temporal ou espacial;
+  * da forma de disponibilização dos dados: se será desenvolvida uma API de
+    dados abertos ou se serão apenas disponibilizados arquivos com as
+    extrações;
+* Prazo estimado, considerando:
+    * compromissos que possam ter sido assumidos em
+      outros planos além do PDA (ex.: planejamento estratégico institucional e
+      de tecnologia da informação, plano diretor de tecnologia da informação,
+      plano de ação da Parceria para Governo Aberto, etc.);
+    * capacidade de execução do projeto (quantitativo de pessoal capacitado,
+      infraestrutura tecnológica, maturidade com o processo de abertura de
+      dados);
+* Partes interessadas: representante do comitê que acompanha a execução do
+    PDA, gestor da área responsável pelas bases de dados, especialistas com
+    conhecimento do negócio, gestor da área de TI, desenvolvedores,
+    analistas de dados, entre outros.
+
+Caso o Plano de Dados Abertos tenha sido omisso em relação a algum desses
+aspectos, eles deverão ser definidos durante a
+[reunião de início de projeto](#reuni%A3o-de-inicio-de-projeto).
 
 *Insumo para:* [Solicitar documentação](#solicitar-documenta%C3%A7%C3%A3o)
+
+## Reunião de início de projeto
+
+
 
 ## Solicitar documentação
 
