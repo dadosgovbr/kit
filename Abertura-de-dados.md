@@ -10,8 +10,6 @@ simultaneamente em um dado momento.
 
 [<img alt="Diagrama do processo de abertura de um conjunto de dados" src="https://raw.githubusercontent.com/dadosgovbr/kit/master/public/img/Processo%20Publica%C3%A7%C3%A3o%20Dados%20Abertos.png">](https://raw.githubusercontent.com/dadosgovbr/kit/master/public/img/Processo%20Publica%C3%A7%C3%A3o%20Dados%20Abertos%20-%20com%20titulo.png)
 
-(árvore de decisões)
-
 ## Documento Plano de Dados Abertos
 
 O Plano de Dados Abertos da instituição norteará o processo de abertura de
