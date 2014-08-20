@@ -14,9 +14,12 @@ A melhoria da gestão de dados e informações da organização ajuda a prevenir
 
 #### Descobrir conjuntos de dados complementares possuídos por outros órgãos <a name="descobrir-dados"></a>
 
-
+Os benefícios da transparência nos conjuntos de dados da sua organização são potencializados quando cada órgão tiver seus dados catalogados de maneira padronizada. Gestores podem perceber que parte ou todos os dados que precisam para alguma iniciativa já estão nas mãos de uma ou mais organizações, ou que conclusões importantes podem ser desenhadas pela combinação dos seus dados com dados adicionais de outras organizações.
 
 #### Atenção positiva dos ciadãos, mídia e outros órgãos <a name="midia"></a>
+
+Nos últimos anos, vários eventos exclusivos sobre dados abertos foram realizados pelas diversas esferas e poderes do estado, com a cobertura da mídia e atenção nacional. Quanto mais dados sua organização tornar disponíveis em formatos fáceis de reusar, mais oportunidades para cobertura positiva das iniciativas de dados abertos e do impacto desses dados na sociedade.
+
 
 #### Gerar receita e criar novos empregos <a name="receita"></a>
 
