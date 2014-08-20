@@ -27,7 +27,7 @@ A criação e implementação de um Plano de Dados Abertos para uma instituiçã
 
 Esse processo pode ser visto com maiores detalhes no documento [Processo sistêmico de um Plano de Dados Abertos - PDA](Processo-sist%C3%AAmico.md).
 
-Os seguintes subprocesso estão detalhados:
+Os seguintes subprocessos estão detalhados:
 
 * [Elaboração de um PDA](Elabora%C3%A7%C3%A3o-do-PDA.md)
 * [Execução de um PDA](Execu%C3%A7%C3%A3o-do-PDA.md)
