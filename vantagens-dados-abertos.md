@@ -14,6 +14,8 @@ A melhoria da gestão de dados e informações da organização ajuda a prevenir
 
 #### Descobrir conjuntos de dados complementares possuídos por outros órgãos <a name="descobrir-dados"></a>
 
+
+
 #### Atenção positiva dos ciadãos, mídia e outros órgãos <a name="midia"></a>
 
 #### Gerar receita e criar novos empregos <a name="receita"></a>
