@@ -1,7 +1,19 @@
+---
+published: true
+permalink: /Processo-sist%C3%AAmico/
+layout: slate
+filename: Processo-sistêmico.md
+title: Processo sistêmico de um Plano de Dados Abertos - PDA
+---
+
 Processo sistêmico de um Plano de Dados Abertos - PDA
 ====
 
 [<img alt="Diagrama do processo sistêmico de um plano de dados abertos" src="https://raw.githubusercontent.com/dadosgovbr/kit/master/public/img/Processo%20Sist%C3%AAmico%20de%20um%20PDA.png">](https://raw.githubusercontent.com/dadosgovbr/kit/master/public/img/Processo%20Sist%C3%AAmico%20de%20um%20PDA%20-%20com%20titulo.png)
+
+O processo sistêmico ganhou esse nome por incluir, em um nível macro, todas as atividades com que uma instituição deve se atentar para implementar uma política de dados abertos. Nesse processo se destaca o Plano de Dados Abertos como documento central onde são publicizados os compromissos e prazos para execução.
+
+Abaixo segue um detalhamento das etapas envolvidas nesse processo:
 
 ## Apresentar a política de dados abertos <a name="apresentar-politica"></a>
 
