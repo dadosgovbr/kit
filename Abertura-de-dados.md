@@ -160,15 +160,11 @@ dados entre os ambientes que compõem a arquitetura da solução de abertura de
 dados, bem como a criação de scripts de transformação e carga
 ([ETL](Glossário.md#etl)).
 
-<<<<<<< Updated upstream
 Esse momento é importante para garantir a atualidade dos dados publicados, 
 que quanto mais atuais, mais valor possuem.
 
-*Próximo passo:* [Catalogar no dados.gov.br](#catalogar-no-dados.gov.br)
-=======
-*Próximo passo:*
-[Catalogar no sítio institucional](#catalogar-no-sitio-institucional)
->>>>>>> Stashed changes
+*Próximo passo:* [Catalogar no sítio institucional](#catalogar-no-sitio-institucional)
+
 
 ## Catalogar no sítio institucional
 
