@@ -38,4 +38,6 @@ o processo.
 Esse é um processo de monitoramento e controle comum. O Gestor deve agendar
 reuniões periódicas para essa atividade e, durante as reuniões, acompanhar as
 metas estabelecidas no PDA e verificar suas entregas.
-
+É uma boa prática mantes as informações de andamento da execução do PDA 
+publicizadas no sítio da instituição no própio local o onde o 
+[PDA está publicado](Processo-sist%C3%AAmico.md#publica%C3%A7%C3%A3o-do-pda-).
