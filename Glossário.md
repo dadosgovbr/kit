@@ -27,16 +27,21 @@ Excel.
 
 #### e-MAG
 
+
+#### e-PING
+
 A arquitetura [ePING – Padrões de Interoperabilidade de Governo Eletrônico](http://www.governoeletronico.gov.br/acoes-e-projetos/e-ping-padroes-de-interoperabilidade) 
 – define um conjunto mínimo de premissas, políticas e especificações técnicas que regulamentam a utilização 
 da Tecnologia de Informação e Comunicação (TIC) no governo federal, estabelecendo as condições de interação 
 com os demais Poderes e esferas de governo e com a sociedade em geral.
 
-#### e-PING
-
 #### e-PMG
 
 #### e-PWG
+
+#### ETL
+
+ETL, do inglês [Extract Transform Load](http://pt.wikipedia.org/wiki/Extract,_transform,_load) (Extração Transformação Carga), são ferramentas de software cuja função é a extração de dados de diversos sistemas, transformação desses dados conforme regras de negócios e por fim a carga dos dados geralmente em um Data Mart e um Data Warehouse, porém nada impede que também seja para enviar os dados para um determinado sistema da organização. A extração e carga são obrigatórias para o processo, sendo a transformação/limpeza opcional, mas que são boas práticas, tendo em vista que os dados já foram encaminhados para o sistema de destino. É considerada uma das fases mais críticas do Data Warehouse e/ou Data Mart.
 
 ### J
 
