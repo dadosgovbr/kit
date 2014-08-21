@@ -36,7 +36,7 @@ as suas partes que tratem dos seguintes aspectos:
     * compromissos que possam ter sido assumidos em
       outros planos além do PDA (ex.: planejamento estratégico institucional e
       de tecnologia da informação, plano diretor de tecnologia da informação,
-      plano de ação da Parceria para Governo Aberto, etc.);
+      plano de ação da [Parceria para Governo Aberto](http://www.cgu.gov.br/governoaberto/), etc.);
     * capacidade de execução do projeto (quantitativo de pessoal capacitado,
       infraestrutura tecnológica, maturidade com o processo de abertura de
       dados);
