@@ -179,5 +179,12 @@ instituição e por isso devem estar disponíveis em seu sítio.
 
 ## Catalogar no dados.gov.br
 
-Catalogar o novo conjunto de dados no Portal Brasileiro de Dados Abertos.
+O objetivo dessa catalogação é tornar os dados "descobríveis" na web para seus 
+interessados. Isso aumenta as chances das pessoas encontrarem os dados 
+prontamente, sem precisar recorrer ao [SIC](Glossário.md#sic) da sua organização.
+
+Para catalogar o novo conjunto de dados no [dados.gov.br](http://dados.gov.br) 
+é necessário levantar um conjunto mínimo de metadados que são utilizados no portal 
+Esses metadados estão melhor descritos na [Cartilha Técnica para Publicação de Dados Abertos no Brasil](http://dados.gov.br/cartilha-publicacao-dados-abertos/)
+, capítulo 7.
 
