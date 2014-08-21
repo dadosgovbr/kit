@@ -22,6 +22,20 @@ Nos últimos anos, vários eventos exclusivos sobre dados abertos foram realizad
 
 
 #### Gerar receita e criar novos empregos <a name="receita"></a>
-*Inserir aqui conteúdo referências sobre a economia de dados abertos na europa e nos estados unidos*
+
+
+Segundo [Neelie Kroes](http://ec.europa.eu/commission_2010-2014/kroes/), Vice-Presidente 
+da comissão européia e responsável pela [Agenda Digital](http://ec.europa.eu/digital-agenda/), 
+em 2011 [a economia de dados abertos já gerava cerca de 32 bilhões de Euros por ano na Europa](http://europa.eu/rapid/press-release_SPEECH-11-872_en.htm?locale=en).
+
+Portanto acredita-se que a publicação de dados abertos tende a estimular a 
+economia, na medida em que agentes econômicos privados os utilizam na 
+criação de novos processos de negócio e na otimização dos processos existentes. A 
+primeira ocorre quando empresas utilizam os dados públicos para gerar novos 
+serviços e aplicações úteis à sociedade. A última pode ocorrer, por exemplo, quando 
+um comerciante decide onde instalar uma nova filial com base em informações 
+demográficas ou na existência de determinados serviços públicos no local. Assim, 
+visa-se também alcançar esse resultado indireto ao propor que os dados abertos 
+sejam um instrumento de interoperabilidade.
 
 Traduzido e adaptado do [Project Open Data](http://project-open-data.github.io/business-case/)
