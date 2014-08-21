@@ -143,6 +143,10 @@ Definir por acordo entre as partes interessadas a qualidade mínima dos dados
 abertos publicados, de forma a viabilizar a sua publicação tempestiva dentro
 da capacidade da instituição.
 
+Mais preocupações sobre os requisitos dos dados podem ser encontradas na 
+[Cartilha Técnica para Publicação de Dados Abertos no Brasil](http://dados.gov.br/cartilha-publicacao-dados-abertos/)
+, capítulo 6.
+
 *Próximo passo:* [Desenvolver API](#desenvolver-api)
 
 ## Desenvolver API
