@@ -158,7 +158,8 @@ Mais preocupações sobre os requisitos dos dados podem ser encontradas na
 Definir e implementar processo automático e periódico de atualização dos dados.
 Esta etapa contempla a negociação do intervalo de periodicidade e fluxo dos
 dados entre os ambientes que compõem a arquitetura da solução de abertura de
-dados, bem como a criação de scripts de transformação carga (ETL).
+dados, bem como a criação de scripts de transformação e carga
+([ETL](Glossário.md#etl).
 
 *Próximo passo:* [Catalogar no dados.gov.br](#catalogar-no-dados.gov.br)
 
