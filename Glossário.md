@@ -55,7 +55,14 @@ meios eletrônicos pelos órgãos do Governo Federal.
 
 #### ETL
 
-ETL, do inglês [Extract Transform Load](http://pt.wikipedia.org/wiki/Extract,_transform,_load) (Extração Transformação Carga), são ferramentas de software cuja função é a extração de dados de diversos sistemas, transformação desses dados conforme regras de negócios e por fim a carga dos dados geralmente em um Data Mart e um Data Warehouse, porém nada impede que também seja para enviar os dados para um determinado sistema da organização. A extração e carga são obrigatórias para o processo, sendo a transformação/limpeza opcional, mas que são boas práticas, tendo em vista que os dados já foram encaminhados para o sistema de destino. É considerada uma das fases mais críticas do Data Warehouse e/ou Data Mart.
+ETL, do inglês [Extract Transform Load](http://pt.wikipedia.org/wiki/Extract,_transform,_load) 
+(Extração Transformação Carga), são ferramentas de software cuja função é a extração 
+de dados de diversos sistemas, transformação desses dados conforme regras de negócios 
+e por fim a carga dos dados geralmente em um Data Mart e um Data Warehouse, porém nada 
+impede que também seja para enviar os dados para um determinado sistema da organização. 
+A extração e carga são obrigatórias para o processo, sendo a transformação/limpeza opcional, 
+mas que são boas práticas, tendo em vista que os dados já foram encaminhados para o 
+sistema de destino. É considerada uma das fases mais críticas do Data Warehouse e/ou Data Mart.
 
 ### J
 
@@ -82,7 +89,13 @@ nativo de armazenamento em alguns bancos de dados modernos.
 
 #### Lei de Acesso à Informação
 
-...
+A [Lei nº 12.527/2011](), conhecida como Lei de Acesso à Informação - LAI, regulamenta 
+o direito, previsto na Constituição, de qualquer pessoa solicitar e receber dos 
+órgãos e entidades públicos, de todos os entes e Poderes, informações públicas 
+por eles produzidas ou custodiadas.
+
+A Controladoria Geral da União mantém 
+[site com mais informações sobre a lei](http://www.acessoainformacao.gov.br/perguntas-frequentes-2/aspectos-gerais-da-lei).
 
 ### O
 
