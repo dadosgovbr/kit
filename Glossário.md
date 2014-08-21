@@ -55,6 +55,16 @@ subpropriedades. JSON está se tornando o padrão mais utilizado para integraç�
 de dados entre repositórios e frameworks, também está se tornando o padrão
 nativo de armazenamento em alguns bancos de dados modernos.
 
+### L
+
+#### LAI
+
+*Vide [Lei de Acesso à Informação](#lei-de-acesso-à-informação)*
+
+#### Lei de Acesso à Informação
+
+...
+
 ### O
 
 #### ODS
