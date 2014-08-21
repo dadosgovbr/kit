@@ -53,6 +53,15 @@ são recomendações de boas práticas agrupadas em formato de cartilhas com o o
 de aprimorar a comunicação e o fornecimento de informações e serviços prestados por 
 meios eletrônicos pelos órgãos do Governo Federal.
 
+#### e-SIC
+
+O [Sistema Eletrônico do Serviço de Informações ao Cidadão](http://www.acessoainformacao.gov.br/sistema/site/index.html?ReturnUrl=%2fsistema%2f) 
+(e-SIC) permite que qualquer pessoa, física ou jurídica, encaminhe pedidos de acesso à 
+informação, acompanhe o prazo e receba a resposta da solicitação realizada para órgãos 
+e entidades do Executivo Federal. O cidadão ainda pode entrar com recursos e apresentar 
+reclamações sem burocracia.
+
+
 #### ETL
 
 ETL, do inglês [Extract Transform Load](http://pt.wikipedia.org/wiki/Extract,_transform,_load) 
