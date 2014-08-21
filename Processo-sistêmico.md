@@ -87,7 +87,8 @@ Essa é uma atividade recorrente que pode ter periodicidade, por exemplo, de uma
 
 ## Publicação do PDA <a name="publicar-pda"></a>
 
-Publicação do PDA no sítio da instituição, nos formatos HTML e PDF.
+Publicação do PDA no sítio da instituição, nos formatos HTML e PDF na página
+exemplo.gov.br/aberto da instituição. Exemplo [planejamento.gov.br/aberto].
 
 ## Execução do PDA <a name="execucao-pda"></a>
 
