@@ -8,7 +8,7 @@ da instituição, poderá ser executada uma ou mais instâncias desse processo
 simultaneamente em um dado momento.
 
 
-[<img alt="Diagrama do processo de abertura de um conjunto de dados" src="https://raw.githubusercontent.com/dadosgovbr/kit/master/public/img/Processo%20Publica%C3%A7%C3%A3o%20Dados%20Abertos.png">](https://raw.githubusercontent.com/dadosgovbr/kit/master/public/img/Processo%20Publica%C3%A7%C3%A3o%20Dados%20Abertos%20-%20com%20titulo.png)
+[<img alt="Diagrama do processo de abertura de um conjunto de dados" src="https://raw.githubusercontent.com/dadosgovbr/kit/master/public/img/Processo%20Abertura%20base%20de%20dados.png">](https://raw.githubusercontent.com/dadosgovbr/kit/master/public/img/Processo%20Abertura%20base%20de%20dados%20-%20com%20titulo.png)
 
 ## Documento Plano de Dados Abertos
 
