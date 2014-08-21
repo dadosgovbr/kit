@@ -151,7 +151,24 @@ ao acesso à informação pública e à participação social.
 
 #### Serviço de Informações ao Cidadão
 
+Conforme o [decreto nº 7.724](http://www.lexml.gov.br/urn/urn:lex:br:federal:decreto:2012-05-16;7724), 
+que regulamenta a [Lei de Acesso à Informação](#lei-de-acesso-à-informação) 
+no âmbito do poder executivo federal, o Serviço de Informações ao Cidadão tem o objetivo de:
+1. atender e orientar o público quanto ao acesso à informação; 
+2. informar sobre a tramitação de documentos nas unidades; e 
+3. receber e registrar pedidos de acesso à informação.
 
+e as seguintes competências:
+1. - o recebimento do pedido de acesso e, sempre que possível, o fornecimento imediato da informação;
+2. - o registro do pedido de acesso em sistema eletrônico específico e a entrega de número do protocolo, que conterá a data de apresentação do pedido; e
+3. - o encaminhamento do pedido recebido e registrado à unidade responsável pelo fornecimento da informação, quando couber. 
+
+O SIC será instalado em unidade física identificada, de fácil acesso e aberta ao público. 
+1. Nas unidades descentralizadas em que não houver SIC será oferecido serviço de recebimento e registro dos pedidos de acesso à informação. 
+2. Se a unidade descentralizada não detiver a informação, o pedido será encaminhado ao SIC do órgão ou entidade central, que comunicará ao requerente o número do protocolo e a data de recebimento do pedido, a partir da qual se inicia o prazo de resposta. 
+
+As organizações também dispõe de serviços de informação ao cidadão de maneira eletrônica. 
+A CGU centraliza os pedidos ao executivo federal através do [e-SIC](#e-sic).
 
 ### X
 
