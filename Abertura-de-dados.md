@@ -158,7 +158,7 @@ Definir e implementar processo periódico automático de atualização dos dados
 Esta etapa contempla a negociação da periodicidade e fluxo dos
 dados entre os ambientes que compõem a arquitetura da solução de abertura de
 dados, bem como a criação de scripts de transformação e carga
-([ETL](Glossário.md#etl).
+([ETL](Glossário.md#etl)).
 
 Esse momento é importante para garantir a atualidade dos dados publicados, 
 que quanto mais atuais, mais valor possuem.
