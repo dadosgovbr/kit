@@ -1,15 +1,24 @@
 Elaboração do Plano de Dados Abertos
 ====
 
-O Conteúdo que orienta a criação de um PDA está estruturado no [Manual para elaboração de Plano de Dados Abertos](http://www.planejamento.gov.br/secretarias/upload/Arquivos/governo_aberto/manual_elaboracao_plano_dados_abertos.pdf). Este guia se dispõe a resumir os principais passos do manual e trazer novas referências.
+O Conteúdo que orienta a criação de um PDA está estruturado no
+[Manual para elaboração de Plano de Dados Abertos](http://www.planejamento.gov.br/secretarias/upload/Arquivos/governo_aberto/manual_elaboracao_plano_dados_abertos.pdf). 
+Este documento se dispõe a resumir os principais passos do manual e trazer
+novas referências.
 
-Antes de mergulhar na construção do PDA, há uma etapa anterior muito importante: Definir quem serão os responsáveis pela iniciativa e juntar as pessoas relevantes para as atividades em questão. Essas atividades estão estruturadas no [processo sistêmico](https://github.com/dadosgovbr/kit/blob/master/Processo-sist%C3%AAmico.md), vale a pena conferir antes de começar.
+Antes de mergulhar na construção do PDA, há uma etapa anterior muito importante:
+Definir quem serão os responsáveis pela iniciativa e reunir as pessoas
+relevantes para as atividades em questão. Essas atividades estão estruturadas no
+[processo sistêmico](https://github.com/dadosgovbr/kit/blob/master/Processo-sist%C3%AAmico.md),
+vale a pena conferir antes de começar.
 
 De maneira resumida, o processo de criação do PDA se resume a 4 etapas:
 
 ## Organizar Inventário de Dados
 
-Antes de definir quais dados são publicados é imprescindível que a organização faça um levantamento de quais dados possui. Por incrível que pareça, poucos órgãos públicos tem esse levantamento feito.
+Antes de definir quais dados são publicados é imprescindível que a organização faça
+um levantamento de quais dados possui. Apesar de ser muito útil, poucos órgãos
+públicos tem esse levantamento feito.
 
 Existem algumas formas de fazer esse levantamento, provavelmente a melhor estratégia é uma combinação delas:
 
@@ -20,7 +29,7 @@ Existem algumas formas de fazer esse levantamento, provavelmente a melhor estrat
 
 ## Priorizar os dados que serão abertos
 
-A priorização ocorre porque não vale a pena a organização fazer um esforço para publicar todos os seus dados simultaneamente, o custo é muito alto e isso não implica necessariamente na publicação de **dados relevantes para o público**. 
+A priorização ocorre porque não vale a pena a organização fazer um esforço para publicar todos os seus dados simultaneamente, o custo é alto e não implica necessariamente na publicação de **dados relevantes para o público**. 
 
 Conforme o [manual para elaboração de PDA](http://www.planejamento.gov.br/secretarias/upload/Arquivos/governo_aberto/manual_elaboracao_plano_dados_abertos.pdf), a etapa de priorização deve considerar esses critérios:
 
@@ -30,17 +39,16 @@ Conforme o [manual para elaboração de PDA](http://www.planejamento.gov.br/secr
 4. O conjunto de informações e sistemas sob a gestão do órgão, em especial, se houver, sistemas estruturadores que são de uso obrigatório transversal para os órgãos da APF;
 5. O nível de maturidade e organização das informações e dados existentes.
 
-Outra fonte importante para basear-se é a definição de [conjuntos de dados de alto valor](https://www.gov.uk/government/publications/open-data-charter/g8-open-data-charter-and-technical-annex#action-2-release-of-high-value-data), 
+Outra fonte importante para orientação é a lista de [conjuntos de dados de alto valor](https://www.gov.uk/government/publications/open-data-charter/g8-open-data-charter-and-technical-annex#action-2-release-of-high-value-data), 
 trazida pelo [Open Data Charter](https://www.gov.uk/government/publications/open-data-charter) do [G8](http://en.wikipedia.org/wiki/G8).
 
 ## Definir estratégias de abertura
 
-Priorizados os dados mais importantes, é hora de definir de que maneira eles serão publicados. Essa maneira será influenciada pelos seguintes fatores:
+Priorizados os dados mais importantes, é hora de definir de que forma eles serão publicados. Essa forma será influenciada pelos seguintes fatores:
 
 * Local onde os dados estão estruturados
 * Forma como os dados estão estruturados
 * Capacidade técnica da organização
-* Capacidade orçamentária da organização
 
 Na prática, esses fatores se traduzem em possíveis cenários de status dos dados, como dados estruturados em várias planilhas, bancos de dados locais, bancos de dados situados no fornecedor, conjuntos muito volumosos, plataforma alta ou baixa, data warehouse, etc. 
 
