@@ -1,7 +1,9 @@
 Glossário
 ====
 
-# CSV
+## C
+
+### CSV
 
 Pode significar
 [_Comma-Separated Values_](https://pt.wikipedia.org/wiki/Comma-separated_values)
@@ -16,7 +18,9 @@ gerando um arquivo menor e mais leve para processamento. Arquivos CSV são
 processáveis diretamente por editores de planilhas, como o OpenOffice e o MS
 Excel.
 
-# JSON
+## J
+
+### JSON
 
 É um acrônimo para
 [_JavaScript Object Notation_](https://pt.wikipedia.org/wiki/JSON).
@@ -31,7 +35,9 @@ subpropriedades. JSON está se tornando o padrão mais utilizado para integraç�
 de dados entre repositórios e frameworks, também está se tornando o padrão
 nativo de armazenamento em alguns bancos de dados modernos.
 
-# ODS
+## O
+
+### ODS
 
 Significa
 [_Open Document Spreadsheet_](https://pt.wikipedia.org/wiki/OpenDocument).
