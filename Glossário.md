@@ -40,6 +40,12 @@ com os demais Poderes e esferas de governo e com a sociedade em geral.
 
 #### e-PMG
 
+O objetivo do  [Padrão de Metadados do Governo Eletrônico - e-PMG](http://www.governoeletronico.gov.br/acoes-e-projetos/e-ping-padroes-de-interoperabilidade/padrao-de-metadados-do-governo-eletronico-e-pmg)
+é assegurar às pessoas, que pesquisam as informações do governo brasileiro na Web, 
+o acesso rápido e eficiente a descrições dos recursos. Os elementos e-PMG têm o 
+propósito de facilitar a localização dos recursos que as pessoas necessitam, 
+mesmo que elas não possuam conhecimento detalhado da localização ou da entidade responsável pela informação.
+
 #### e-PWG
 
 #### ETL
