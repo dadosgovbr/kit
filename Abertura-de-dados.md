@@ -59,13 +59,14 @@ aspectos, eles deverão ser definidos durante a
 Nessa primeira reunião entre as partes interessadas no projeto serão definidos
 o escopo e o prazo estimado do projeto, respeitadas as definições existentes no
 [Plano de Dados Abertos](#documento-plano-de-dados-abertos) da instituição.
-
-Serão definidos também as responsabilidades de cada um no projeto, a forma de
-acompanhamento do projeto e a periodicidade de reuniões.
+Eventualmente algumas pessoas participarão transversalmente de vários projetos de
+abertura de dados na instituição. Por exemplo, pessoas do departamento de TI
+executando as atividades de fornecimento de infraestrutura e/ou desenvolvendo
+software.
 
 Um aspecto que tem grande impacto no escopo e prazo estimados para o projeto é
 a escolha da forma de publicação dos dados. Por exemplo, desenvolver uma API de
-dados abertos requer um maior esforço que simplesmente publicar arquivos. Mas,
+dados abertos requer um maior esforço que simplesmente publicar arquivos estáticos. Mas,
 se o volume de dados é grande, pode ser vantajoso para o cidadão poder se
 utilizar dos métodos de consulta e filtros que uma API pode oferecer para
 receber apenas os dados que lhe interessam.
