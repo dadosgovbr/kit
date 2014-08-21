@@ -22,9 +22,14 @@ Esse é o momento onde cada área se compromete com uma parte do trabalho:
 
 ## Iniciar processos de abertura de base de dados
 
-Após as definições passadas, chega a hora de abrir as bases de dados. Aqui são iniciados os [processos de abertura de dados](Abertura-de-dados.md), que podem ser desenvolvidos em série ou paralelamente. Em geral o gargalo dessa atividade é a área de TI da organização, que não dispõe técnicos para realizar tudo ao mesmo tempo. Nesse caso, sugere-se que a mesma equipe da área de TI seja responsável pelas atividades, para que a equipe se familiarize com o processo.
+Após as definições passadas, chega a hora de abrir as bases de dados. Aqui são iniciados os 
+[processos de abertura de dados](Abertura-de-dados.md), que podem ser desenvolvidos em série ou paralelamente. 
+Em geral o gargalo dessa atividade é a área de TI da organização, que não dispõe técnicos para realizar tudo ao mesmo tempo. 
+Nesse caso, sugere-se que a mesma equipe da área de TI seja responsável pela abertura de todos os dados da organização, 
+para que a equipe se familiarize com o processo.
 
 ## Monitorar a execução de cada processo
 
-Esse é um processo de monitoramento e controle comum. O Gestor deve agendar reuniões periódicas para essa atividade e, durante as reuniões, acompanhar as metas estabelecidas no PDA e verificar suas entregas.
+Esse é um processo de monitoramento e controle comum. O Gestor deve agendar reuniões periódicas para essa atividade e, 
+durante as reuniões, acompanhar as metas estabelecidas no PDA e verificar suas entregas.
 
