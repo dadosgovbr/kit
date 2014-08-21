@@ -150,6 +150,9 @@ Mais preocupações sobre os requisitos dos dados podem ser encontradas na
 
 ## Desenvolver API
 
+Antes de decidir sobre o desenvolvimento da API, é recomendada a leitura de um artigo 
+famoso chamado [*"Você realmente precisa de uma API ?"*](https://www.peterkrantz.com/2012/publishing-open-data-api-design/).
+
 *Próximo passo:* [Atualização automática](#atualiza%C3%A7%C3%A3o-autom%C3%A1tica)
 
 ## Atualização automática
@@ -164,7 +167,6 @@ Esse momento é importante para garantir a atualidade dos dados publicados,
 que quanto mais atuais, mais valor possuem.
 
 *Próximo passo:* [Catalogar no sítio institucional](#catalogar-no-sitio-institucional)
-
 
 ## Catalogar no sítio institucional
 
