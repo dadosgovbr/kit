@@ -23,12 +23,12 @@ Deve-se trazer do Plano de Dados Abertos para o Projeto de Abertura de Dados
 as suas partes que tratem dos seguintes aspectos:
 
 * Escopo
-  * _dos dados_: qual é (ou quais são) as bases de dados, quais são as tabelas,
+  * **dos dados**: qual é (ou quais são) as bases de dados, quais são as tabelas,
     planilhas, parte ou secção dos dados é viável para essa iteração do
     processo de abertura;
-  * _de granularidade_: se os dados serão separados por algum critério
+  * **de granularidade**: se os dados serão separados por algum critério
     temporal ou espacial;
-  * _qualidade mínima tecnológica, definindo, por exemplo_:
+  * **qualidade mínima tecnológica, definindo, por exemplo**:
     * a forma de disponibilização dos dados (se será desenvolvida uma API de
       dados abertos ou se serão apenas disponibilizados arquivos com as
       extrações, por exemplo);
