@@ -7,7 +7,7 @@ informação de uma área de negócio específica). A depender da capacidade
 da instituição, poderá ser executada uma ou mais instâncias desse processo
 simultaneamente em um dado momento.
 
-Obs.: _"Aberto via de regra"_. <a name="restricao"></a>
+Obs.: "Aberto por padrão". <a name="restricao"></a>
 Este processo se refere às atividades para abertura dos dados de um
 sistema/solução pré-existente. São, na verdade, "correções" de sistemas
 que ainda não possuem dados abertos. É importante que, no futuro, os
@@ -20,7 +20,7 @@ abertos por padrão.
 
 ## Documento Plano de Dados Abertos - PDA
 
-O [PDA](Glossário.md#pda) da instituição norteará o processo de abertura de
+O PDA da instituição norteará o processo de abertura de
 dados quanto ao escopo, prazo estimado, partes interessadas, entre outros.
 Deve-se trazer do Plano de Dados Abertos para o Projeto de Abertura de Dados
 as suas partes que tratem dos seguintes aspectos:
@@ -32,8 +32,7 @@ as suas partes que tratem dos seguintes aspectos:
   * **de granularidade**: se os dados serão separados por algum critério
     temporal ou espacial;
   * **qualidade mínima tecnológica, definindo, por exemplo**:
-    * a forma de disponibilização dos dados (se será desenvolvida uma
-      [API](Glossário.md#api) de
+    * a forma de disponibilização dos dados (se será desenvolvida uma API de
       dados abertos ou se serão apenas disponibilizados arquivos com as
       extrações, por exemplo);
     * se será estabelecido algum relacionamento dos dados com uma fonte
@@ -155,11 +154,14 @@ Mais preocupações sobre os requisitos dos dados podem ser encontradas na
 
 ## Atualização automática
 
-Definir e implementar processo automático e periódico de atualização dos dados.
-Esta etapa contempla a negociação do intervalo de periodicidade e fluxo dos
+Definir e implementar processo periódico automático de atualização dos dados.
+Esta etapa contempla a negociação da periodicidade e fluxo dos
 dados entre os ambientes que compõem a arquitetura da solução de abertura de
 dados, bem como a criação de scripts de transformação e carga
 ([ETL](Glossário.md#etl).
+
+Esse momento é importante para garantir a atualidade dos dados publicados, 
+que quanto mais atuais, mais valor possuem.
 
 *Próximo passo:* [Catalogar no dados.gov.br](#catalogar-no-dados.gov.br)
 
