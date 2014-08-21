@@ -137,7 +137,11 @@ na melhoria da qualidade dos serviços prestados ao cidadão e à própria admin
 
 #### Parceria para Governo Aberto
 
-...
+A Parceria para Governo Aberto([site da CGU](http://www.cgu.gov.br/governoaberto/a-ogp/iniciativa.asp)) 
+ou OGP (do inglês Open Government Partnership - [site oficial](http://www.opengovpartnership.org/)), 
+lançada em 2011, é uma iniciativa internacional que pretende difundir e incentivar 
+globalmente práticas governamentais relacionadas à transparência dos governos, 
+ao acesso à informação pública e à participação social.
 
 ### S
 
@@ -146,6 +150,8 @@ na melhoria da qualidade dos serviços prestados ao cidadão e à própria admin
 *Vide [Serviço de Informações ao Cidadão](#serviço-de-informações-ao-cidadão)*
 
 #### Serviço de Informações ao Cidadão
+
+
 
 ### X
 
