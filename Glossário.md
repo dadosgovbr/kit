@@ -27,6 +27,11 @@ Excel.
 
 #### e-MAG
 
+A arquitetura [ePING – Padrões de Interoperabilidade de Governo Eletrônico](http://www.governoeletronico.gov.br/acoes-e-projetos/e-ping-padroes-de-interoperabilidade) 
+– define um conjunto mínimo de premissas, políticas e especificações técnicas que regulamentam a utilização 
+da Tecnologia de Informação e Comunicação (TIC) no governo federal, estabelecendo as condições de interação 
+com os demais Poderes e esferas de governo e com a sociedade em geral.
+
 #### e-PING
 
 #### e-PMG
@@ -72,11 +77,32 @@ simplicidade e padronização.
 
 #### OGP
 
-*Vide [Parceria para Governo Aberto](#Parceria-para-Governo-Aberto)*
+*Vide [Parceria para Governo Aberto](#parceria-para-governo-aberto)*
 
 ### P
+
+#### PDA
+
+*Vide [Plano de Dados Abertos](#plano-de-dados-abertos)*
+
+#### Plano de Dados Abertos
+
+O [Plano de Dados Abertos](http://www.planejamento.gov.br/editoria.asp?p=editoria&index=115&ler=c819) 
+orienta as ações de implementação e promoção de abertura de dados, inclusive geoespacializados, 
+de uma organização. O documento faz parte da política de dados abertos, e seu objetivo é 
+organizar e padronizar os processos de publicação de dados abertos do estado, resultando 
+na melhoria da qualidade dos serviços prestados ao cidadão e à própria administração pública.
 
 #### Parceria para Governo Aberto
 
 ...
 
+### S
+
+#### SIC
+
+*Vide [Serviço de Informações ao Cidadão](#serviço-de-informações-ao-cidadão)*
+
+#### Serviço de Informações ao Cidadão
+
+...
