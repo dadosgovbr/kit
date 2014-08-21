@@ -7,24 +7,28 @@ informação de uma área de negócio específica). A depender da capacidade
 da instituição, poderá ser executada uma ou mais instâncias desse processo
 simultaneamente em um dado momento.
 
+Obs. Aberto como regra:<a name="restricao"></a>
+Este processo se refere às atividades para abertura dos dados de um
+sistema/solução pré-existente. São, na verdade, "correções" de sistemas
+que já deveriam prover dados desde sua concepção. Todo sistema informacional
+público deve ter seus dados abertos como regra geral.
 
 [<img alt="Diagrama do processo de abertura de um conjunto de dados" src="https://raw.githubusercontent.com/dadosgovbr/kit/master/public/img/Processo%20Abertura%20base%20de%20dados.png">](https://raw.githubusercontent.com/dadosgovbr/kit/master/public/img/Processo%20Abertura%20base%20de%20dados%20-%20com%20titulo.png)
 
-## Documento Plano de Dados Abertos
+## Documento Plano de Dados Abertos - PDA
 
-O Plano de Dados Abertos da instituição norteará o processo de abertura de
+O PDA da instituição norteará o processo de abertura de
 dados quanto ao escopo, prazo estimado, partes interessadas, entre outros.
 Deve-se trazer do Plano de Dados Abertos para o Projeto de Abertura de Dados
 as suas partes que tratem dos seguintes aspectos:
 
 * Escopo
-  * dos dados: qual é (ou quais são) as bases de dados, quais são as tabelas,
+  * _dos dados_: qual é (ou quais são) as bases de dados, quais são as tabelas,
     planilhas, parte ou secção dos dados é viável para essa iteração do
     processo de abertura;
-  * de granularidade: se os dados serão separados por algum critério
+  * _de granularidade_: se os dados serão separados por algum critério
     temporal ou espacial;
-  * qualidade mínima aceitável para os produtos do projeto, definindo, por
-    exemplo:
+  * _qualidade mínima tecnológica, definindo, por exemplo_:
     * a forma de disponibilização dos dados (se será desenvolvida uma API de
       dados abertos ou se serão apenas disponibilizados arquivos com as
       extrações, por exemplo);
@@ -43,7 +47,8 @@ as suas partes que tratem dos seguintes aspectos:
 * Partes interessadas: representante do comitê que acompanha a execução do
     PDA, gestor da área responsável pelas bases de dados, especialistas com
     conhecimento do negócio, gestor da área de TI, desenvolvedores,
-    analistas de dados, entre outros.
+    analistas de dados, potenciais usuários (orgãos, empresas, especialistas), 
+    entre outros.
 
 Caso o Plano de Dados Abertos tenha sido omisso em relação a algum desses
 aspectos, eles deverão ser definidos durante a
@@ -66,7 +71,7 @@ software.
 
 Um aspecto que tem grande impacto no escopo e prazo estimados para o projeto é
 a escolha da forma de publicação dos dados. Por exemplo, desenvolver uma API de
-dados abertos requer um maior esforço que simplesmente publicar arquivos estáticos. Mas,
+dados abertos requer um maior esforço do que simplesmente publicar arquivos estáticos. Mas,
 se o volume de dados é grande, pode ser vantajoso para o cidadão poder se
 utilizar dos métodos de consulta e filtros que uma API pode oferecer para
 receber apenas os dados que lhe interessam.
