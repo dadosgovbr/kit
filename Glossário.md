@@ -1,9 +1,14 @@
 Glossário
 ====
 
-## C
+Neste glossário são descritos alguns termos utilizados no contexto das
+políticas e da implementação de dados abertos.
 
-### CSV
+## Termos
+
+### C
+
+#### CSV
 
 Pode significar
 [_Comma-Separated Values_](https://pt.wikipedia.org/wiki/Comma-separated_values)
@@ -18,9 +23,9 @@ gerando um arquivo menor e mais leve para processamento. Arquivos CSV são
 processáveis diretamente por editores de planilhas, como o OpenOffice e o MS
 Excel.
 
-## J
+### J
 
-### JSON
+#### JSON
 
 É um acrônimo para
 [_JavaScript Object Notation_](https://pt.wikipedia.org/wiki/JSON).
@@ -35,9 +40,9 @@ subpropriedades. JSON está se tornando o padrão mais utilizado para integraç�
 de dados entre repositórios e frameworks, também está se tornando o padrão
 nativo de armazenamento em alguns bancos de dados modernos.
 
-## O
+### O
 
-### ODS
+#### ODS
 
 Significa
 [_Open Document Spreadsheet_](https://pt.wikipedia.org/wiki/OpenDocument).
