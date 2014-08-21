@@ -11,7 +11,7 @@ De maneira resumida, o processo de criação do PDA se resume a 4 etapas:
 
 Antes de definir quais dados são publicados é imprescindível que a organização faça um levantamento de quais dados possui. Por incrível que pareça, poucos órgãos públicos tem esse levantamento feito.
 
-Existem poucas formas de fazer esse levantamento, provavelmente a melhor estratégia é uma combinação delas:
+Existem algumas formas de fazer esse levantamento, provavelmente a melhor estratégia é uma combinação delas:
 
 * Levantar, junto com os representantes das diversas áreas, quais são os sistemas usados por cada uma
 * Fazer uma lista com os dados pedidos pelo SIC
