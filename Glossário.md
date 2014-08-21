@@ -56,7 +56,8 @@ meios eletrônicos pelos órgãos do Governo Federal.
 #### e-SIC
 
 O [Sistema Eletrônico do Serviço de Informações ao Cidadão](http://www.acessoainformacao.gov.br/sistema/site/index.html?ReturnUrl=%2fsistema%2f) 
-(e-SIC) permite que qualquer pessoa, física ou jurídica, encaminhe pedidos de acesso à 
+(e-SIC) é o [Serviço de Informações ao Cidadão](#serviço-de-informações-ao-cidadão) do poder executivo federal 
+prestado na web. Ele permite que qualquer pessoa, física ou jurídica, encaminhe pedidos de acesso à 
 informação, acompanhe o prazo e receba a resposta da solicitação realizada para órgãos 
 e entidades do Executivo Federal. O cidadão ainda pode entrar com recursos e apresentar 
 reclamações sem burocracia.
