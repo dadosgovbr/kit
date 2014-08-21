@@ -7,11 +7,14 @@ informação de uma área de negócio específica). A depender da capacidade
 da instituição, poderá ser executada uma ou mais instâncias desse processo
 simultaneamente em um dado momento.
 
-Obs. Aberto por padrão:<a name="restricao"></a>
+Obs.: "Aberto por padrão". <a name="restricao"></a>
 Este processo se refere às atividades para abertura dos dados de um
 sistema/solução pré-existente. São, na verdade, "correções" de sistemas
-que no futuro já forneçam dados desde sua concepção. Todo sistema informacional
-público que não se encontre dentro das exceçõs da [LAI](Glossário.md#lai) deve ter seus dados abertos por padrão.
+que ainda não possuem dados abertos. É importante que, no futuro, os
+sistemas sejam projetados para que já forneçam dados desde sua concepção.
+Todo sistema informacional público que não lide com informações que se
+encontrem dentro das exceçõs da [LAI](Glossário.md#lai) deve ter seus dados
+abertos por padrão.
 
 [<img alt="Diagrama do processo de abertura de um conjunto de dados" src="https://raw.githubusercontent.com/dadosgovbr/kit/master/public/img/Processo%20Abertura%20base%20de%20dados.png">](https://raw.githubusercontent.com/dadosgovbr/kit/master/public/img/Processo%20Abertura%20base%20de%20dados%20-%20com%20titulo.png)
 
