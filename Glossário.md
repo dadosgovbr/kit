@@ -48,6 +48,11 @@ mesmo que elas não possuam conhecimento detalhado da localização ou da entida
 
 #### e-PWG
 
+Os [Padrões Web em Governo Eletrônico (ePWG)](http://www.governoeletronico.gov.br/acoes-e-projetos/padroes-brasil-e-gov) 
+são recomendações de boas práticas agrupadas em formato de cartilhas com o objetivo 
+de aprimorar a comunicação e o fornecimento de informações e serviços prestados por 
+meios eletrônicos pelos órgãos do Governo Federal.
+
 #### ETL
 
 ETL, do inglês [Extract Transform Load](http://pt.wikipedia.org/wiki/Extract,_transform,_load) (Extração Transformação Carga), são ferramentas de software cuja função é a extração de dados de diversos sistemas, transformação desses dados conforme regras de negócios e por fim a carga dos dados geralmente em um Data Mart e um Data Warehouse, porém nada impede que também seja para enviar os dados para um determinado sistema da organização. A extração e carga são obrigatórias para o processo, sendo a transformação/limpeza opcional, mas que são boas práticas, tendo em vista que os dados já foram encaminhados para o sistema de destino. É considerada uma das fases mais críticas do Data Warehouse e/ou Data Mart.
