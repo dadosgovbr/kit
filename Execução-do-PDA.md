@@ -26,9 +26,12 @@ Esse é o momento onde cada área se compromete com uma parte do trabalho:
 
 Após as definições passadas, chega a hora de abrir as bases de dados. Aqui são iniciados os 
 [processos de abertura de dados](Abertura-de-dados.md), que podem ser desenvolvidos em série ou paralelamente. 
-Em geral o gargalo dessa atividade é a área de TI da organização, que não dispõe técnicos para realizar tudo ao mesmo tempo. 
-Nesse caso, sugere-se que a mesma equipe da área de TI seja responsável pela abertura de todos os dados da organização, 
-para que a equipe se familiarize com o processo.
+Em geral o gargalo dessa atividade é a área de TI da organização, que dificilmente dispõe técnicos para realizar tudo ao mesmo tempo. 
+Nesse caso, sugere-se que seja formada uma equipe da área de TI para se tornar
+responsável pela implementação de todas instâncias dos [processos de abertura
+de dados](Abertura-de-dados.md) da organização.
+Dessa forma, busca-se mais eficiência por uma mesma equipe se familiarizar com
+o processo.
 
 ## Monitorar a execução de cada processo
 
