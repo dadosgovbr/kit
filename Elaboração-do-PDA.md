@@ -53,10 +53,15 @@ Além da forma de publicação, a periodicidade de publicação e a forma de hos
 
 Nesse momento já está definido, para cada um dos dados priorizados, a tática de publicação, dentro das limitações da organização e das particularidades das bases de dados. Resta agora pensar nas datas de publicação de cada um deles.
 
-Essa é a ocasião certa para pensar em ações de comunicação e articulação com a sociedade civil para aumentar a legitimidade e potencializar a publicação dos dados. Exemplos de ação como essas são: 
+Essa é a ocasião certa para pensar em ações de comunicação e articulação com a sociedade civil para 
+aumentar a legitimidade e potencializar a publicação dos dados. Conforme o [Manual para elaboração de 
+PDA]((http://www.planejamento.gov.br/secretarias/upload/Arquivos/governo_aberto/manual_elaboracao_plano_dados_abertos.pdf)), exemplos de ação como essas são: 
 
 * realizar encontros com os interessados nos dados
-* realizar concursos de aplicativos
+* realizar concursos de aplicativos (exemplos notórios: [concursos do MJ](http://www.justica.gov.br/dados-abertos), 
+[concursos do INEP](http://hackathondadoseducacionais.org.br/), 
+[concurso do Ministério Planejamento](http://dados.gov.br/noticia/conheca-os-vencedores-do-concurso-nacional-de-dados-abertos/))
+[Desarrollando América Latina](http://desarrollandoamerica.org/)
 * utilizar os dados mais pedidos do SIC
 * estimular o uso interno e por outros órgãos públicos dos dados publicados
 * disseminar na organização a cultura de acesso à informação e de disponibilização de dados públicos.
