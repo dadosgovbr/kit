@@ -61,13 +61,11 @@ aspectos, eles deverão ser definidos durante a
 
 ## Reunião de início de projeto
 
-Nessa primeira reunião entre as partes interessadas no projeto serão definidos
-o escopo e o prazo estimado do projeto, respeitadas as definições existentes no
-[Plano de Dados Abertos](#documento-plano-de-dados-abertos) da instituição.
-Eventualmente algumas pessoas participarão transversalmente de vários projetos de
-abertura de dados na instituição. Por exemplo, pessoas do departamento de TI
-executando as atividades de fornecimento de infraestrutura e/ou desenvolvendo
-software.
+Nessa primeira reunião entre as partes interessadas no projeto serão revisados
+o escopo e o prazo estimado do projeto, já definidos no PDA [Plano de Dados Abertos](#documento-plano-de-dados-abertos) 
+da instituição. Eventualmente algumas pessoas participarão transversalmente de 
+vários projetos de abertura de dados na instituição. Por exemplo, pessoas do 
+departamento de TI executando as atividades de fornecimento de infraestrutura e/ou desenvolvendo software.
 
 Um aspecto que tem grande impacto no escopo e prazo estimados para o projeto é
 a escolha da forma de publicação dos dados. Por exemplo, desenvolver uma API de
