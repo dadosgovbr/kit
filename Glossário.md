@@ -184,4 +184,8 @@ A CGU centraliza os pedidos ao executivo federal através do [e-SIC](#e-sic).
 
 #### XML
 
-...
+Significa
+[Extensible Markup Language](http://pt.wikipedia.org/wiki/XML). 
+É uma linguagem de marcação que define um conjunto de regras para codificação de documentos
+em um formato que seja tanto legível por humanos quanto por máquinas. 
+
