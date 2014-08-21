@@ -94,8 +94,6 @@ com os dados no dados.gov.br](#catalogar-no-dadosgovbr).
 
 ## Definir estrutura dos dados
 
-Definir campos e estrutura dos dados.
-
 Nessa etapa também são definidos os formatos de saída dos dados. XML, CSV e
 JSON são úteis para situações específicas.
 
