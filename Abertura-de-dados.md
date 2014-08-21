@@ -85,6 +85,10 @@ entidade-relacionamento, dicionário de dados, etc. Todo tipo de documentação
 ajuda às equipes de implementação a entender, em conjunto com especialistas
 de negócio, a melhor forma de estruturar os dados para sua publicação.
 
+Documentações relacionadas ao conjunto de dados são muito úteis, principalmente
+para os consumidores dos dados abertos e também devem ser juntamente [catalogados
+com os dados no dados.gov.br](#catalogar-no-dadosgovbr).
+
 *Próximo passo:* [Definir estrutura dos dados](#definir-estrutura-dos-dados)
 
 ## Definir estrutura dos dados
@@ -94,15 +98,17 @@ Definir campos e estrutura dos dados.
 Nessa etapa também são definidos os formatos de saída dos dados. XML, CSV e
 JSON são úteis para situações específicas.
 
-As planilhas CSV têm a vantagem de poderem ser facilmente abertas em qualquer
-editor de planilhas, tais como Calc e Excel, inclusive por uma pessoa que não
-tenha conhecimentos de programação. Além disso, são igualmente fáceis de serem
+As planilhas CSV têm a vantagem de poderem ser facilmente abertas e manipuladas em
+qualquer editor de planilhas, tais como Calc e Excel, inclusive por uma pessoa que
+não tenha conhecimentos de programação. Além disso, são igualmente fáceis de serem
 consumidas por aplicações.
 
 Os arquivos XML e JSON têm a vantagem de possibilitarem a validação de vários
 tipos de dados, tais como números inteiros ou decimais. Além disso, permitem
 aninhar as estruturas de dados em hierarquias, o que facilita trabalhar com os
 dados em comparação com a estrutura plana de colunas do CSV.
+Permitem também a inclusão de marcações de links para outros recursos de dados
+através da web.
 
 Em caso de publicação de planilhas CSV, definir e escrever a documentação de
 quais são e o que significam as colunas, bem como quais são os tipos de dados
@@ -137,6 +143,10 @@ Definir por acordo entre as partes interessadas a qualidade mínima dos dados
 abertos publicados, de forma a viabilizar a sua publicação tempestiva dentro
 da capacidade da instituição.
 
+*Próximo passo:* [Desenvolver API](#desenvolver-api)
+
+## Desenvolver API
+
 *Próximo passo:* [Atualização automática](#atualiza%C3%A7%C3%A3o-autom%C3%A1tica)
 
 ## Atualização automática
@@ -146,26 +156,14 @@ Esta etapa contempla a negociação do intervalo de periodicidade e fluxo dos
 dados entre os ambientes que compõem a arquitetura da solução de abertura de
 dados, bem como a criação de scripts de transformação carga (ETL).
 
-*Próximo passo:* [Homologar solução](#homologar-solu%C3%A7%C3%A3o)
+*Próximo passo:* [Catalogar no dados.gov.br](#catalogar-no-sitio-institucional)
 
-## Homologar solução
+## Catalogar no sítio institucional
 
-Nesta etapa será verificada a conformidade da solução de abertura de dados
-desenvolvida com as definições de escopo e especificações realizadas no
-decorrer do projeto, inclusive no que se refere às condições de qualidade
-acordadas.
-
-Caso haja áreas internas da instituição que tenham necessidade de acesso aos
-dados, disponibilizar acesso para testes antes da homologação.
-
-Caso sejam detectadas não-conformidades, promover novas iterações no ciclo
-de desenvolvimento e de implementação do fluxo de dados de forma a saná-las.
-
-*Próximo passo:* [Publicar na web](#publicar-na-web)
-
-## Publicar na web
-
-Publicar os dados na web. Disponibilizar o acesso ao público externo.
+Este passo não é obrigatório e pode ser implementado de maneira automatizada
+com o próximo passo.
+É importante destacar que os dados logicamente compreendem ativos digitais da
+instituição e por isso devem estar disponíveis em seu sítio.
 
 *Próximo passo:* [Catalogar no dados.gov.br](#catalogar-no-dadosgovbr)
 
