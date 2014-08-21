@@ -30,6 +30,9 @@ Conforme o [manual para elaboração de PDA](http://www.planejamento.gov.br/secr
 4. O conjunto de informações e sistemas sob a gestão do órgão, em especial, se houver, sistemas estruturadores que são de uso obrigatório transversal para os órgãos da APF;
 5. O nível de maturidade e organização das informações e dados existentes.
 
+Outra fonte importante para basear-se é a definição de [conjuntos de dados de alto valor](https://www.gov.uk/government/publications/open-data-charter/g8-open-data-charter-and-technical-annex#action-2-release-of-high-value-data), 
+trazida pelo [Open Data Charter](https://www.gov.uk/government/publications/open-data-charter) do [G8](http://en.wikipedia.org/wiki/G8).
+
 ## Definir estratégias de abertura
 
 Priorizados os dados mais importantes, é hora de definir de que maneira eles serão publicados. Essa maneira será influenciada pelos seguintes fatores:
