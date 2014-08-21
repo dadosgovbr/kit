@@ -65,7 +65,7 @@ aspectos, eles deverão ser definidos durante a
 ## Reunião de início de projeto
 
 Nessa primeira reunião entre as partes interessadas no projeto serão revisados
-o escopo e o prazo estimado do projeto, já definidos no PDA [Plano de Dados Abertos](#documento-plano-de-dados-abertos) 
+o escopo e o prazo estimado do projeto, já definidos no [Plano de Dados Abertos](#documento-plano-de-dados-abertos) 
 da instituição. Eventualmente algumas pessoas participarão transversalmente de 
 vários projetos de abertura de dados na instituição. Por exemplo, pessoas do 
 departamento de TI executando as atividades de fornecimento de infraestrutura e/ou desenvolvendo software.
