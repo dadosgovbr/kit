@@ -23,6 +23,16 @@ gerando um arquivo menor e mais leve para processamento. Arquivos CSV são
 processáveis diretamente por editores de planilhas, como o OpenOffice e o MS
 Excel.
 
+### E
+
+#### e-MAG
+
+#### e-PING
+
+#### e-PMG
+
+#### e-PWG
+
 ### J
 
 #### JSON
@@ -58,4 +68,15 @@ estruturado, é muito flexível, possibilitando manipulação e mistura de
 diversos tipos de dados, como imagens e textos formatados. Para a publicação
 de dados abertos tabulares, é recomendável a utilização de CSV, pela sua
 simplicidade e padronização.
+
+
+#### OGP
+
+*Vide [Parceria para Governo Aberto](#Parceria-para-Governo-Aberto)*
+
+### P
+
+#### Parceria para Governo Aberto
+
+...
 
