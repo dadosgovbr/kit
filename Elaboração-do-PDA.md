@@ -60,8 +60,8 @@ PDA]((http://www.planejamento.gov.br/secretarias/upload/Arquivos/governo_aberto/
 * realizar encontros com os interessados nos dados
 * realizar concursos de aplicativos (exemplos notórios: [concursos do MJ](http://www.justica.gov.br/dados-abertos), 
 [concursos do INEP](http://hackathondadoseducacionais.org.br/), 
-[concurso do Ministério Planejamento](http://dados.gov.br/noticia/conheca-os-vencedores-do-concurso-nacional-de-dados-abertos/))
-[Desarrollando América Latina](http://desarrollandoamerica.org/)
+[concurso do Ministério Planejamento](http://dados.gov.br/noticia/conheca-os-vencedores-do-concurso-nacional-de-dados-abertos/), 
+[Desarrollando América Latina](http://desarrollandoamerica.org/))
 * utilizar os dados mais pedidos do SIC
 * estimular o uso interno e por outros órgãos públicos dos dados publicados
 * disseminar na organização a cultura de acesso à informação e de disponibilização de dados públicos.
