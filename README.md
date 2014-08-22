@@ -46,22 +46,23 @@ Os seguintes subprocessos estão detalhados:
 
 ## Ferramentas
 
-Esta seção é uma lista exemplificativa, e não exaustiva, de ferramentas úteis para [projetos de abertura de dados](Abertura-de-dados.md). Todas são ferramentas livres, criadas por comunidades de software livre, e podem ser utilizadas pelos órgãos governamentais sem restrição. Em geral, são soluções para extração, manipulação e preparação dos dados para sua publicação na Internet. A lista é baseada no [_Project Open Data_](http://project-open-data.github.io/#tools) e [_ODI open data tech review_](https://github.com/dadosgovbr/open-data-tech-review/wiki). Contudo, está restrita a ferramentas que podem ser utilizadas sem a necessidade de conhecimentos de programação.
+Esta seção é uma lista exemplificativa, e não exaustiva, de ferramentas úteis para [projetos de abertura de dados](Abertura-de-dados.md). Todas são ferramentas livres, criadas por comunidades de [software livre](Glossário.md#software-livre), e podem ser utilizadas pelos órgãos governamentais sem restrição. Em geral, são soluções para extração, manipulação e preparação dos dados para sua publicação na Internet. A lista é baseada no [_Project Open Data_](http://project-open-data.github.io/#tools) e [_ODI open data tech review_](https://github.com/dadosgovbr/open-data-tech-review/wiki). Contudo, está restrita a ferramentas que podem ser utilizadas sem a necessidade de conhecimentos de programação.
 
 ### Criação de APIs de dados abertos
 
-* [CSV to API](https://github.com/project-open-data/csv-to-api) - Dinamicamenta gera APIs Restful de arquivos CSVs estáticos. 
-* [sandman](https://github.com/jeffknupp/sandman) - cria API Restful automaticamente a partir de conexão com bancos de dados relacionais
+* [CSV to API](https://github.com/project-open-data/csv-to-api) - Dinamicamenta gera APIs Restful de arquivos CSVs estáticos 
+* [sandman](https://github.com/jeffknupp/sandman) - Cria API Restful automaticamente a partir de conexão com bancos de dados relacionais
 
 ### Conversão de dados
 
 * [JSON-to-CSV Converter](http://konklone.io/json/) - Conversor manual e online de arquivos JSON para visulizar como planilha e baixá-la no formato CSV.
-* [dat](https://github.com/maxogden/dat) - ferramenta para conversão e tranformação de dados em linha de comando
+* [dat](https://github.com/maxogden/dat) - Ferramenta para conversão e tranformação de dados em linha de comando
+* [csvkit](http://csvkit.readthedocs.org/en/0.8.0/) - Transformações e tratamento de arquivos csv
+* [ESRI2Open](http://github.com/project-open-data/esri2open) - Ferramenta que converte dados espaciais e não-espaciais do software proprietário ESRI em arquivos de dados abertos, CSV, JSON, ou GeoJSON
 
 ### Higienização de dados
 
 * [Open Refine](http://openrefine.org/) - Limpeza e transformação de dados, unificação de registros duplicados, etc.
-* [csvkit](http://csvkit.readthedocs.org/en/0.8.0/) - Transformações e tratamento de arquivos csv
 
 ## Mais Recursos
 
