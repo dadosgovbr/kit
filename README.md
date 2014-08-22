@@ -26,7 +26,7 @@ As organizações que desenvolvem Planos de Dados Abertos precisam de orientaç�
 2. [Vantagens de publicar dados abertos](#vantagens-dados-abertos.md)
 3. [Parceria para Governo Aberto](http://www.cgu.gov.br/governoaberto/a-ogp/iniciativa.asp) - Sobre a parceria internacional
 4. O [Portal Brasileiro de Dados Abertos](http://dados.gov.br/sobre/) - Sobre o catálogo de dados
-5. Sobre a [Infraestrutura Nacional de Dados Abertos - INDA](http://dados.gov.br/instrucao-normativa-da-inda/) e porque estamos fazendo isso
+5. O que é a [Infraestrutura Nacional de Dados Abertos - INDA](http://dados.gov.br/instrucao-normativa-da-inda/)
 6. [Glossário](Glossário.md) dos termos utilizados neste kit
 
 ## Guia para implementação de um Plano de Dados Abertos
