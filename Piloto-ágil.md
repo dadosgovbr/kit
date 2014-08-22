@@ -2,9 +2,8 @@ Processo Piloto Ágil
 ====
 
 Este é o processo pelo qual a instituição realiza um piloto ágil de abertura
-de dados.
-
-(diagrama)
+de dados. Ele consiste basicamente no processo de [Abertura de bases de dados](Abertura-de-dados.md), 
+mas simplificando várias fases.
 
 ## Objetivos
 
