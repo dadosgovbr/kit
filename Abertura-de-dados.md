@@ -72,10 +72,14 @@ departamento de TI executando as atividades de fornecimento de infraestrutura e/
 
 Um aspecto que tem grande impacto no escopo e prazo estimados para o projeto é
 a escolha da forma de publicação dos dados. Por exemplo, desenvolver uma API de
-dados abertos requer um maior esforço do que simplesmente publicar arquivos estáticos. Mas,
-se o volume de dados é grande, pode ser vantajoso para o cidadão poder se
+dados abertos requer um maior esforço do que simplesmente publicar arquivos
+estáticos.
+Mas, se o volume de dados é grande, pode ser vantajoso para o cidadão poder se
 utilizar dos métodos de consulta e filtros que uma API pode oferecer para
 receber apenas os dados que lhe interessam.
+Algumas das considerações para se decidir sobre a necessidade ou não do
+desenvolvimento da API são mostradas no artigo chamado
+[*"Você realmente precisa de uma API ?"*](https://www.peterkrantz.com/2012/publishing-open-data-api-design/).
 
 *Próximo passo:* [Solicitar documentação](#solicitar-documenta%C3%A7%C3%A3o)
 
@@ -142,16 +146,40 @@ Definir por acordo entre as partes interessadas a qualidade mínima dos dados
 abertos publicados, de forma a viabilizar a sua publicação tempestiva dentro
 da capacidade da instituição.
 
-Mais preocupações sobre os requisitos dos dados podem ser encontradas na 
+Mais considerações sobre os requisitos dos dados podem ser encontradas na 
 [Cartilha Técnica para Publicação de Dados Abertos no Brasil](http://dados.gov.br/cartilha-publicacao-dados-abertos/)
 , capítulo 6.
 
-*Próximo passo:* [Desenvolver API](#desenvolver-api)
+*Próximo passo:* [Desenvolver API](#desenvolver-solução)
 
-## Desenvolver API
+## Desenvolver solução
 
-Antes de decidir sobre o desenvolvimento da API, é recomendada a leitura de um artigo 
-famoso chamado [*"Você realmente precisa de uma API ?"*](https://www.peterkrantz.com/2012/publishing-open-data-api-design/).
+O trabalho a ser feito nessa etapa varia bastante, a depender do tipo de
+solução de dados abertos escolhida no
+[início do projeto]((#reuni%C3%A3o-de-in%C3%ADcio-de-projeto)):
+disponibilização de arquivos [CSV](Glossário.md#csv), de algum tipo de
+[_dumps_](Glossário#dump) dos dados, ou ainda, a criação de uma
+[API](Glossário.md#api) de dados abertos.
+
+Nos casos da diponibilização de arquivos ou _dumps_, esta etapa contempla
+a criação dos scripts de [ETL](Glossário.md#etl) que fazem a higienização
+dos dados decidida na [etapa anterior](#decidir-qualidade-mínima).
+
+No caso de desenvolvimento de uma API, esta etapa contempla
+o desenvolvimento do software que operará o serviço. Recomenda-se o uso de
+um [método ágil](Glossário.md#método-ágil) de desenvolvimento de software.
+
+Nesta etapa de desenvolvimento, pode-se ganhar muita produtividade ao
+utilizar [ferramentas](README.md#ferramentas) apropriadas ao tipo de solução
+que está sendo desenvolvida.
+
+Em todos os casos, recomenda-se que os arquivos disponibilizados ou a API
+em desenvolvimento fiquem visíveis para toda a internet, de forma a
+reduzir as barreiras para que eventuais interessados em testar a solução
+(por exemplo, outro setor ou organização que tenham interesse em consumir
+os dados abertos) possam oferecer _feedback_ durante o desenvolvimento e,
+assim, aprimorar a solução e garantir que quando ela esteja pronta atenda
+ao seu propósito de ser útil para os consumidores de dados.
 
 *Próximo passo:* [Atualização automática](#atualiza%C3%A7%C3%A3o-autom%C3%A1tica)
 
@@ -166,14 +194,26 @@ dados, bem como a criação de scripts de transformação e carga
 Esse momento é importante para garantir a atualidade dos dados publicados, 
 que quanto mais atuais, mais valor possuem.
 
-*Próximo passo:* [Catalogar no sítio institucional](#catalogar-no-sitio-institucional)
+*Próximo passo:* [Divulgar dados abertos](#divulgar-dados-abertos)
 
-## Catalogar no sítio institucional
+## Divulgar dados abertos
 
-Este passo não é obrigatório e pode ser implementado de maneira automatizada
-com o próximo passo.
-É importante destacar que os dados logicamente compreendem ativos digitais da
-instituição e por isso devem estar disponíveis em seu sítio.
+Uma vez que a solução de dados abertos esteja em condições de qualidade
+suficientes para o encerramento do presente projeto de abertura de dados,
+pode-se dar início à ampla divulgação dos seus resultados.
+
+Isso pode ser feito pelos canais de comunicação que o órgão possui e também
+naqueles que alcancem o público que já se antecipe estar interessado nos dados,
+tais como listas de discussão da [INDA](Glossário#inda) e de
+[hackers cívicos](Glossário.md#hackers-cívicos), bem como de organizações da
+sociedade civil que acompanham o tema finalístico dos dados.
+
+Nesse momento pode-se decidir pelo planejamento ou não de um futuro
+[hackaton](Glossário.md#hackaton) ou concurso de dados abertos.
+
+É importante destacar ainda que os dados logicamente compreendem ativos
+digitais da instituição e por isso devem estar disponíveis e visíveis em
+local apropriado em seu próprio sítio.
 
 *Próximo passo:* [Catalogar no dados.gov.br](#catalogar-no-dadosgovbr)
 
@@ -181,10 +221,12 @@ instituição e por isso devem estar disponíveis em seu sítio.
 
 O objetivo dessa catalogação é tornar os dados "descobríveis" na web para seus 
 interessados. Isso aumenta as chances das pessoas encontrarem os dados 
-prontamente, sem precisar recorrer ao [SIC](Glossário.md#sic) da sua organização.
+prontamente, sem precisar recorrer ao [SIC](Glossário.md#sic) da sua
+organização.
 
 Para catalogar o novo conjunto de dados no [dados.gov.br](http://dados.gov.br) 
 é necessário levantar um conjunto mínimo de metadados que são utilizados no portal 
-Esses metadados estão melhor descritos na [Cartilha Técnica para Publicação de Dados Abertos no Brasil](http://dados.gov.br/cartilha-publicacao-dados-abertos/)
+Esses metadados estão melhor descritos na
+[Cartilha Técnica para Publicação de Dados Abertos no Brasil](http://dados.gov.br/cartilha-publicacao-dados-abertos/)
 , capítulo 7.
 
