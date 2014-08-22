@@ -4,6 +4,8 @@ permalink: /Piloto-ágil/
 layout: slate
 filename: Piloto-ágil.md
 title: Piloto ágil - Kit de Dados Abertos
+desc: Este é o processo pelo qual a instituição realiza um piloto ágil de abertura
+de dados.
 ---
 
 Processo Piloto Ágil

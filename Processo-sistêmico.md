@@ -4,6 +4,7 @@ permalink: /Processo-sist%C3%AAmico/
 layout: slate
 filename: Processo-sistêmico.md
 title: Processo sistêmico de um Plano de Dados Abertos - PDA - Kit de Dados Abertos
+desc: Descreve, em um nível macro, todas as atividades com que uma instituição deve se atentar para implementar uma política de dados abertos.
 ---
 
 Processo sistêmico de um Plano de Dados Abertos - PDA

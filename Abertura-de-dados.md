@@ -4,6 +4,7 @@ permalink: /Abertura-de-dados/
 layout: slate
 filename: Abertura-de-dados.md
 title: Processo de abertura de bases de dados - Kit de Dados Abertos
+desc: Este é o processo que será executado em cada projeto de abertura de dados da instituição.
 ---
 
 Processo de abertura de bases de dados

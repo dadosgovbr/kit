@@ -4,6 +4,7 @@ permalink: /Glossário/
 layout: slate
 filename: Glossário.md
 title: Glossário - Kit de Dados Abertos
+desc: Neste glossário são descritos alguns termos utilizados no contexto das políticas e da implementação de dados abertos.
 ---
 
 Glossário

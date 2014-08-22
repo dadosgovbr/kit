@@ -4,6 +4,7 @@ permalink: /vantagens-dados-abertos/
 layout: slate
 filename: vantagens-dados-abertos.md
 title: Vantagens da publicação de dados abertos - Kit de Dados Abertos
+desc: Algumas vantagens, inclusive econômicas, de se publicar dados abertos.
 ---
 
 Vantagens da publicação de dados abertos
