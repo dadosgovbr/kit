@@ -50,7 +50,7 @@ Esta seção é uma lista exemplificativa, e não exaustiva, de ferramentas úte
 
 ### Criação de APIs de dados abertos
 
-* [CSV to API](https://github.com/project-open-data/csv-to-api) - Dinamicamenta gera APIs Restful de arquivos CSVs estáticos 
+* [CSV to API](https://github.com/project-open-data/csv-to-api) - Dinamicamente gera APIs Restful de arquivos CSVs estáticos 
 * [sandman](https://github.com/jeffknupp/sandman) - Cria API Restful automaticamente a partir de conexão com bancos de dados relacionais
 
 ### Conversão de dados
