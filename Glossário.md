@@ -78,6 +78,10 @@ A extração e carga são obrigatórias para o processo, sendo a transformação
 mas que são boas práticas, tendo em vista que os dados já foram encaminhados para o 
 sistema de destino. É considerada uma das fases mais críticas do Data Warehouse e/ou Data Mart.
 
+### H
+
+#### Hacker Cívico
+
 ### J
 
 #### JSON
@@ -110,6 +114,10 @@ por eles produzidas ou custodiadas.
 
 A Controladoria Geral da União mantém 
 [site com mais informações sobre a lei](http://www.acessoainformacao.gov.br/perguntas-frequentes-2/aspectos-gerais-da-lei).
+
+### M
+
+#### Método Ágil
 
 ### O
 
@@ -158,6 +166,8 @@ globalmente práticas governamentais relacionadas à transparência dos governos
 ao acesso à informação pública e à participação social.
 
 ### S
+
+#### Software Livre
 
 #### SIC
 
