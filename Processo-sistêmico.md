@@ -103,6 +103,8 @@ comitê de TI, que já possuia presença de todas as áreas de negócio e a áre
 Convocação de todos envolvidos para etapa de revisão do PDA.
 
 Essa é uma atividade recorrente que pode ter periodicidade, por exemplo, de uma vez por ano.
+Seu intuito é fazer, além das reuniões de monitoramento e controle das metas, uma revisão 
+no plano como um todo, avaliando se a organização deveria fazer alguma mudança relevante no plano.
 
 *Próximo passo:* Iniciar [processo de Elaboração do PDA](#elaborar-pda) (revisão do PDA)
 
