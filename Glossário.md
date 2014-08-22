@@ -1,3 +1,11 @@
+---
+published: true
+permalink: /Glossário/
+layout: slate
+filename: Glossário.md
+title: Glossário - Kit de Dados Abertos
+---
+
 Glossário
 ====
 

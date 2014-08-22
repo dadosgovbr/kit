@@ -1,3 +1,11 @@
+---
+published: true
+permalink: /Abertura-de-dados/
+layout: slate
+filename: Abertura-de-dados.md
+title: Processo de abertura de bases de dados - Kit de Dados Abertos
+---
+
 Processo de abertura de bases de dados
 ====
 

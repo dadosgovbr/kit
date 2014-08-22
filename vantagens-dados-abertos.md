@@ -1,3 +1,11 @@
+---
+published: true
+permalink: /vantagens-dados-abertos/
+layout: slate
+filename: vantagens-dados-abertos.md
+title: Vantagens da publicação de dados abertos - Kit de Dados Abertos
+---
+
 Vantagens da publicação de dados abertos
 ====
 

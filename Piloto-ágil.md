@@ -1,3 +1,11 @@
+---
+published: true
+permalink: /Piloto-ágil/
+layout: slate
+filename: Piloto-ágil.md
+title: Piloto ágil - Kit de Dados Abertos
+---
+
 Processo Piloto Ágil
 ====
 

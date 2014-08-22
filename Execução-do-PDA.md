@@ -1,3 +1,11 @@
+---
+published: true
+permalink: /Execução-do-PDA/
+layout: slate
+filename: Execução-do-PDA.md
+title: Execução do PDA - Kit de Dados Abertos
+---
+
 Execução do Plano de Dados Abertos
 ====
 

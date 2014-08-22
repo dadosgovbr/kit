@@ -1,3 +1,11 @@
+---
+published: true
+permalink: /Elaboração-do-PDA/
+layout: slate
+filename: Elaboração-do-PDA.md
+title: Elaboração do PDA - Kit de Dados Abertos
+---
+
 Elaboração do Plano de Dados Abertos
 ====
 
