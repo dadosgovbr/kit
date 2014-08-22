@@ -69,7 +69,12 @@ oferecer dificuldade, etc.
 ## Oficina para construção do PDA da instituição <a name="oficina"></a>
 
 Realização da Oficina para construção do PDA seguindo roteiro no Anexo II
-do [Manual para elaboração de PDA](http://www.planejamento.gov.br/editoria.asp?p=editoria&index=115&ler=c820).
+do [Manual para elaboração de PDA](http://www.planejamento.gov.br/editoria.asp?p=editoria&index=115&ler=c820). 
+A oficina tem dois momentos:
+1. Alinhamento de conceitos sobre o tema, demonstrando não só a questão normativa, como 
+também de que maneira os mecanismos de transparência vêm se consolidando. 
+2. Momento de construção do PDA, no qual são apresentados os conceitos presentes 
+neste Kit e realizado o planejamento.
 
 *Próximo passo:* [Plano de ação para elaboração do PDA](#plano-para-pda)
 
