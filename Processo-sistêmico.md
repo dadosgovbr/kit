@@ -17,7 +17,9 @@ Abaixo segue um detalhamento das etapas envolvidas nesse processo:
 
 ## Apresentar a política de dados abertos <a name="apresentar-politica"></a>
 
-Apresentar a política de dados abertos e motivação de criação do PDA para alcançar alinhamento com líder da instituição.
+Apresentar a política de dados abertos e motivação de criação do PDA para alcançar 
+alinhamento com líder da instituição. Motivações como [essas](vantagens-dados-abertos.md) são apresentadas aos
+responsáveis, bem como o alinhamento político sobre a criação do PDA é retomado.
 
 Mediada pelo responsável pela política central de dados abertos.
 
