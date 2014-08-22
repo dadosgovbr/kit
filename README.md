@@ -15,7 +15,7 @@ O kit é um conjunto de documentos que descreve o processo, métodos e técnicas
 
 A publicação de dados abertos é a nova tendência presente na estratégia de governo digital do Brasil e de diversos países do mundo. Seu compromisso foi assumido pela presidente Dilma no momento da assinatura da [declaração](http://www.cgu.gov.br/governoaberto/a-ogp/o_que_e_Governo_Aberto.html) da [Parceria para Governo Aberto](http://www.cgu.gov.br/governoaberto/a-ogp/iniciativa.asp) ([OGP](http://www.opengovpartnership.org/)) e pelos diversos órgãos do executivo nos dois [Planos de Ação da Parceria](http://www.cgu.gov.br/governoaberto/no_Brasil/plano-brasileiro/index.html).
 
-A recomendação da Presidência da República e do Ministério do Planejamento, Orçamento e Gestão é que os gestores públicos tratem a pauta [criando Planos de Dados Abertos](http://www.planejamento.gov.br/editoria.asp?p=editoria&index=115&ler=c820)(PDAs) em suas organizações.
+A recomendação da Presidência da República e do Ministério do Planejamento, Orçamento e Gestão é que os gestores públicos tratem a pauta criando Planos de Dados Abertos em suas organizações.
 
 As organizações que desenvolvem Planos de Dados Abertos precisam de orientação, métodos e técnicas para sua criação e implementação. A proposta do Kit é fornecer os insumos necessários para esses momentos e servir como guia para referência futura.
 
