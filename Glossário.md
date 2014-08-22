@@ -18,6 +18,18 @@ políticas e da implementação de dados abertos.
 
 #### API
 
+[API](https://pt.wikipedia.org/wiki/Api), de _Application Programming Interface_
+(em português: Interface de Programação de Aplicativos) é um conjunto de rotinas
+e padrões estabelecidos por um software para a utilização das suas funcionalidades
+por aplicativos que não pretendem envolver-se em detalhes da implementação do
+software, mas apenas usar seus serviços.
+
+No contexto de desenvolvimento web, uma API, também chamda de
+[API web](https://pt.wikipedia.org/wiki/Api#API_Web), é um conjunto definido de mensagens de
+requisição e resposta HTTP, geralmente expressado nos formatos XML ou JSON. Ainda
+que termo seja um sinônimo para web service, a chamada Web 2.0 está aos poucos
+depreciando o modelo de serviços SOAP para a técnica REST.
+
 #### Arquivo Legível por Máquina
 
 [Arquivo Legível por Máquina](https://www.niem.gov/glossary/Pages/Glossary.aspx?alpha=M)
@@ -148,6 +160,15 @@ A Controladoria Geral da União mantém
 ### M
 
 #### Método Ágil
+
+Desenvolvimento ágil de software ou
+[Método ágil](http://pt.wikipedia.org/wiki/Desenvolvimento_%C3%A1gil_de_software)
+é um conjunto de metodologias de desenvolvimento de software. O desenvolvimento ágil,
+tal como qualquer metodologia de software, providencia uma estrutura conceitual para
+reger projetos de engenharia de software.
+
+O [Manifesto Ágil](http://pt.wikipedia.org/wiki/Desenvolvimento_%C3%A1gil_de_software)
+é uma declaração de princípios que fundamentam o desenvolvimento ágil de software.
 
 ### O
 
