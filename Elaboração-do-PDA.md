@@ -4,8 +4,7 @@ permalink: /Elaboração-do-PDA/
 layout: slate
 filename: Elaboração-do-PDA.md
 title: Elaboração do PDA - Kit de Dados Abertos
-desc: Este documento se dispõe a resumir os principais passos do manual e trazer
-novas referências.
+desc: Este documento se dispõe a resumir os principais passos do manual e trazer novas referências.
 ---
 
 Elaboração do Plano de Dados Abertos
