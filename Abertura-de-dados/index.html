@@ -1,0 +1,245 @@
+<h1 id="processo-de-abertura-de-bases-de-dados">Processo de abertura de bases de dados</h1>
+
+<p>Este é o processo que será executado em cada projeto de abertura de dados
+(por exemplo, o projeto da abertura de uma base de dados de um sistema de
+informação de uma área de negócio específica). A depender da capacidade
+da instituição, poderá ser executada uma ou mais instâncias desse processo
+simultaneamente em um dado momento.</p>
+
+<p>Obs.: “Aberto por padrão”. <a name="restricao"></a>
+Este processo se refere às atividades para abertura dos dados de um
+sistema/solução pré-existente. São, na verdade, “correções” de sistemas
+que ainda não possuem dados abertos. É importante que, no futuro, os
+sistemas sejam projetados para que já forneçam dados desde sua concepção.
+Todo sistema informacional público que não lide com informações que se
+encontrem dentro das exceçõs da <a href="Glossário.md#lai">LAI</a> deve ter seus dados
+abertos por padrão.</p>
+
+<p><a href="https://raw.githubusercontent.com/dadosgovbr/kit/master/public/img/Processo%20Abertura%20base%20de%20dados%20-%20com%20titulo.png"><img alt="Diagrama do processo de abertura de um conjunto de dados" src="https://raw.githubusercontent.com/dadosgovbr/kit/master/public/img/Processo%20Abertura%20base%20de%20dados.png" /></a></p>
+
+<h2 id="documento-plano-de-dados-abertos---pda">Documento Plano de Dados Abertos - PDA</h2>
+
+<p>O PDA da instituição norteará o processo de abertura de
+dados quanto ao escopo, prazo estimado, partes interessadas, entre outros.
+Deve-se trazer do Plano de Dados Abertos para o Projeto de Abertura de Dados
+as suas partes que tratem dos seguintes aspectos:</p>
+
+<ul>
+  <li>Escopo
+    <ul>
+      <li><strong>dos dados</strong>: qual é (ou quais são) as bases de dados, quais são as tabelas,
+planilhas, parte ou secção dos dados é viável para essa iteração do
+processo de abertura;</li>
+      <li><strong>de granularidade</strong>: se os dados serão separados por algum critério
+temporal ou espacial;</li>
+      <li><strong>qualidade mínima tecnológica, definindo, por exemplo</strong>:
+        <ul>
+          <li>a forma de disponibilização dos dados (se será desenvolvida uma
+<a href="Glossário.md#api">API</a> de dados abertos ou se serão apenas
+disponibilizados arquivos com as extrações, por exemplo);</li>
+          <li>se será estabelecido algum relacionamento dos dados com uma fonte
+externa de dados abertos ou não;</li>
+          <li>se será realizada processo de higienização dos dados (por exemplo,
+correção de inconsistências ou de registros duplicados);</li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  <li>Prazo estimado, considerando:
+    <ul>
+      <li>compromissos que possam ter sido assumidos em
+outros planos além do PDA (ex.: planejamento estratégico institucional e
+de tecnologia da informação, plano diretor de tecnologia da informação,
+plano de ação da <a href="http://www.cgu.gov.br/governoaberto/">Parceria para Governo Aberto</a>, etc.);</li>
+      <li>capacidade de execução do projeto (quantitativo de pessoal capacitado,
+infraestrutura tecnológica, maturidade com o processo de abertura de
+dados);</li>
+    </ul>
+  </li>
+  <li>Partes interessadas: representante do comitê que acompanha a execução do
+  PDA, gestor da área responsável pelas bases de dados, especialistas com
+  conhecimento do negócio, gestor da área de TI, desenvolvedores,
+  analistas de dados, potenciais usuários (orgãos, empresas, especialistas), 
+  entre outros.</li>
+</ul>
+
+<p>Caso o Plano de Dados Abertos tenha sido omisso em relação a algum desses
+aspectos, eles deverão ser definidos durante a
+<a href="#reuni%C3%A3o-de-in%C3%ADcio-de-projeto">reunião de início de projeto</a>.</p>
+
+<p><em>Insumo para:</em></p>
+
+<ul>
+  <li><a href="#reuni%C3%A3o-de-in%C3%ADcio-de-projeto">Reunião de início de projeto</a></li>
+  <li><a href="#decidir-qualidade-m%C3%ADnima">Decidir qualidade mínima</a></li>
+</ul>
+
+<h2 id="reunio-de-incio-de-projeto">Reunião de início de projeto</h2>
+
+<p>Nessa primeira reunião entre as partes interessadas no projeto serão revisados
+o escopo e o prazo estimado do projeto, já definidos no <a href="#documento-plano-de-dados-abertos">Plano de Dados Abertos</a> 
+da instituição. Eventualmente algumas pessoas participarão transversalmente de 
+vários projetos de abertura de dados na instituição. Por exemplo, pessoas do 
+departamento de TI executando as atividades de fornecimento de infraestrutura e/ou desenvolvendo software.</p>
+
+<p>Um aspecto que tem grande impacto no escopo e prazo estimados para o projeto é
+a escolha da forma de publicação dos dados. Por exemplo, desenvolver uma API de
+dados abertos requer um maior esforço do que simplesmente publicar arquivos
+estáticos.
+Mas, se o volume de dados é grande, pode ser vantajoso para o cidadão poder se
+utilizar dos métodos de consulta e filtros que uma API pode oferecer para
+receber apenas os dados que lhe interessam.
+Algumas das considerações para se decidir sobre a necessidade ou não do
+desenvolvimento da API são mostradas no artigo chamado
+<a href="https://www.peterkrantz.com/2012/publishing-open-data-api-design/"><em>“Você realmente precisa de uma API ?”</em></a>.</p>
+
+<p><em>Próximo passo:</em> <a href="#solicitar-documenta%C3%A7%C3%A3o">Solicitar documentação</a></p>
+
+<h2 id="solicitar-documentao">Solicitar documentação</h2>
+
+<p>Solicitar esquema e documentação da base de dados. Ex.: modelos UML ou
+entidade-relacionamento, dicionário de dados, etc. Todo tipo de documentação
+ajuda às equipes de implementação a entender, em conjunto com especialistas
+de negócio, a melhor forma de estruturar os dados para sua publicação.</p>
+
+<p>Documentações relacionadas ao conjunto de dados são muito úteis, principalmente
+para os consumidores dos dados abertos e também devem ser juntamente <a href="#catalogar-no-dadosgovbr">catalogados
+com os dados no dados.gov.br</a>.</p>
+
+<p><em>Próximo passo:</em> <a href="#definir-estrutura-dos-dados">Definir estrutura dos dados</a></p>
+
+<h2 id="definir-estrutura-dos-dados">Definir estrutura dos dados</h2>
+
+<p>Nessa etapa também são definidos os formatos de saída dos dados.
+<a href="Glossário.md#xml">XML</a>, <a href="Glossário.md#csv">CSV</a> e
+<a href="Glossário.md#json">JSON</a> são úteis para situações específicas.</p>
+
+<p>As planilhas CSV têm a vantagem de poderem ser facilmente abertas e manipuladas em
+qualquer editor de planilhas, tais como Calc e Excel, inclusive por uma pessoa que
+não tenha conhecimentos de programação. Além disso, são igualmente fáceis de serem
+consumidas por aplicações.</p>
+
+<p>Os arquivos XML e JSON têm a vantagem de possibilitarem a validação de vários
+tipos de dados, tais como números inteiros ou decimais. Além disso, permitem
+aninhar as estruturas de dados em hierarquias, o que facilita trabalhar com os
+dados em comparação com a estrutura plana de colunas do CSV.
+Permitem também a inclusão de marcações de links para outros recursos de dados
+através da web.</p>
+
+<p>Em caso de publicação de planilhas CSV, definir e escrever a documentação de
+quais são e o que significam as colunas, bem como quais são os tipos de dados
+aceitáveis em cada coluna de cada planilha.</p>
+
+<p>Em caso de publicação de arquivos XML ou JSON, definir a estrutura básica do
+documento. É possível, mas não necessário, estabelecer documentos XML Schema
+ou JSON Schema para validação.</p>
+
+<p><em>Próximo passo:</em> <a href="#realizar-extra%C3%A7%C3%A3o">Realizar extração</a></p>
+
+<h2 id="realizar-extrao">Realizar extração</h2>
+
+<p>Realizar extração inicial dos dados, a partir do ambiente de produção da base
+de dados, para o local onde a base será disponibilizada como dados abertos.</p>
+
+<p>Por exemplo, se tiver sido decidido publicar os dados em arquivos csv, essa
+etapa contempla hospedar a extração em csv em um servidor de arquivos para a
+web. Se tiver sido decidido publicar uma API de dados abertos, essa etapa
+contempla a carga da base de dados que é acessada diretamente pela camada de
+aplicação da API.</p>
+
+<p><em>Próximo passo:</em> <a href="#decidir-qualidade-m%C3%ADnima">Decidir qualidade mínima</a></p>
+
+<h2 id="decidir-qualidade-mnima">Decidir qualidade mínima</h2>
+
+<p>A partir do momento em que os dados estejam à disposição para verificação da
+equipe técnica de implementação e dos especialistas de negócio, será avaliada
+a necessidade de higienização dos dados antes da publicação.</p>
+
+<p>Definir por acordo entre as partes interessadas a qualidade mínima dos dados
+abertos publicados, de forma a viabilizar a sua publicação tempestiva dentro
+da capacidade da instituição.</p>
+
+<p>Mais considerações sobre os requisitos dos dados podem ser encontradas na 
+<a href="http://dados.gov.br/cartilha-publicacao-dados-abertos/">Cartilha Técnica para Publicação de Dados Abertos no Brasil</a>
+, capítulo 6.</p>
+
+<p><em>Próximo passo:</em> <a href="#desenvolver-solução">Desenvolver API</a></p>
+
+<h2 id="desenvolver-soluo">Desenvolver solução</h2>
+
+<p>O trabalho a ser feito nessa etapa varia bastante, a depender do tipo de
+solução de dados abertos escolhida no
+<a href="(#reuni%C3%A3o-de-in%C3%ADcio-de-projeto)">início do projeto</a>:
+disponibilização de arquivos <a href="Glossário.md#csv">CSV</a>, de algum tipo de
+<a href="Glossário#dump"><em>dumps</em></a> dos dados, ou ainda, a criação de uma
+<a href="Glossário.md#api">API</a> de dados abertos.</p>
+
+<p>Nos casos da diponibilização de arquivos ou <em>dumps</em>, esta etapa contempla
+a criação dos scripts de <a href="Glossário.md#etl">ETL</a> que fazem a higienização
+dos dados decidida na <a href="#decidir-qualidade-mínima">etapa anterior</a>.</p>
+
+<p>No caso de desenvolvimento de uma API, esta etapa contempla
+o desenvolvimento do software que operará o serviço. Recomenda-se o uso de
+um <a href="Glossário.md#método-Ágil">método ágil</a> de desenvolvimento de software.</p>
+
+<p>Nesta etapa de desenvolvimento, pode-se ganhar muita produtividade ao
+utilizar <a href="README.md#ferramentas">ferramentas</a> apropriadas ao tipo de solução
+que está sendo desenvolvida.</p>
+
+<p>Em todos os casos, recomenda-se que os arquivos disponibilizados ou a API
+em desenvolvimento fiquem visíveis para toda a internet, de forma a
+reduzir as barreiras para que eventuais interessados em testar a solução
+(por exemplo, outro setor ou organização que tenham interesse em consumir
+os dados abertos) possam oferecer <em>feedback</em> durante o desenvolvimento e,
+assim, aprimorar a solução e garantir que quando ela esteja pronta atenda
+ao seu propósito de ser útil para os consumidores de dados.</p>
+
+<p><em>Próximo passo:</em> <a href="#atualiza%C3%A7%C3%A3o-autom%C3%A1tica">Atualização automática</a></p>
+
+<h2 id="atualizao-automtica">Atualização automática</h2>
+
+<p>Definir e implementar processo periódico automático de atualização dos dados.
+Esta etapa contempla a negociação da periodicidade e fluxo dos
+dados entre os ambientes que compõem a arquitetura da solução de abertura de
+dados, bem como a criação de scripts de transformação e carga
+(<a href="Glossário.md#etl">ETL</a>).</p>
+
+<p>Esse momento é importante para garantir a atualidade dos dados publicados, 
+que quanto mais atuais, mais valor possuem.</p>
+
+<p><em>Próximo passo:</em> <a href="#divulgar-dados-abertos">Divulgar dados abertos</a></p>
+
+<h2 id="divulgar-dados-abertos">Divulgar dados abertos</h2>
+
+<p>Uma vez que a solução de dados abertos esteja em condições de qualidade
+suficientes para o encerramento do presente projeto de abertura de dados,
+pode-se dar início à ampla divulgação dos seus resultados.</p>
+
+<p>Isso pode ser feito pelos canais de comunicação que o órgão possui e também
+naqueles que alcancem o público que já se antecipe estar interessado nos dados,
+tais como listas de discussão da <a href="Glossário.md#inda">INDA</a> e de
+<a href="Glossário.md#hacker-cívico">hackers cívicos</a>, bem como de organizações da
+sociedade civil que acompanham o tema finalístico dos dados.</p>
+
+<p>Nesse momento pode-se decidir pelo planejamento ou não de um futuro
+<a href="Glossário.md#hackathon">hackaton</a> ou concurso de dados abertos.</p>
+
+<p>É importante destacar ainda que os dados logicamente compreendem ativos
+digitais da instituição e por isso devem estar disponíveis e visíveis em
+local apropriado em seu próprio sítio.</p>
+
+<p><em>Próximo passo:</em> <a href="#catalogar-no-dadosgovbr">Catalogar no dados.gov.br</a></p>
+
+<h2 id="catalogar-no-dadosgovbr">Catalogar no dados.gov.br</h2>
+
+<p>O objetivo dessa catalogação é tornar os dados “descobríveis” na web para seus 
+interessados. Isso aumenta as chances das pessoas encontrarem os dados 
+prontamente, sem precisar recorrer ao <a href="Glossário.md#sic">SIC</a> da sua
+organização.</p>
+
+<p>Para catalogar o novo conjunto de dados no <a href="http://dados.gov.br">dados.gov.br</a> 
+é necessário levantar um conjunto mínimo de metadados que são utilizados no portal 
+Esses metadados estão melhor descritos na
+<a href="http://dados.gov.br/cartilha-publicacao-dados-abertos/">Cartilha Técnica para Publicação de Dados Abertos no Brasil</a>
+, capítulo 7.</p>
+
