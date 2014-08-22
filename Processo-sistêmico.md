@@ -27,7 +27,9 @@ Mediada pelo responsável pela política central de dados abertos.
 
 ## Definir ponto focal para coordenar o trabalho <a name="ponto-focal"></a>
 
-Definir ponto focal na instituição para coordenar a elaboração do PDA.
+Definir ponto focal na instituição para coordenar a elaboração do PDA. Essa pessoa é 
+quem interage com as outras organizações e com a INDA no sentido de trocar experiências
+e alinhar a política de dados abertos.
 
 Perfil:
 
