@@ -1,6 +1,6 @@
 ---
 published: true
-permalink: /Execução-do-PDA/
+permalink: /
 layout: slate
 filename: Execução-do-PDA.md
 title: Execução do PDA - Kit de Dados Abertos
@@ -19,7 +19,7 @@ na organização se divide nos seguintes passos:
 
 ## Reunir representantes das áreas de negócio
 
-Considerando que num primeiro momento o gestor [identificou os representantes das áreas estratégicas]({{ site.baseurl }}/Processo-sistêmico#representantes), essa atividade consiste basicamente em acertar as agendas desses representantes para as reuniões periódicas de monitoramento, necessárias para acompanhar se as metas do plano estão sendo cumpridas.
+Considerando que num primeiro momento o gestor [identificou os representantes das áreas estratégicas](Processo-sistêmico#representantes), essa atividade consiste basicamente em acertar as agendas desses representantes para as reuniões periódicas de monitoramento, necessárias para acompanhar se as metas do plano estão sendo cumpridas.
 
 ## Definir Papéis e responsabilidades
 
