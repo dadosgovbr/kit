@@ -8,7 +8,14 @@ políticas e da implementação de dados abertos.
 
 ### A
 
+#### API
+
 #### Arquivo Legível por Máquina
+
+[Arquivo Legível por Máquina](https://www.niem.gov/glossary/Pages/Glossary.aspx?alpha=M)
+refere-se a informações ou dados que estejam em um formato que pode ser
+facilmente processado por um computador, sem intervenção humana,
+assegurando nenhum significado semântico está perdido
 
 ### C
 
@@ -82,7 +89,20 @@ sistema de destino. É considerada uma das fases mais críticas do Data Warehous
 
 #### Hackathon
 
+Um [hackathon](http://en.wikipedia.org/wiki/Hackathon)
+(também conhecido como um Hack Day, Hackfest ou codefest) é um
+evento em que programadores e outras pessoas envolvidas em desenvolvimento
+de software, incluindo designers gráficos, designers de interface e gerentes
+de projeto, colaboram intensamente em projetos de software em um período
+de tempo curto, que pode durar de 24 horas a 1 semana.
+
 #### Hacker Cívico
+
+[Hacker Cívico](http://www.codeforamerica.org/blog/2013/05/06/what-is-a-civic-hacker/)
+são tecnólogos, servidores públicos, designers, empresários, engenheiros -
+qualquer um - que está disposto a colaborar com os outros para criar, construir e
+inventar para resolver problemas relevantes para nossos bairros, nossas cidades,
+nossos estados e nosso país.
 
 ### J
 
@@ -143,7 +163,8 @@ simplicidade e padronização.
 
 #### OGP
 
-*Vide [Parceria para Governo Aberto](#parceria-para-governo-aberto)*
+OGP é o acrônimo para Open Government Partnership traduzindo em português para
+Parceria para Governo Aberto - *Vide [Parceria para Governo Aberto](#parceria-para-governo-aberto)*
 
 ### P
 
@@ -170,6 +191,11 @@ ao acesso à informação pública e à participação social.
 ### S
 
 #### Software Livre
+
+[Software Livre](https://pt.wikipedia.org/wiki/Software_livre) é uma forma de manifestação
+de um software em que, resumidamente, permite-se adaptações ou modificações em seu código
+de forma espontânea, ou seja, sem que haja a necessidade de solicitar permissão ao seu
+proprietário para modificá-lo.
 
 #### SIC
 
