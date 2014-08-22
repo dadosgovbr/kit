@@ -7,9 +7,6 @@ title: Kit de Dados Abertos
 desc: O kit é um conjunto de documentos que descreve o processo, métodos e técnicas para a implementação de uma política de dados abertos no âmbito de uma instituição.
 ---
 
-Kit de dados abertos
-====
-
 O kit é um conjunto de documentos que descreve o processo, métodos e técnicas para a implementação de uma política de dados abertos no âmbito de uma instituição. Ele é primariamente focado em órgãos e entidades da administração pública federal para a criação e implementação de seus respectivos [Planos de Dados Abertos](Glossário.md#plano-de-dados-abertos) (PDAs), mas procura ser genérico o suficiente para que possa ser aproveitado em outras instituições.
 
 ## Contexto e objetivo
@@ -24,7 +21,7 @@ As organizações que desenvolvem Planos de Dados Abertos precisam de orientaç�
 ## Definições e conceitos
 
 1. [O que são dados abertos](http://dados.gov.br/dados-abertos/) - Definições básicas sobre características dos dados abertos
-2. [Vantagens de publicar dados abertos](vantagens-dados-abertos.md)
+2. [Vantagens de publicar dados abertos](vantagens-dados-abertos)
 3. [Parceria para Governo Aberto](http://www.cgu.gov.br/governoaberto/a-ogp/iniciativa.asp) - Sobre a parceria internacional
 4. O [Portal Brasileiro de Dados Abertos](http://dados.gov.br/sobre/) - Sobre o catálogo de dados
 5. O que é a [Infraestrutura Nacional de Dados Abertos - INDA](http://dados.gov.br/instrucao-normativa-da-inda/)
