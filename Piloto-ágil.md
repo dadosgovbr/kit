@@ -18,3 +18,11 @@ mas simplificando várias fases.
   os futuros projetos de abertura de dados, tais como capacitação de pessoal,
   aquisição de infraestrutura, etc.
 
+## Passos
+
+O piloto ágil usa somente alguns passos processo de abertura de bases de dados:
+
+* [Extração de dados](Abertura-de-dados.md#realizar-extra%C3%A7%C3%A3o)
+* [Definir qualidade mínima dos dados](Abertura-de-dados.md#decidir-qualidade-m%C3%ADnima)
+* [Desenvolver a solução](Abertura-de-dados.md#desenvolver-solu%C3%A7%C3%A3o)
+* [Divulgar os dados abertos](Abertura-de-dados.md#divulgar-dados-abertos)
