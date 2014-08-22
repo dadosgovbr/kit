@@ -75,13 +75,16 @@ A oficina tem dois momentos:
 1. Alinhamento de conceitos sobre o tema, demonstrando não só a questão normativa, como 
 também de que maneira os mecanismos de transparência vêm se consolidando.
 2. Momento de construção do PDA, no qual são apresentados os conceitos presentes 
-neste Kit e realizado o planejamento.
+neste Kit e iniciado o planejamento.
 
 *Próximo passo:* [Plano de ação para elaboração do PDA](#plano-para-pda)
 
 ## Plano de ação para elaboração do PDA <a name="plano-para-pda"></a>
 
-Plano de ação para elaboração do PDA da instituição
+Plano de ação para elaboração do PDA da instituição. Esse plano nada mais é que um cronograma
+de reuniões nas quais todos os representantes precisam estar presentes para dar continuidade
+à produção do Plano. No Ministério do Planejamento, por exemplo, foi reaproveitado o 
+comitê de TI, que já possuia presença de todas as áreas de negócio e a área de TI.
 
 *Próximo passo:* Iniciar [processo de Elaboração do PDA](#elaborar-pda)
 
