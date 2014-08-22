@@ -2,8 +2,15 @@ Processo Piloto Ágil
 ====
 
 Este é o processo pelo qual a instituição realiza um piloto ágil de abertura
-de dados. Ele consiste basicamente no processo de [Abertura de bases de dados](Abertura-de-dados.md), 
+de dados. Ele consiste basicamente no processo de
+[Abertura de bases de dados](Abertura-de-dados.md), 
 mas simplificando várias fases.
+
+Observa-se também que o piloto ágil antecede a elaboração do
+[PDA](Glossário.md#pda). De fato, as dificuldades encontradas e lições
+aprendidas servirão como uma forma de levantar as forças e necessidades da
+instituição em relação ao tema e melhor estimar os prazos dos projetos de
+abertura.
 
 ## Objetivos
 
@@ -26,3 +33,5 @@ O piloto ágil usa somente alguns passos processo de abertura de bases de dados:
 * [Definir qualidade mínima dos dados](Abertura-de-dados.md#decidir-qualidade-m%C3%ADnima)
 * [Desenvolver a solução](Abertura-de-dados.md#desenvolver-solu%C3%A7%C3%A3o)
 * [Divulgar os dados abertos](Abertura-de-dados.md#divulgar-dados-abertos)
+* [Catalogar no dados.gov.br](Abertura-de-dados.md#catalogar-no-dadosgovbr)
+
