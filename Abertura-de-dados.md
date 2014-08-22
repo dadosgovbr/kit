@@ -22,7 +22,7 @@ sistema/solução pré-existente. São, na verdade, "correções" de sistemas
 que ainda não possuem dados abertos. É importante que, no futuro, os
 sistemas sejam projetados para que já forneçam dados desde sua concepção.
 Todo sistema informacional público que não lide com informações que se
-encontrem dentro das exceçõs da [LAI](Glossário.md#lai) deve ter seus dados
+encontrem dentro das exceçõs da [LAI](Glossário#lai) deve ter seus dados
 abertos por padrão.
 
 [<img alt="Diagrama do processo de abertura de um conjunto de dados" src="https://raw.githubusercontent.com/dadosgovbr/kit/master/public/img/Processo%20Abertura%20base%20de%20dados.png">](https://raw.githubusercontent.com/dadosgovbr/kit/master/public/img/Processo%20Abertura%20base%20de%20dados%20-%20com%20titulo.png)
@@ -42,7 +42,7 @@ as suas partes que tratem dos seguintes aspectos:
     temporal ou espacial;
   * **qualidade mínima tecnológica, definindo, por exemplo**:
     * a forma de disponibilização dos dados (se será desenvolvida uma
-      [API](Glossário.md#api) de dados abertos ou se serão apenas
+      [API](Glossário#api) de dados abertos ou se serão apenas
       disponibilizados arquivos com as extrações, por exemplo);
     * se será estabelecido algum relacionamento dos dados com uma fonte
       externa de dados abertos ou não;
@@ -108,8 +108,8 @@ com os dados no dados.gov.br](#catalogar-no-dadosgovbr).
 ## Definir estrutura dos dados
 
 Nessa etapa também são definidos os formatos de saída dos dados.
-[XML](Glossário.md#xml), [CSV](Glossário.md#csv) e
-[JSON](Glossário.md#json) são úteis para situações específicas.
+[XML](Glossário#xml), [CSV](Glossário#csv) e
+[JSON](Glossário#json) são úteis para situações específicas.
 
 As planilhas CSV têm a vantagem de poderem ser facilmente abertas e manipuladas em
 qualquer editor de planilhas, tais como Calc e Excel, inclusive por uma pessoa que
@@ -167,20 +167,20 @@ Mais considerações sobre os requisitos dos dados podem ser encontradas na
 O trabalho a ser feito nessa etapa varia bastante, a depender do tipo de
 solução de dados abertos escolhida no
 [início do projeto]((#reuni%C3%A3o-de-in%C3%ADcio-de-projeto)):
-disponibilização de arquivos [CSV](Glossário.md#csv), de algum tipo de
+disponibilização de arquivos [CSV](Glossário#csv), de algum tipo de
 [_dumps_](Glossário#dump) dos dados, ou ainda, a criação de uma
-[API](Glossário.md#api) de dados abertos.
+[API](Glossário#api) de dados abertos.
 
 Nos casos da diponibilização de arquivos ou _dumps_, esta etapa contempla
-a criação dos scripts de [ETL](Glossário.md#etl) que fazem a higienização
+a criação dos scripts de [ETL](Glossário#etl) que fazem a higienização
 dos dados decidida na [etapa anterior](#decidir-qualidade-mínima).
 
 No caso de desenvolvimento de uma API, esta etapa contempla
 o desenvolvimento do software que operará o serviço. Recomenda-se o uso de
-um [método ágil](Glossário.md#método-Ágil) de desenvolvimento de software.
+um [método ágil](Glossário#método-Ágil) de desenvolvimento de software.
 
 Nesta etapa de desenvolvimento, pode-se ganhar muita produtividade ao
-utilizar [ferramentas](README.md#ferramentas) apropriadas ao tipo de solução
+utilizar [ferramentas](README#ferramentas) apropriadas ao tipo de solução
 que está sendo desenvolvida.
 
 Em todos os casos, recomenda-se que os arquivos disponibilizados ou a API
@@ -199,7 +199,7 @@ Definir e implementar processo periódico automático de atualização dos dados
 Esta etapa contempla a negociação da periodicidade e fluxo dos
 dados entre os ambientes que compõem a arquitetura da solução de abertura de
 dados, bem como a criação de scripts de transformação e carga
-([ETL](Glossário.md#etl)).
+([ETL](Glossário#etl)).
 
 Esse momento é importante para garantir a atualidade dos dados publicados, 
 que quanto mais atuais, mais valor possuem.
@@ -214,12 +214,12 @@ pode-se dar início à ampla divulgação dos seus resultados.
 
 Isso pode ser feito pelos canais de comunicação que o órgão possui e também
 naqueles que alcancem o público que já se antecipe estar interessado nos dados,
-tais como listas de discussão da [INDA](Glossário.md#inda) e de
-[hackers cívicos](Glossário.md#hacker-cívico), bem como de organizações da
+tais como listas de discussão da [INDA](Glossário#inda) e de
+[hackers cívicos](Glossário#hacker-cívico), bem como de organizações da
 sociedade civil que acompanham o tema finalístico dos dados.
 
 Nesse momento pode-se decidir pelo planejamento ou não de um futuro
-[hackaton](Glossário.md#hackathon) ou concurso de dados abertos.
+[hackaton](Glossário#hackathon) ou concurso de dados abertos.
 
 É importante destacar ainda que os dados logicamente compreendem ativos
 digitais da instituição e por isso devem estar disponíveis e visíveis em
@@ -231,7 +231,7 @@ local apropriado em seu próprio sítio.
 
 O objetivo dessa catalogação é tornar os dados "descobríveis" na web para seus 
 interessados. Isso aumenta as chances das pessoas encontrarem os dados 
-prontamente, sem precisar recorrer ao [SIC](Glossário.md#sic) da sua
+prontamente, sem precisar recorrer ao [SIC](Glossário#sic) da sua
 organização.
 
 Para catalogar o novo conjunto de dados no [dados.gov.br](http://dados.gov.br) 

@@ -7,7 +7,7 @@ title: Kit de Dados Abertos
 desc: O kit é um conjunto de documentos que descreve o processo, métodos e técnicas para a implementação de uma política de dados abertos no âmbito de uma instituição.
 ---
 
-O kit é um conjunto de documentos que descreve o processo, métodos e técnicas para a implementação de uma política de dados abertos no âmbito de uma instituição. Ele é primariamente focado em órgãos e entidades da administração pública federal para a criação e implementação de seus respectivos [Planos de Dados Abertos](Glossário.md#plano-de-dados-abertos) (PDAs), mas procura ser genérico o suficiente para que possa ser aproveitado em outras instituições.
+O kit é um conjunto de documentos que descreve o processo, métodos e técnicas para a implementação de uma política de dados abertos no âmbito de uma instituição. Ele é primariamente focado em órgãos e entidades da administração pública federal para a criação e implementação de seus respectivos [Planos de Dados Abertos](Glossário#plano-de-dados-abertos) (PDAs), mas procura ser genérico o suficiente para que possa ser aproveitado em outras instituições.
 
 ## Contexto e objetivo
 
@@ -25,26 +25,26 @@ As organizações que desenvolvem Planos de Dados Abertos precisam de orientaç�
 3. [Parceria para Governo Aberto](http://www.cgu.gov.br/governoaberto/a-ogp/iniciativa.asp) - Sobre a parceria internacional
 4. O [Portal Brasileiro de Dados Abertos](http://dados.gov.br/sobre/) - Sobre o catálogo de dados
 5. O que é a [Infraestrutura Nacional de Dados Abertos - INDA](http://dados.gov.br/instrucao-normativa-da-inda/)
-6. [Glossário](Glossário.md) dos termos utilizados neste kit
+6. [Glossário](Glossário) dos termos utilizados neste kit
 
 ## Guia para implementação de um Plano de Dados Abertos
 
 A criação e implementação de um Plano de Dados Abertos para uma instituição pode ser organizado em fluxos de atividade como no diagrama a seguir:
 
-[<img alt="Diagrama do processo sistêmico de um plano de dados abertos" src="https://raw.githubusercontent.com/dadosgovbr/kit/master/public/img/Processo%20Sist%C3%AAmico%20de%20um%20PDA.png">](Processo-sist%C3%AAmico.md)
+[<img alt="Diagrama do processo sistêmico de um plano de dados abertos" src="https://raw.githubusercontent.com/dadosgovbr/kit/master/public/img/Processo%20Sist%C3%AAmico%20de%20um%20PDA.png">](Processo-sist%C3%AAmico)
 
-Esse processo pode ser visto com maiores detalhes no documento [Processo sistêmico de um Plano de Dados Abertos - PDA](Processo-sist%C3%AAmico.md).
+Esse processo pode ser visto com maiores detalhes no documento [Processo sistêmico de um Plano de Dados Abertos - PDA](Processo-sist%C3%AAmico).
 
 Os seguintes subprocessos estão detalhados:
 
-* [Elaboração de um PDA](Elabora%C3%A7%C3%A3o-do-PDA.md)
-* [Execução de um PDA](Execu%C3%A7%C3%A3o-do-PDA.md)
-  * [Abertura de bases de dados](Abertura-de-dados.md)
+* [Elaboração de um PDA](Elabora%C3%A7%C3%A3o-do-PDA)
+* [Execução de um PDA](Execu%C3%A7%C3%A3o-do-PDA)
+  * [Abertura de bases de dados](Abertura-de-dados)
 
 
 ## Ferramentas
 
-Esta seção é uma lista exemplificativa, e não exaustiva, de ferramentas úteis para [projetos de abertura de dados](Abertura-de-dados.md). Todas são ferramentas livres, criadas por comunidades de [software livre](Glossário.md#software-livre), e podem ser utilizadas pelos órgãos governamentais sem restrição. Em geral, são soluções para extração, manipulação e preparação dos dados para sua publicação na Internet. A lista é baseada no [_Project Open Data_](http://project-open-data.github.io/#tools) e [_ODI open data tech review_](https://github.com/dadosgovbr/open-data-tech-review/wiki). Contudo, está restrita a ferramentas que podem ser utilizadas sem a necessidade de conhecimentos de programação.
+Esta seção é uma lista exemplificativa, e não exaustiva, de ferramentas úteis para [projetos de abertura de dados](Abertura-de-dados). Todas são ferramentas livres, criadas por comunidades de [software livre](Glossário#software-livre), e podem ser utilizadas pelos órgãos governamentais sem restrição. Em geral, são soluções para extração, manipulação e preparação dos dados para sua publicação na Internet. A lista é baseada no [_Project Open Data_](http://project-open-data.github.io/#tools) e [_ODI open data tech review_](https://github.com/dadosgovbr/open-data-tech-review/wiki). Contudo, está restrita a ferramentas que podem ser utilizadas sem a necessidade de conhecimentos de programação.
 
 ### Criação de APIs de dados abertos
 

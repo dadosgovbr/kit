@@ -19,7 +19,7 @@ Abaixo segue um detalhamento das etapas envolvidas nesse processo:
 ## Apresentar a política de dados abertos <a name="apresentar-politica"></a>
 
 Apresentar a política de dados abertos e motivação de criação do PDA para alcançar 
-alinhamento com líder da instituição. Motivações como [essas](vantagens-dados-abertos.md) são apresentadas aos
+alinhamento com líder da instituição. Motivações como [essas](vantagens-dados-abertos) são apresentadas aos
 responsáveis, bem como o alinhamento político sobre a criação do PDA é retomado.
 
 Mediada pelo responsável pela política central de dados abertos.
@@ -45,7 +45,7 @@ Perfil:
 
 ## Processo Piloto Ágil <a name="piloto"></a>
 
-Iniciar [piloto ágil de abertura de um conjunto de dados](Piloto-ágil.md) (opcional). 
+Iniciar [piloto ágil de abertura de um conjunto de dados](Piloto-ágil) (opcional). 
 O Objetivo do piloto é a equipe experimentar, de forma muito rápida, todo o processo de
 publicação de dados abertos. Isso dá uma noção do escopo da publicação de dados abertos, 
 ajudando na tomada de decisões durante as próximas atividades de abertura.
@@ -91,7 +91,7 @@ comitê de TI, que já possuia presença de todas as áreas de negócio e a áre
 
 ## Processo de Elaboração do PDA <a name="elaborar-pda"></a>
 
-[Elaboração do Plano de Dados Abertos](https://github.com/dadosgovbr/kit/blob/master/Elabora%C3%A7%C3%A3o-do-PDA.md) (Processo iterativo)
+[Elaboração do Plano de Dados Abertos](https://github.com/dadosgovbr/kit/blob/master/Elabora%C3%A7%C3%A3o-do-PDA) (Processo iterativo)
 
 *Próximos passos:*
 
@@ -116,5 +116,5 @@ exemplo.gov.br/aberto da instituição. Exemplo [http://planejamento.gov.br/aber
 
 ## Execução do PDA <a name="execucao-pda"></a>
 
-[Execução do Plano de Dados Abertos](https://github.com/dadosgovbr/kit/blob/master/Execu%C3%A7%C3%A3o-do-PDA.md).
+[Execução do Plano de Dados Abertos](https://github.com/dadosgovbr/kit/blob/master/Execu%C3%A7%C3%A3o-do-PDA).
 Dispara vários processos de abertura de dados, como previsto no cronograma do PDA.
