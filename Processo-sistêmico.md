@@ -59,6 +59,11 @@ Identificação de reprensentantes nos seguintes setores da instituição:
 * Ouvidoria e
 * áreas finalísticas
 
+Esses representantes possuem todo o conhecimento necessário para a criação de 
+um PDA realista e factível, o SIC sabe por exemplo quais dados são mais pedidos, o gestor
+de TI sabe por exemplo quais dados são mais rápidos de extrair e quais podem 
+oferecer dificuldade, etc.
+
 *Próximo passo:* Iniciar [Oficina para construção do PDA da instituição](#oficina)
 
 ## Oficina para construção do PDA da instituição <a name="oficina"></a>
