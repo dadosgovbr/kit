@@ -6,6 +6,10 @@ políticas e da implementação de dados abertos.
 
 ## Termos
 
+### A
+
+#### Arquivo Legível por Máquina
+
 ### C
 
 #### CSV
