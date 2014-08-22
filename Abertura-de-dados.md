@@ -32,9 +32,9 @@ as suas partes que tratem dos seguintes aspectos:
   * **de granularidade**: se os dados serão separados por algum critério
     temporal ou espacial;
   * **qualidade mínima tecnológica, definindo, por exemplo**:
-    * a forma de disponibilização dos dados (se será desenvolvida uma API de
-      dados abertos ou se serão apenas disponibilizados arquivos com as
-      extrações, por exemplo);
+    * a forma de disponibilização dos dados (se será desenvolvida uma
+      [API](Glossário.md#api) de dados abertos ou se serão apenas
+      disponibilizados arquivos com as extrações, por exemplo);
     * se será estabelecido algum relacionamento dos dados com uma fonte
       externa de dados abertos ou não;
     * se será realizada processo de higienização dos dados (por exemplo,
@@ -98,8 +98,9 @@ com os dados no dados.gov.br](#catalogar-no-dadosgovbr).
 
 ## Definir estrutura dos dados
 
-Nessa etapa também são definidos os formatos de saída dos dados. XML, CSV e
-JSON são úteis para situações específicas.
+Nessa etapa também são definidos os formatos de saída dos dados.
+[XML](Glossário.md#xml), [CSV](Glossário.md#csv) e
+[JSON](Glossário.md#json) são úteis para situações específicas.
 
 As planilhas CSV têm a vantagem de poderem ser facilmente abertas e manipuladas em
 qualquer editor de planilhas, tais como Calc e Excel, inclusive por uma pessoa que
@@ -167,7 +168,7 @@ dos dados decidida na [etapa anterior](#decidir-qualidade-mínima).
 
 No caso de desenvolvimento de uma API, esta etapa contempla
 o desenvolvimento do software que operará o serviço. Recomenda-se o uso de
-um [método ágil](Glossário.md#método-ágil) de desenvolvimento de software.
+um [método ágil](Glossário.md#método-Ágil) de desenvolvimento de software.
 
 Nesta etapa de desenvolvimento, pode-se ganhar muita produtividade ao
 utilizar [ferramentas](README.md#ferramentas) apropriadas ao tipo de solução
@@ -204,12 +205,12 @@ pode-se dar início à ampla divulgação dos seus resultados.
 
 Isso pode ser feito pelos canais de comunicação que o órgão possui e também
 naqueles que alcancem o público que já se antecipe estar interessado nos dados,
-tais como listas de discussão da [INDA](Glossário#inda) e de
-[hackers cívicos](Glossário.md#hackers-cívicos), bem como de organizações da
+tais como listas de discussão da [INDA](Glossário.md#inda) e de
+[hackers cívicos](Glossário.md#hacker-cívico), bem como de organizações da
 sociedade civil que acompanham o tema finalístico dos dados.
 
 Nesse momento pode-se decidir pelo planejamento ou não de um futuro
-[hackaton](Glossário.md#hackaton) ou concurso de dados abertos.
+[hackaton](Glossário.md#hackathon) ou concurso de dados abertos.
 
 É importante destacar ainda que os dados logicamente compreendem ativos
 digitais da instituição e por isso devem estar disponíveis e visíveis em
