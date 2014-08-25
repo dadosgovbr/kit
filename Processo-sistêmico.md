@@ -19,7 +19,7 @@ Abaixo segue um detalhamento das etapas envolvidas nesse processo:
 ## Apresentar a política de dados abertos <a name="apresentar-politica"></a>
 
 Apresentar a política de dados abertos e motivação de criação do PDA para alcançar 
-alinhamento com líder da instituição. Motivações como [essas](vantagens-dados-abertos) são apresentadas aos
+alinhamento com líder da instituição. Motivações como [essas]({{ site.baseurl }}vantagens-dados-abertos) são apresentadas aos
 responsáveis, bem como o alinhamento político sobre a criação do PDA é retomado.
 
 Mediada pelo responsável pela política central de dados abertos.
@@ -45,7 +45,7 @@ Perfil:
 
 ## Processo Piloto Ágil <a name="piloto"></a>
 
-Iniciar [piloto ágil de abertura de um conjunto de dados](Piloto-ágil) (opcional). 
+Iniciar [piloto ágil de abertura de um conjunto de dados]({{ site.baseurl }}Piloto-ágil) (opcional). 
 O Objetivo do piloto é a equipe experimentar, de forma muito rápida, todo o processo de
 publicação de dados abertos. Isso dá uma noção do escopo da publicação de dados abertos, 
 ajudando na tomada de decisões durante as próximas atividades de abertura.
