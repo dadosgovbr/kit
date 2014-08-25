@@ -91,7 +91,7 @@ comitê de TI, que já possuia presença de todas as áreas de negócio e a áre
 
 ## Processo de Elaboração do PDA <a name="elaborar-pda"></a>
 
-[Elaboração do Plano de Dados Abertos](https://github.com/dadosgovbr/kit/blob/master/Elabora%C3%A7%C3%A3o-do-PDA) (Processo iterativo)
+[Elaboração do Plano de Dados Abertos]({{ site.baseurl }}Elabora%C3%A7%C3%A3o-do-PDA) (Processo iterativo)
 
 *Próximos passos:*
 
@@ -116,5 +116,6 @@ exemplo.gov.br/aberto da instituição. Exemplo [http://planejamento.gov.br/aber
 
 ## Execução do PDA <a name="execucao-pda"></a>
 
-[Execução do Plano de Dados Abertos](https://github.com/dadosgovbr/kit/blob/master/Execu%C3%A7%C3%A3o-do-PDA).
+[Execução do Plano de Dados Abertos]({{ site.baseurl }}Execu%C3%A7%C3%A3o-do-PDA).
 Dispara vários processos de abertura de dados, como previsto no cronograma do PDA.
+
