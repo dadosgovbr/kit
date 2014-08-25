@@ -150,7 +150,7 @@ nativo de armazenamento em alguns bancos de dados modernos.
 
 #### Lei de Acesso à Informação
 
-A [Lei nº 12.527/2011](), conhecida como Lei de Acesso à Informação - LAI, regulamenta 
+A [Lei nº 12.527/2011](http://www.lexml.gov.br/urn/urn:lex:br:federal:lei:2011-11-18;12527), conhecida como Lei de Acesso à Informação - LAI, regulamenta 
 o direito, previsto na Constituição, de qualquer pessoa solicitar e receber dos 
 órgãos e entidades públicos, de todos os entes e Poderes, informações públicas 
 por eles produzidas ou custodiadas.
