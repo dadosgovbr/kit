@@ -18,7 +18,7 @@ novas referências.
 Antes de mergulhar na construção do PDA, há uma etapa anterior muito importante:
 Definir quem serão os responsáveis pela iniciativa e reunir as pessoas
 relevantes para as atividades em questão. Essas atividades estão estruturadas no
-[processo sistêmico](/Processo-sistêmico),
+[processo sistêmico]({{ site.baseurl }}Processo-sistêmico),
 vale a pena conferir antes de começar..
 
 De maneira resumida, o processo de criação do PDA se resume a 4 etapas:
