@@ -54,11 +54,11 @@ ajudando na tomada de decisões durante as próximas atividades de abertura.
 
 Identificação de reprensentantes nos seguintes setores da instituição:
 
-* área de tecnologia da informação, 
 * Serviço de Informação ao Cidadão,
 * Assessoria de Comunicação Social,
-* Ouvidoria e
-* áreas finalísticas
+* Ouvidoria,
+* Áreas finalísticas e
+* Área de Tecnologia da Informação 
 
 Esses representantes possuem todo o conhecimento necessário para a criação de 
 um PDA realista e factível, o SIC sabe por exemplo quais dados são mais pedidos, o gestor
