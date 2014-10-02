@@ -262,7 +262,7 @@ form {
   font-size: 14px;
   border: none;
   border-spacing: 2;
-  border-collapse: separate;
+  border-collapse: collapse;
   background: white;
 }
 

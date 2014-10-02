@@ -9,6 +9,8 @@ desc: Neste mapa são apresentadas diversas formas de publicação de dados aber
 
 ## Mapa de decisões tecnológicas
 
+A tabela abaixo mostra as soluções mais comuns para publicar dados abertos, ordenadas por complexidade e prazo de implementação.
+
 <!---
 Abaixo o código HTML da tabela, markdown não suporta colspan.
 --->
