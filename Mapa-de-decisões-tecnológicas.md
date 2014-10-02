@@ -7,11 +7,300 @@ title: Mapa de decisões - Kit de Dados Abertos
 desc: Neste mapa são apresentadas diversas formas de publicação de dados abertos, dando ao gestor parâmetros de apoio à decisão.
 ---
 
+## Mapa de decisões tecnológicas
+
 <!---
-Abaixo o código HTML da tabela, markdown não suporta colspan. Melhorar isso =p
+Abaixo o código HTML da tabela, markdown não suporta colspan.
 --->
 
-<table><colgroup><col width="118"/><col width="424"/><col width="302"/><col width="200"/><col width="117"/></colgroup><tr ><td  ><p>Complexidade</p></td><td  ><p>Solução</p></td><td  ><p>Pré-requisitos</p></td><td  ><p>Prazo de implementação</p></td><td  > </td></tr><tr ><td rowspan="2"  ><p>1</p></td><td rowspan="2"  ><p>Publicar dump da base de dados</p></td><td  ><p>Acesso à base de dados</p></td><td rowspan="2"  ><p>Curto<br/></p></td><td  > </td></tr><tr ><td  ><p>Servidor web para arquivos</p></td><td  > </td></tr><tr ><td rowspan="2"  ><p>2</p></td><td rowspan="2"  ><p>Publicar dados em arquivos CSV</p></td><td  ><p>Mecanismo de ETL (caso esteja em banco relacional)</p></td><td rowspan="2"  ><p>Curto<br/></p></td><td  > </td></tr><tr ><td  ><p>Servidor web para arquivos</p></td><td  > </td></tr><tr ><td rowspan="3"  ><p>3</p></td><td rowspan="3"  ><p>Publicar dados em arquivos JSON / XML</p></td><td  ><p>Mecanismo de ETL (caso esteja em banco relacional)</p></td><td rowspan="3"  ><p>Médio</p></td><td  > </td></tr><tr ><td  ><p>Serviço de desenvolvimento</p></td><td  > </td></tr><tr ><td  ><p>Servidor web para arquivos</p></td><td  > </td></tr><tr ><td rowspan="2"  ><p>4</p></td><td rowspan="2"  ><p>Desenvolver módulo de dados abertos em sistema existente</p></td><td  ><p>Serviço de desenvolvimento</p></td><td rowspan="2"  ><p>Longo</p></td><td  > </td></tr><tr ><td  ><p>Servidor web para deploy da nova solução</p></td><td  > </td></tr><tr ><td rowspan="3"  ><p>5</p></td><td rowspan="3"  ><p>Desenvolver API RESTful de dados abertos desacoplada da solução</p></td><td  ><p>Mecanismo de ETL</p></td><td rowspan="3"  ><p>Longo</p></td><td  > </td></tr><tr ><td  ><p>Serviço de desenvolvimento</p></td><td  > </td></tr><tr ><td  ><p>Servidor web para deploy da nova solução</p></td><td  > </td></tr><tr ><td rowspan="3"  ><p>6</p></td><td rowspan="3"  ><p>Novo Sistema, com a gestão de dados incorporados em sua arquitetura</p></td><td  ><p>Mecanismo de ETL</p></td><td rowspan="3"  ><p>Longo</p></td><td  > </td></tr><tr ><td  ><p>Serviço de desenvolvimento</p></td><td  > </td></tr><tr ><td  ><p>Servidor web para deploy da nova solução</p></td><td  > </td></tr><tr ><td rowspan="3"  ><p>8</p></td><td rowspan="3"  ><p>Publicar dados em arquivos RDF</p></td><td  ><p>Ontologia da área do conhecimento do sistema</p></td><td rowspan="3"  ><p>Longo</p></td><td  > </td></tr><tr ><td  ><p>Mecanismo de ETL</p></td><td  > </td></tr><tr ><td  ><p>Servidor web para arquivos</p></td><td  > </td></tr><tr ><td rowspan="3"  ><p>9</p></td><td rowspan="3"  ><p>Disponibilizar dados por Endpoint SPARQL</p></td><td  ><p>Ontologia da área do conhecimento do sistema</p></td><td rowspan="3"  ><p>Mais Longo</p></td><td  > </td></tr><tr ><td  ><p>Serviço de ETL</p></td><td  > </td></tr><tr ><td  ><p>Banco de dados de triplas</p></td><td  > </td></tr><tr ><td rowspan="5"  ><p>11</p></td><td rowspan="5"  ><p>Publicar dados em API de dados ligados (Linked Data)</p></td><td  ><p>Ontologia da área do conhecimento do sistema</p></td><td rowspan="5"  ><p>Mais Longo</p></td><td  > </td></tr><tr ><td  ><p>Banco de dados de triplas</p></td><td  > </td></tr><tr ><td  ><p>Serviço de desenvolvimento</p></td><td  > </td></tr><tr ><td  ><p>Mecanismo de ETL</p></td><td  > </td></tr><tr ><td  ><p>Servidor web para deploy da nova solução</p></td><td  > </td></tr></table>
+<table class="tabela-decisoes-tecnologicas">
+    <!--<colgroup>
+      <col width="118" />
+      <col width="424" />
+      <col width="302" />
+      <col width="200" />
+    </colgroup>-->
+
+    <tr>
+
+      <th>
+        Solu&ccedil;&atilde;o
+      </th>
+
+      <th>
+        Pr&eacute;-requisitos
+      </th>
+
+      <th>
+        Prazo
+      </th>
+
+    </tr>
+
+    <tr>
+
+      <td rowspan="2">
+        Publicar dump da base de dados
+      </td>
+
+      <td>
+        Acesso &agrave; base de dados
+      </td>
+
+      <td rowspan="2">
+        Curto<br />
+      </td>
+
+    </tr>
+
+    <tr>
+      <td>
+        Servidor web para arquivos
+      </td>
+
+    </tr>
+
+    <tr>
+
+      <td rowspan="2">
+        Publicar dados em arquivos CSV
+      </td>
+
+      <td>
+        Mecanismo de ETL (caso esteja em banco relacional)
+      </td>
+
+      <td rowspan="2">
+        Curto<br />
+      </td>
+
+    </tr>
+
+    <tr>
+      <td>
+        Servidor web para arquivos
+      </td>
+
+    </tr>
+
+    <tr>
+
+      <td rowspan="3">
+        Publicar dados em arquivos JSON / XML
+      </td>
+
+      <td>
+        Mecanismo de ETL (caso esteja em banco relacional)
+      </td>
+
+      <td rowspan="3">
+        M&eacute;dio
+      </td>
+
+    </tr>
+
+    <tr>
+      <td>
+        Servi&ccedil;o de desenvolvimento
+      </td>
+
+    </tr>
+
+    <tr>
+      <td>
+        Servidor web para arquivos
+      </td>
+
+    </tr>
+
+    <tr>
+
+      <td rowspan="2">
+        Desenvolver m&oacute;dulo de dados abertos em sistema existente
+      </td>
+
+      <td>
+        Servi&ccedil;o de desenvolvimento
+      </td>
+
+      <td rowspan="2">
+        Longo
+      </td>
+
+    </tr>
+
+    <tr>
+      <td>
+        Servidor web para deploy da nova solu&ccedil;&atilde;o
+      </td>
+
+    </tr>
+
+    <tr>
+
+      <td rowspan="3">
+        Desenvolver API RESTful de dados abertos desacoplada da
+        solu&ccedil;&atilde;o
+      </td>
+
+      <td>
+        Mecanismo de ETL
+      </td>
+
+      <td rowspan="3">
+        Longo
+      </td>
+
+    </tr>
+
+    <tr>
+      <td>
+        Servi&ccedil;o de desenvolvimento
+      </td>
+
+    </tr>
+
+    <tr>
+      <td>
+        Servidor web para deploy da nova solu&ccedil;&atilde;o
+      </td>
+
+    </tr>
+
+    <tr>
+
+      <td rowspan="3">
+        Novo Sistema, com a gest&atilde;o de dados incorporados em sua arquitetura
+      </td>
+
+      <td>
+        Mecanismo de ETL
+      </td>
+
+      <td rowspan="3">
+        Longo
+      </td>
+
+    </tr>
+
+    <tr>
+      <td>
+        Servi&ccedil;o de desenvolvimento
+      </td>
+
+    </tr>
+
+    <tr>
+      <td>
+        Servidor web para deploy da nova solu&ccedil;&atilde;o
+      </td>
+
+    </tr>
+
+    <tr>
+
+      <td rowspan="3">
+        Publicar dados em arquivos RDF
+      </td>
+
+      <td>
+        Ontologia da &aacute;rea do conhecimento do sistema
+      </td>
+
+      <td rowspan="3">
+        Longo
+      </td>
+
+    </tr>
+
+    <tr>
+      <td>
+        Mecanismo de ETL
+      </td>
+
+    </tr>
+
+    <tr>
+      <td>
+        Servidor web para arquivos
+      </td>
+
+    </tr>
+
+    <tr>
+
+      <td rowspan="3">
+        Disponibilizar dados por Endpoint SPARQL
+      </td>
+
+      <td>
+        Ontologia da &aacute;rea do conhecimento do sistema
+      </td>
+
+      <td rowspan="3">
+        Mais Longo
+      </td>
+
+    </tr>
+
+    <tr>
+      <td>
+        Servi&ccedil;o de ETL
+      </td>
+
+    </tr>
+
+    <tr>
+      <td>
+        Banco de dados de triplas
+      </td>
+
+    </tr>
+
+    <tr>
+
+      <td rowspan="5">
+        Publicar dados em API de dados ligados (Linked Data)
+      </td>
+
+      <td>
+        Ontologia da &aacute;rea do conhecimento do sistema
+      </td>
+
+      <td rowspan="5">
+        Mais Longo
+      </td>
+
+    </tr>
+
+    <tr>
+      <td>
+        Banco de dados de triplas
+      </td>
+
+    </tr>
+
+    <tr>
+      <td>
+        Servi&ccedil;o de desenvolvimento
+      </td>
+
+    </tr>
+
+    <tr>
+      <td>
+        Mecanismo de ETL
+      </td>
+
+    </tr>
+
+    <tr>
+      <td>
+        Servidor web para deploy da nova solu&ccedil;&atilde;o
+      </td>
+
+    </tr>
+  </table>
 
 
 1. Publicar dump da base de dados
