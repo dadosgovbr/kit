@@ -1,10 +1,10 @@
 ---
 published: true
-permalink: /Mapa-de-decisões/
+permalink: /Mapa-de-decisões-tecnológicas/
 layout: slate
-filename: Mapa-de-decisões.md
+filename: Mapa-de-decisões-tecnológicas.md
 title: Mapa de decisões - Kit de Dados Abertos
-desc: Neste mapa são apresentadas diversas formas de publicação de dados abertos, dando ao gestor algumas informações de apoio à decisão.
+desc: Neste mapa são apresentadas diversas formas de publicação de dados abertos, dando ao gestor parâmetros de apoio à decisão.
 ---
 
 <!---
