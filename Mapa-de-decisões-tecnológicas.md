@@ -304,24 +304,41 @@ Abaixo o código HTML da tabela, markdown não suporta colspan.
     </tr>
   </table>
 
+### Lista de Soluções
 
 #### Publicar dump da base de dados
 
+Essa é a forma mais simples de publicação, caso a base de dados não esteja em ambiente próprio, basta pedir extração ao prestador de serviços, disponibilizar no servidor web e providenciar domínio + URL persistente.
+
+**Vantagens e Desvantagens:** curto prazo de implementação, difícil visualização dos dados.
 
 #### Publicar dados em arquivos CSV
 
+Para essa publicação é necessário um mecanismo mínimo de ETL, para poder transformar as tabelas do SGBD em 'tabelas' CSV.
+
+**Vantagens e Desvantagens:** curto prazo, fácil visualização através de ferramentas conhecidas.
 
 #### Publicar dados em arquivos JSON / XML
 
+No caso do CSV bastaria transformar e normalizar uma tabela em outra tabela (SGBD -> SQL). Para essa publicação, será necessária uma transformação mais customizada, respeitando as estruturas dos formatos JSON e XML.
+
+**Vantagens e Desvantagens:** mais trabalhoso de implementar, facilidade de se trabalhar com esses formatos nas linguagens de programação e apis de visualização.
 
 #### Desenvolver módulo de dados abertos em sistema existente
 
+Essa opção só é viável caso o sistema tenha uma arquitetura modular.
+
+**Vantagens e Desvantagens:** coesão da solução; interface única para usuários; maior custo de desenvolvimento.
 
 #### Desenvolver API RESTful de dados abertos desacoplada da solução
 
+Uma decisão importante para essa opção é a separação ou não do banco de dados da API do de produção, que possui várias implicações (performance, atualidade dos dados etc)
+
+**Vantagens e Desvantagens:** possibilidade de consultas mais específicas; Custo de desenvolvimento.
 
 #### Novo Sistema, com a gestão de dados incorporados em sua arquitetura
 
+**Vantagens e Desvantagens:** Sistema desenhado prevendo atendimento da Lei de Acesso à informação, automatização da extração de dados
 
 #### Publicar dados em arquivos RDF
 
@@ -330,5 +347,8 @@ Abaixo o código HTML da tabela, markdown não suporta colspan.
 
 
 #### Publicar dados em API de dados ligados (Linked Data)
+
+
+### Glossário de Formatos:
 
 
