@@ -65,7 +65,7 @@ Abaixo o código HTML da tabela, markdown não suporta colspan.
     <tr>
 
       <td rowspan="2">
-        Publicar dados em arquivos CSV
+        <a href="#publicar-dados-em-arquivos-csv">Publicar dados em arquivos CSV</a>
       </td>
 
       <td class="celula-meio">
@@ -88,7 +88,7 @@ Abaixo o código HTML da tabela, markdown não suporta colspan.
     <tr>
 
       <td rowspan="3">
-        Publicar dados em arquivos JSON / XML
+        <a href="#publicar-dados-em-arquivos-json--xml">Publicar dados em arquivos JSON / XML</a>
       </td>
 
       <td class="celula-meio">
@@ -118,7 +118,7 @@ Abaixo o código HTML da tabela, markdown não suporta colspan.
     <tr>
 
       <td rowspan="2">
-        Desenvolver m&oacute;dulo de dados abertos em sistema existente
+        <a href="#desenvolver-mdulo-de-dados-abertos-em-sistema-existente">Desenvolver m&oacute;dulo de dados abertos em sistema existente</a>
       </td>
 
       <td class="celula-meio">
@@ -141,8 +141,8 @@ Abaixo o código HTML da tabela, markdown não suporta colspan.
     <tr>
 
       <td rowspan="3">
-        Desenvolver API RESTful de dados abertos desacoplada da
-        solu&ccedil;&atilde;o
+        <a href="#desenvolver-api-restful-de-dados-abertos-desacoplada-da-soluo">Desenvolver API RESTful de dados abertos desacoplada da
+        solu&ccedil;&atilde;o</a>
       </td>
 
       <td class="celula-meio">
@@ -172,7 +172,7 @@ Abaixo o código HTML da tabela, markdown não suporta colspan.
     <tr>
 
       <td rowspan="3">
-        Novo Sistema, com a gest&atilde;o de dados incorporados em sua arquitetura
+        <a href="#novo-sistema-com-a-gesto-de-dados-incorporados-em-sua-arquitetura">Novo Sistema, com a gest&atilde;o de dados incorporados em sua arquitetura</a>
       </td>
 
       <td class="celula-meio">
@@ -202,7 +202,7 @@ Abaixo o código HTML da tabela, markdown não suporta colspan.
     <tr>
 
       <td rowspan="3">
-        Publicar dados em arquivos RDF
+        <a href="#publicar-dados-em-arquivos-rdf">Publicar dados em arquivos RDF</a>
       </td>
 
       <td class="celula-meio">
@@ -232,7 +232,7 @@ Abaixo o código HTML da tabela, markdown não suporta colspan.
     <tr>
 
       <td rowspan="3">
-        Disponibilizar dados por Endpoint SPARQL
+        <a href="#disponibilizar-dados-por-endpoint-sparql">Disponibilizar dados por Endpoint SPARQL</a>
       </td>
 
       <td class="celula-meio">
@@ -262,7 +262,7 @@ Abaixo o código HTML da tabela, markdown não suporta colspan.
     <tr>
 
       <td rowspan="5">
-        Publicar dados em API de dados ligados (Linked Data)
+        <a href="#publicar-dados-em-api-de-dados-ligados-linked-data">Publicar dados em API de dados ligados (Linked Data)</a>
       </td>
 
       <td class="celula-meio">
@@ -305,30 +305,30 @@ Abaixo o código HTML da tabela, markdown não suporta colspan.
   </table>
 
 
-### Publicar dump da base de dados
+#### Publicar dump da base de dados
 
 
-### Publicar dados em arquivos CSV
+#### Publicar dados em arquivos CSV
 
 
-### Publicar dados em arquivos JSON / XML
+#### Publicar dados em arquivos JSON / XML
 
 
-### Desenvolver módulo de dados abertos em sistema existente
+#### Desenvolver módulo de dados abertos em sistema existente
 
 
-### Desenvolver API RESTful de dados abertos desacoplada da solução
+#### Desenvolver API RESTful de dados abertos desacoplada da solução
 
 
-### Novo Sistema, com a gestão de dados incorporados em sua arquitetura
+#### Novo Sistema, com a gestão de dados incorporados em sua arquitetura
 
 
-### Publicar dados em arquivos RDF
+#### Publicar dados em arquivos RDF
 
 
-### Disponibilizar dados por Endpoint SPARQL
+#### Disponibilizar dados por Endpoint SPARQL
 
 
-### Publicar dados em API de dados ligados (Linked Data)
+#### Publicar dados em API de dados ligados (Linked Data)
 
 
