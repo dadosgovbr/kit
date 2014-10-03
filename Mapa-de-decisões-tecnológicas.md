@@ -367,7 +367,17 @@ Uma decisão importante para essa opção é a separação ou não do banco de d
 
 ##### CSV
 
-Descrição está no glossário do kit: http://kit.dados.gov.br/Gloss%C3%A1rio/#csv
+Pode significar [Comma-Separated Values](https://pt.wikipedia.org/wiki/Comma-separated_values)
+(valores separados por vírgula), ou
+ainda, Character-Separated Values (valores separados por caractere). É um
+formato para armazenamento de dados tabulares em texto. A codificação é
+muito simples: cada linha do arquivo representa uma linha na tabela, e as
+colunas são separadas por vírgula. Campos que podem conter vírgula devem ser
+delimitados por aspas. CSV é recomendado para representação de estrutura de
+dados mais simples, de natureza tabular, onde não existem subpropriedades ou
+listas, gerando um arquivo menor e mais leve para processamento. Arquivos CSV
+são processáveis diretamente por editores de planilhas, como o OpenOffice e o
+MS Excel. (do [Glossário](/Gloss%C3%A1rio/#csv))
 
 `++++++`:
 * Simplicidade. Registros em estrutura tabular.
@@ -382,14 +392,26 @@ Descrição está no glossário do kit: http://kit.dados.gov.br/Gloss%C3%A1rio/#
 
 ##### JSON
 
-Descrição está no glossário do kit: http://kit.dados.gov.br/Gloss%C3%A1rio/#json
+É um acrônimo para
+[_JavaScript Object Notation_](https://pt.wikipedia.org/wiki/JSON).
+É um padrão aberto de estruturação de dados baseado em texto e legível por
+humano. A especificação é a [RFC 4627](https://tools.ietf.org/html/rfc4627).
+JSON ganhou maior utilização com a utilização de carga dinâmica de conteúdo
+em páginas web com Javascript (técnica denominada "Ajax"). A serialização em
+JSON é muito simples e resulta em uma
+estrutura pouco verbosa o que se mostra uma ótima alternativa para o XML.
+JSON possibilita serialização de estrutura de objetos complexos, como listas e
+subpropriedades. JSON está se tornando o padrão mais utilizado para integração
+de dados entre repositórios e frameworks, também está se tornando o padrão
+nativo de armazenamento em alguns bancos de dados modernos.
+(do [Glossário](/Gloss%C3%A1rio/#json))
 
 `++++++`:
 * Facilidade para representar hierarquias
 * Suporta tipagem de valores
 * Facilidade de consumo (qualquer linguagem de programação lê com facilidade)
 * Utilizável diretamente em navegadores (leitura por javascript)
-* Formato padronizado
+* Formato padronizado ([RFC 7159 do IETF](https://tools.ietf.org/html/rfc7159), [ECMA-404](http://www.ecma-international.org/publications/files/ECMA-ST/ECMA-404.pdf))
 * Possibilidade de definir esquema de validação
 * Mais leve para processar que o XML
 
@@ -397,13 +419,20 @@ Descrição está no glossário do kit: http://kit.dados.gov.br/Gloss%C3%A1rio/#
 
 ##### XML
 
-XML significa Extensible Markup Language, e é uma sintaxe para codificar documentos em um formato legível por máquina. É baseado em texto e tem como principais objetivos [fontes?] simplicidade, extensibilidade e usabilidade. XML é largamente utilizado como formato de troca de dados nos clássicos Web Services SOAP. Apesar da larga utilização, é cada vez menos encorajada a utilização desse formato para integração de aplicações. Em substituição, recomenda-se utilizar JSON, por economizar banda e ser de processamento mais leve. (do [Glossário](Gloss%C3%A1rio/#xml)).
+XML significa Extensible Markup Language, e é uma sintaxe para codificar
+documentos em um formato legível por máquina. É baseado em texto e tem como
+principais objetivos [fontes?] simplicidade, extensibilidade e usabilidade.
+XML é largamente utilizado como formato de troca de dados nos clássicos Web
+Services SOAP. Apesar da larga utilização, é cada vez menos encorajada a
+utilização desse formato para integração de aplicações. Em substituição,
+recomenda-se utilizar JSON, por economizar banda e ser de processamento mais
+leve. (do [Glossário](/Gloss%C3%A1rio/#xml)).
 
 `++++++`:
 * Facilidade para representar hierarquias
 * Suporta tipagem de valores
 * Amplo suporte de ferramentas
-* Formato padronizado
+* Formato padronizado ([W3C](http://www.w3.org/TR/2006/REC-xml11-20060816/))
 * Possilidade de definir esquema de validação
 
 `------`:
