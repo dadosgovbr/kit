@@ -42,10 +42,10 @@ Abaixo o código HTML da tabela, markdown não suporta colspan.
     <tr>
 
       <td rowspan="2">
-        Publicar dump da base de dados
+        <a href="#publicar-dump-da-base-de-dados">Publicar dump da base de dados</a>
       </td>
 
-      <td>
+      <td class="celula-meio">
         Acesso &agrave; base de dados
       </td>
 
@@ -68,7 +68,7 @@ Abaixo o código HTML da tabela, markdown não suporta colspan.
         Publicar dados em arquivos CSV
       </td>
 
-      <td>
+      <td class="celula-meio">
         Mecanismo de ETL (caso esteja em banco relacional)
       </td>
 
@@ -91,7 +91,7 @@ Abaixo o código HTML da tabela, markdown não suporta colspan.
         Publicar dados em arquivos JSON / XML
       </td>
 
-      <td>
+      <td class="celula-meio">
         Mecanismo de ETL (caso esteja em banco relacional)
       </td>
 
@@ -102,7 +102,7 @@ Abaixo o código HTML da tabela, markdown não suporta colspan.
     </tr>
 
     <tr>
-      <td>
+      <td class="celula-meio">
         Servi&ccedil;o de desenvolvimento
       </td>
 
@@ -121,7 +121,7 @@ Abaixo o código HTML da tabela, markdown não suporta colspan.
         Desenvolver m&oacute;dulo de dados abertos em sistema existente
       </td>
 
-      <td>
+      <td class="celula-meio">
         Servi&ccedil;o de desenvolvimento
       </td>
 
@@ -145,7 +145,7 @@ Abaixo o código HTML da tabela, markdown não suporta colspan.
         solu&ccedil;&atilde;o
       </td>
 
-      <td>
+      <td class="celula-meio">
         Mecanismo de ETL
       </td>
 
@@ -156,7 +156,7 @@ Abaixo o código HTML da tabela, markdown não suporta colspan.
     </tr>
 
     <tr>
-      <td>
+      <td class="celula-meio">
         Servi&ccedil;o de desenvolvimento
       </td>
 
@@ -175,7 +175,7 @@ Abaixo o código HTML da tabela, markdown não suporta colspan.
         Novo Sistema, com a gest&atilde;o de dados incorporados em sua arquitetura
       </td>
 
-      <td>
+      <td class="celula-meio">
         Mecanismo de ETL
       </td>
 
@@ -186,7 +186,7 @@ Abaixo o código HTML da tabela, markdown não suporta colspan.
     </tr>
 
     <tr>
-      <td>
+      <td class="celula-meio">
         Servi&ccedil;o de desenvolvimento
       </td>
 
@@ -205,7 +205,7 @@ Abaixo o código HTML da tabela, markdown não suporta colspan.
         Publicar dados em arquivos RDF
       </td>
 
-      <td>
+      <td class="celula-meio">
         Ontologia da &aacute;rea do conhecimento do sistema
       </td>
 
@@ -216,7 +216,7 @@ Abaixo o código HTML da tabela, markdown não suporta colspan.
     </tr>
 
     <tr>
-      <td>
+      <td class="celula-meio">
         Mecanismo de ETL
       </td>
 
@@ -235,7 +235,7 @@ Abaixo o código HTML da tabela, markdown não suporta colspan.
         Disponibilizar dados por Endpoint SPARQL
       </td>
 
-      <td>
+      <td class="celula-meio">
         Ontologia da &aacute;rea do conhecimento do sistema
       </td>
 
@@ -246,8 +246,8 @@ Abaixo o código HTML da tabela, markdown não suporta colspan.
     </tr>
 
     <tr>
-      <td>
-        Servi&ccedil;o de ETL
+      <td class="celula-meio">
+        Mecanismo de ETL
       </td>
 
     </tr>
@@ -265,7 +265,7 @@ Abaixo o código HTML da tabela, markdown não suporta colspan.
         Publicar dados em API de dados ligados (Linked Data)
       </td>
 
-      <td>
+      <td class="celula-meio">
         Ontologia da &aacute;rea do conhecimento do sistema
       </td>
 
@@ -276,21 +276,21 @@ Abaixo o código HTML da tabela, markdown não suporta colspan.
     </tr>
 
     <tr>
-      <td>
+      <td class="celula-meio">
         Banco de dados de triplas
       </td>
 
     </tr>
 
     <tr>
-      <td>
+      <td class="celula-meio">
         Servi&ccedil;o de desenvolvimento
       </td>
 
     </tr>
 
     <tr>
-      <td>
+      <td class="celula-meio">
         Mecanismo de ETL
       </td>
 
@@ -305,17 +305,30 @@ Abaixo o código HTML da tabela, markdown não suporta colspan.
   </table>
 
 
-1. Publicar dump da base de dados
-2. Publicar dados em arquivos CSV
-3. Publicar dados em arquivos JSON / XML
-4. Desenvolver módulo de dados abertos em sistema existente
-5. Desenvolver API RESTful de dados abertos desacoplada da solução
-6. Novo Sistema, com a gestão de dados incorporados em sua arquitetura
-7. Publicar dados em arquivos RDF
-8. Disponibilizar dados por Endpoint SPARQL
-9. Publicar dados em API de dados ligados (Linked Data)
+### Publicar dump da base de dados
 
 
+### Publicar dados em arquivos CSV
 
+
+### Publicar dados em arquivos JSON / XML
+
+
+### Desenvolver módulo de dados abertos em sistema existente
+
+
+### Desenvolver API RESTful de dados abertos desacoplada da solução
+
+
+### Novo Sistema, com a gestão de dados incorporados em sua arquitetura
+
+
+### Publicar dados em arquivos RDF
+
+
+### Disponibilizar dados por Endpoint SPARQL
+
+
+### Publicar dados em API de dados ligados (Linked Data)
 
 

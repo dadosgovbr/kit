@@ -262,18 +262,18 @@ form {
   font-size: 14px;
   border: none;
   border-spacing: 2;
-  border-collapse: collapse;
+  border-collapse: separate;
   background: white;
 }
 
 .tabela-decisoes-tecnologicas td {
   padding: 5px;
   border: none;
-  border-bottom: none;
+  border-bottom: 1px solid #DDD;
 }
 
-.tabela-decisoes-tecnologicas tr {
-  border-bottom: 1px solid #DDD;
+td.celula-meio {
+  border-bottom: none;
 }
 
 .tabela-decisoes-tecnologicas th {
