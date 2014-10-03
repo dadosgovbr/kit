@@ -495,7 +495,8 @@ Apesar de ser mantido por uma empresa, a sua
 
 `++++++`:
 * Amplo suporte de ferramentas
-----`------`:
+
+`------`:
 * Falta padronização (embora a especificação seja aberta)
 * Necessita múltiplos arquivos para um único mapa
 * Possui limitações no armazenamento de atributos
