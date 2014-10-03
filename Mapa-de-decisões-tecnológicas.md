@@ -514,7 +514,7 @@ Apesar de ser mantido por uma empresa, a sua
 * maior complexidade do meta-modelo (grafos)
 * maior heterogeneidade nas estrutura dos dados
 
-##### tipo: RDF/Turtle
+##### RDF/Turtle
 
 `++++++`:
 * Sucinto (os arquivos gerados são menores)
@@ -525,7 +525,7 @@ Apesar de ser mantido por uma empresa, a sua
 
 `------`:
 
-##### tipo: RDF/XML
+##### RDF/XML
 
 `++++++`:
 * Formato padronizado
