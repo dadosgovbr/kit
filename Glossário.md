@@ -248,6 +248,14 @@ ao acesso à informação pública e à participação social.
 
 ### S
 
+##### Shapefile
+
+Formato aberto para dados geoespaciais, desenvolvido pela empresa Esri, que
+produz soluções de software para sistemas de informações geográficas (GIS).
+Apesar de ser mantido por uma empresa, a sua
+[especificação](http://www.esri.com/library/whitepapers/pdfs/shapefile.pdf)
+é aberta e é implementada por praticamente todas as ferramentas de GIS.
+
 #### Software Livre
 
 [Software Livre](https://pt.wikipedia.org/wiki/Software_livre) é uma forma de manifestação

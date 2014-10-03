@@ -486,6 +486,13 @@ sistema [WGS84](https://en.wikipedia.org/wiki/World_Geodetic_System).
 
 ##### Shapefile ESRI
 
+Formato aberto para dados geoespaciais, desenvolvido pela empresa Esri, que
+produz soluções de software para sistemas de informações geográficas (GIS).
+Apesar de ser mantido por uma empresa, a sua
+[especificação](http://www.esri.com/library/whitepapers/pdfs/shapefile.pdf)
+é aberta e é implementada por praticamente todas as ferramentas de GIS.
+(do [Glossário](/Gloss%C3%A1rio/#shapefile)).
+
 `++++++`:
 * Amplo suporte de ferramentas
 ----`------`:
