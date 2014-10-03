@@ -415,7 +415,7 @@ nativo de armazenamento em alguns bancos de dados modernos.
 * Possibilidade de definir esquema de validação
 * Mais leve para processar que o XML
 
-----`------`:
+`------`:
 
 ##### XML
 
