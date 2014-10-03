@@ -114,7 +114,8 @@ sistema de destino. É considerada uma das fases mais críticas do Data Warehous
 geográficas. Possibilita representar formas como pontos, linhas e polígonos
 com coordenadas geográficas, juntamente com seus atributos não-espaciais.
 O GeoJSON não é mantido por um órgão formal de padronização, como alguns
-outros formatos para informações geográficas. Em vez disso, ele é especificado
+outros formatos para informações geográficas. Em vez disso, ele é
+[especificado](http://geojson.org/geojson-spec.html)
 por um grupo de trabalho de desenvolvedores.
 
 ### H

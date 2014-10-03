@@ -447,11 +447,13 @@ dados geo, juntamente com as vantagens e desvantagens de cada um.
 
 ##### GeoJSON
 
-É um formato aberto baseado em [JSON](#json) para representar informações
-geográficas. Possibilita representar formas como pontos, linhas e polígonos
-com coordenadas geográficas, juntamente com seus atributos não-espaciais.
+É um formato aberto baseado em [JSON](/Gloss%C3%A1rio/#json) para representar
+informações geográficas. Possibilita representar formas como pontos, linhas e
+polígonos com coordenadas geográficas, juntamente com seus atributos
+não-espaciais.
 O GeoJSON não é mantido por um órgão formal de padronização, como alguns
-outros formatos para informações geográficas. Em vez disso, ele é especificado
+outros formatos para informações geográficas. Em vez disso, ele é
+[especificado](http://geojson.org/geojson-spec.html)
 por um grupo de trabalho de desenvolvedores.
 (do [Glossário](/Gloss%C3%A1rio/#geojson)).
 
