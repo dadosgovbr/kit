@@ -439,7 +439,7 @@ leve. (do [Glossário](/Gloss%C3%A1rio/#xml)).
 * Prolixo (os arquivos gerados são maiores)
 * Maior gasto de processamento para geração e consumo em relação ao JSON.
 
-#### Foramtos geo
+#### Formatos geo
 
 Alguns formatos de arquivo servem especificamente para representar dados
 geográficos. A seguir, são relacionados os principais padrões abertos para
