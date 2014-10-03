@@ -132,7 +132,7 @@ nossos estados e nosso país.
 É um acrônimo para
 [_JavaScript Object Notation_](https://pt.wikipedia.org/wiki/JSON).
 É um padrão aberto de estruturação de dados baseado em texto e legível por
-humano. A especificação é a [RFC 4627](https://tools.ietf.org/html/rfc4627).
+humano. A especificação é a [RFC 7159](https://tools.ietf.org/html/rfc7159).
 JSON ganhou maior utilização com a utilização de carga dinâmica de conteúdo
 em páginas web com Javascript (técnica denominada "Ajax"). A serialização em
 JSON é muito simples e resulta em uma
