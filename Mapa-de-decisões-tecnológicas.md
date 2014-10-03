@@ -349,6 +349,139 @@ Uma decisão importante para essa opção é a separação ou não do banco de d
 #### Publicar dados em API de dados ligados (Linked Data)
 
 
-### Glossário de Formatos:
+### Glossário de Formatos
 
+#### Formatos básicos
+
+##### Dump SQL
+
+++++++: 
+* Forma menos trabalhosa de se publicar os dados
+* Curto prazo para produção
+* Preserva a estrutura dos dados como o são em produção
+
+------:
+* Provável necessidade de remoção prévia de dados pessoais
+* Necessidade de realizar carga dos dados em SGBD para acessá-los
+* Despadronização entre dumps de SGBSs diferentes: necessita do mesmo software e versão que gerou o dump
+
+##### CSV
+
+Descrição está no glossário do kit: http://kit.dados.gov.br/Gloss%C3%A1rio/#csv
+
+++++++:
+* Simplicidade. Registros em estrutura tabular.
+* Facilidade de geração (qualquer banco de dados exporta)
+* Facilidade de consumo (qualquer editor de planilhas manipula)
+* Sucinto (os arquivos gerados são menores)
+
+------:
+* Falta de padronização do formato
+* Não suporta tipagem de valores
+* Dificuldade em se representar ligações entre os dados
+
+##### JSON
+
+Descrição está no glossário do kit: http://kit.dados.gov.br/Gloss%C3%A1rio/#json
+
+++++++:
+* Facilidade para representar hierarquias
+* Suporta tipagem de valores
+* Facilidade de consumo (qualquer linguagem de programação lê com facilidade)
+* Utilizável diretamente em navegadores (leitura por javascript)
+* Formato padronizado
+* Possibilidade de definir esquema de validação
+* Mais leve para processar que o XML
+
+----------:
+
+##### XML
+
+XML significa Extensible Markup Language, e é uma sintaxe para codificar documentos em um formato legível por máquina. É baseado em texto e tem como principais objetivos [fontes?] simplicidade, extensibilidade e usabilidade. XML é largamente utilizado como formato de troca de dados nos clássicos Web Services SOAP. Apesar da larga utilização, é cada vez menos encorajada a utilização desse formato para integração de aplicações. Em substituição, recomenda-se utilizar JSON, por economizar banda e ser de processamento mais leve. (do [Glossário](Gloss%C3%A1rio/#xml)).
+
+++++++:
+* Facilidade para representar hierarquias
+* Suporta tipagem de valores
+* Amplo suporte de ferramentas
+* Formato padronizado
+* Possilidade de definir esquema de validação
+
+------:
+* Prolixo (os arquivos gerados são maiores)
+* Maior gasto de processamento para geração e consumo em relação ao JSON.
+
+#### Foramtos geo
+
+##### GeoJSON
+
+++++++:
+* Todos os benefícios do JSON
+* Bom suporte de ferramentas
+* Leve para processamento
+
+------:
+* Falta padronização (embora a especificação seja aberta)
+
+##### KML
+
+++++++:
+* Formato padronizado
+* Bom suporte de ferramentas
+
+------:
+* Mais pesado para processamento que o GeoJSON
+
+##### Shapefile ESRI
+
+++++++:
+* Amplo suporte de ferramentas
+----------:
+* Falta padronização (embora a especificação seja aberta)
+* Necessita múltiplos arquivos para um único mapa
+* Possui limitações no armazenamento de atributos
+
+#### Formatos baseados em RDF
+
+++++++:
+* possibilidade de utilizar semântica para descrever os dados
+* facilita o cruzamento e ligação de dados entre fontes diversas
+* potencializa a reutilização de ferramentas especializadas em dados de determinado domínio da informação
+* facilita a descoberta de conhecimento ao possibilitar queries mais complexas usando dados de diversos domínios
+
+------:
+* necessita desenvolver ontologia que descreve os conceitos relacionados aos dados [link para algo sobre ontologias]
+* maior complexidade do meta-modelo (grafos)
+* maior heterogeneidade nas estrutura dos dados
+
+##### tipo: RDF/Turtle
+
+++++++:
+* Sucinto (os arquivos gerados são menores)
+* Simplicidade de leitura por humanos
+* Formato padronizado
+* Bom suporte de ferramentas
+* Leve para processamento
+
+------:
+
+##### tipo: RDF/XML
+
+++++++:
+* Formato padronizado
+* Amplo suporte de ferramentas
+
+------:
+* Dificuldade de leitura por humanos
+* Utiliza estrutura hierárquica para representar um modelo de grafos
+* Prolixo (os arquivos gerados são maiores)
+* Mais pesado para processamento
+
+##### JSON-LD
+
+++++++:
+* Formato padronizado
+* Leve para processamento
+* Utilizável diretamente em navegadores (leitura por javascript)
+------:
+* Menor suporte de ferramentas por ser um padrão mais recente
 
