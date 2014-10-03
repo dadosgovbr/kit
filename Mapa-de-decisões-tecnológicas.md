@@ -467,6 +467,16 @@ por um grupo de trabalho de desenvolvedores.
 
 ##### KML
 
+Acrônimo para
+_[Keyhole Markup Language](https://en.wikipedia.org/wiki/Keyhole_Markup_Language)_.
+É um formato baseado em XML, desenvolvido originalmente pelo Google e depois
+[padronizado](http://www.opengeospatial.org/standards/kml) pelo Open Geospatial
+Consortium. Pode representar informações geográficas, tais como
+marcadores de local, imagens, polígonos, modelos tridimensionais ou descrições
+textuais, usando coordenadas de latitude, longitude e elevação conforme o
+sistema [WGS84](https://en.wikipedia.org/wiki/World_Geodetic_System).
+(do [Glossário](/Gloss%C3%A1rio/#kml)).
+
 `++++++`:
 * Formato padronizado
 * Bom suporte de ferramentas

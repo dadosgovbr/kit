@@ -154,6 +154,22 @@ subpropriedades. JSON está se tornando o padrão mais utilizado para integraç�
 de dados entre repositórios e frameworks, também está se tornando o padrão
 nativo de armazenamento em alguns bancos de dados modernos.
 
+### K
+
+#### KML
+
+Acrônimo para
+_[Keyhole Markup Language](https://en.wikipedia.org/wiki/Keyhole_Markup_Language)_.
+É um formato baseado em XML, desenvolvido originalmente pelo Google e depois
+[padronizado](http://www.opengeospatial.org/standards/kml) pelo Open Geospatial
+Consortium. Pode representar informações geográficas, tais como
+marcadores de local, imagens, polígonos, modelos tridimensionais ou descrições
+textuais, usando coordenadas de latitude, longitude e elevação conforme o
+sistema [WGS84](https://en.wikipedia.org/wiki/World_Geodetic_System).
+
+Em alguns casos os arquivos KML são distribuídos compactados no formato zip,
+e o arquivo compactado recebe a extensão .kmz.
+
 ### L
 
 #### LAI
