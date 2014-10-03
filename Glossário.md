@@ -106,6 +106,17 @@ A extração e carga são obrigatórias para o processo, sendo a transformação
 mas que são boas práticas, tendo em vista que os dados já foram encaminhados para o 
 sistema de destino. É considerada uma das fases mais críticas do Data Warehouse e/ou Data Mart.
 
+### G
+
+#### GeoJSON
+
+É um formato aberto baseado em [JSON](#json) para representar informações
+geográficas. Possibilita representar formas como pontos, linhas e polígonos
+com coordenadas geográficas, juntamente com seus atributos não-espaciais.
+O GeoJSON não é mantido por um órgão formal de padronização, como alguns
+outros formatos para informações geográficas. Em vez disso, ele é especificado
+por um grupo de trabalho de desenvolvedores.
+
 ### H
 
 #### Hackathon

@@ -395,7 +395,7 @@ MS Excel. (do [Glossário](/Gloss%C3%A1rio/#csv))
 É um acrônimo para
 [_JavaScript Object Notation_](https://pt.wikipedia.org/wiki/JSON).
 É um padrão aberto de estruturação de dados baseado em texto e legível por
-humano. A especificação é a [RFC 4627](https://tools.ietf.org/html/rfc4627).
+humano. A especificação é a [RFC 7159](https://tools.ietf.org/html/rfc7159).
 JSON ganhou maior utilização com a utilização de carga dinâmica de conteúdo
 em páginas web com Javascript (técnica denominada "Ajax"). A serialização em
 JSON é muito simples e resulta em uma
@@ -441,7 +441,19 @@ leve. (do [Glossário](/Gloss%C3%A1rio/#xml)).
 
 #### Foramtos geo
 
+Alguns formatos de arquivo servem especificamente para representar dados
+geográficos. A seguir, são relacionados os principais padrões abertos para
+dados geo, juntamente com as vantagens e desvantagens de cada um.
+
 ##### GeoJSON
+
+É um formato aberto baseado em [JSON](#json) para representar informações
+geográficas. Possibilita representar formas como pontos, linhas e polígonos
+com coordenadas geográficas, juntamente com seus atributos não-espaciais.
+O GeoJSON não é mantido por um órgão formal de padronização, como alguns
+outros formatos para informações geográficas. Em vez disso, ele é especificado
+por um grupo de trabalho de desenvolvedores.
+(do [Glossário](/Gloss%C3%A1rio/#geojson)).
 
 `++++++`:
 * Todos os benefícios do JSON
@@ -511,6 +523,7 @@ leve. (do [Glossário](/Gloss%C3%A1rio/#xml)).
 * Formato padronizado
 * Leve para processamento
 * Utilizável diretamente em navegadores (leitura por javascript)
+
 `------`:
 * Menor suporte de ferramentas por ser um padrão mais recente
 
