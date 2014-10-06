@@ -537,11 +537,13 @@ representando sujeito, predicado e objeto.
 
 Ao gravar dados RDF em um arquivo, no entanto, é necessário escolher uma entre
 as múltiplas sintaxes possíveis para representar o grafo como uma sequência de
-caracteres: XML, N-Triples, Turtle, Notation 3, JSON-LD, RDFa, etc. A seguir,
-algumas vantagens e desvantagens de se usar RDF em geral para a publicação de
-dados. Em seguida, apresentam-se uma breve descrição e as vantagens e
-desvantagem de cada um dos formatos de arquivo (sintaxes) específicos para
-dados em RDF.
+caracteres: XML, N-Triples, Turtle, JSON-LD, RDFa, etc.
+(do [Glossário](/Gloss%C3%A1rio/#rdf)).
+
+A seguir, algumas vantagens e desvantagens de se usar RDF em geral para a
+publicação de dados. Em seguida, apresentam-se uma breve descrição e as
+vantagens e desvantagens de cada um dos formatos de arquivo (sintaxes)
+específicos para dados em RDF.
 
 `++++++`:
 * possibilidade de utilizar semântica para descrever os dados
@@ -556,7 +558,15 @@ dados em RDF.
 * maior complexidade do metamodelo (grafos)
 * maior heterogeneidade nas estrutura dos dados
 
-##### RDF/Turtle
+##### Turtle
+
+Turtle significa "_[Terse RDF Triple Language](https://en.wikipedia.org/wiki/Turtle_(syntax))_",
+ou linguagem sucinta de triplas RDF. Foi criada como uma sintaxe simplificada
+para leitura tanto por humanos quanto por máquinas e
+[padronizada](http://www.w3.org/TR/turtle/) em 2014.
+A indentação e o uso de prefixos são
+elementos que facilitam a leitura, assim como o agrupamento de triplas que
+possuem o mesmo sujeito ou que possuem o mesmo sujeito e mesmo predicado.
 
 `++++++`:
 * Sucinto (os arquivos gerados são menores)
@@ -569,6 +579,12 @@ dados em RDF.
 
 ##### RDF/XML
 
+A sintaxe original, quando o padrão RDF foi inicialmente estabelecido, foi a
+baseada em XML. Por ser a primeira sintaxe para RDF, o seu suporte em
+ferramentas é excelente. Por outro lado, pela verbosidade do XML e pela
+sua estrutura hierárquica, os arquivos gerados são geralmente complexos e de
+difícil leitura.
+
 `++++++`:
 * Formato padronizado
 * Amplo suporte de ferramentas
@@ -580,6 +596,14 @@ dados em RDF.
 * Mais pesado para processamento
 
 ##### JSON-LD
+
+É um formato baseado em
+[JSON para Linked Data](https://en.wikipedia.org/wiki/JSON-LD), também
+[padronizado](http://www.w3.org/TR/json-ld/) em 2014.
+Traz todas as vantagens do formato JSON. A estrutura de mapeamento para IRIs
+pode opcionalmente ser separada em um documento JSON de contexto, o que deixa
+o JSON principal, onde estão os dados, essencialmente com a mesma estrutura que
+um documento JSON comum.
 
 `++++++`:
 * Formato padronizado

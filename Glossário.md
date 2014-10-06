@@ -154,6 +154,16 @@ subpropriedades. JSON está se tornando o padrão mais utilizado para integraç�
 de dados entre repositórios e frameworks, também está se tornando o padrão
 nativo de armazenamento em alguns bancos de dados modernos.
 
+##### JSON-LD
+
+É um formato baseado em
+[JSON para Linked Data](https://en.wikipedia.org/wiki/JSON-LD), também
+[padronizado](http://www.w3.org/TR/json-ld/) em 2014.
+Traz todas as vantagens do formato JSON. A estrutura de mapeamento para IRIs
+pode opcionalmente ser separada em um documento JSON de contexto, o que deixa
+o JSON principal, onde estão os dados, essencialmente com a mesma estrutura que
+um documento JSON comum.
+
 ### K
 
 #### KML
@@ -246,6 +256,35 @@ lançada em 2011, é uma iniciativa internacional que pretende difundir e incent
 globalmente práticas governamentais relacionadas à transparência dos governos, 
 ao acesso à informação pública e à participação social.
 
+### R
+
+#### RDF
+
+A família de formatos
+[RDF](https://pt.wikipedia.org/wiki/Resource_Description_Framework)
+baseia-se em um metamodelo de grafos para indicar os relacionamentos entre
+os nós, onde cada nó pode ser qualquer coisa sobre a qual queira se afirmar
+algo. Esse metamodelo possibilita estabelecer relações semânticas entre os
+dados, ao descrevê-los conforme um modelo (vocabulário ou ontologia)
+preestabelecido para aquele domínio da informação.
+
+Dados conforme esse metamodelo de grafos podem ser armazenados em bancos de
+dados especializados, chamados _triple stores_, ou bancos de triplas, numa
+referência à forma de descrever o grafo listando cada tripla nó-aresta-nó,
+representando sujeito, predicado e objeto.
+
+Ao gravar dados RDF em um arquivo, no entanto, é necessário escolher uma entre
+as múltiplas sintaxes possíveis para representar o grafo como uma sequência de
+caracteres: XML, N-Triples, Turtle, JSON-LD, RDFa, etc.
+
+##### RDF/XML
+
+A sintaxe original, quando o padrão RDF foi inicialmente estabelecido, foi a
+baseada em XML. Por ser a primeira sintaxe para RDF, o seu suporte em
+ferramentas é excelente. Por outro lado, pela verbosidade do XML e pela
+sua estrutura hierárquica, os arquivos gerados são geralmente complexos e de
+difícil leitura.
+
 ### S
 
 ##### Shapefile
@@ -287,6 +326,18 @@ O SIC será instalado em unidade física identificada, de fácil acesso e aberta
 
 As organizações também dispõe de serviços de informação ao cidadão de maneira eletrônica. 
 A CGU centraliza os pedidos ao executivo federal através do [e-SIC](#e-sic).
+
+### T
+
+##### Turtle
+
+Turtle significa "_[Terse RDF Triple Language](https://en.wikipedia.org/wiki/Turtle_(syntax))_",
+ou linguagem sucinta de triplas RDF. Foi criada como uma sintaxe simplificada
+para leitura tanto por humanos quanto por máquinas e
+[padronizada](http://www.w3.org/TR/turtle/) em 2014.
+A indentação e o uso de prefixos são
+elementos que facilitam a leitura, assim como o agrupamento de triplas que
+possuem o mesmo sujeito ou que possuem o mesmo sujeito e mesmo predicado.
 
 ### X
 
