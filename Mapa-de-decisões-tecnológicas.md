@@ -355,11 +355,11 @@ Uma decisão importante para essa opção é a separação ou não do banco de d
 
 ##### Dump SQL
 
-De forma genérica, um "_dump_" é uma descarga de todo o conteúdo de uma base de
-dados, estruturada de uma forma que possa ser novamente carregada em um
-sistema gerenciador de banco de dados (SGBD) idêntico ou compatível,
-produzindo-se por esse processo uma base de dados que é uma cópia fidedigna da
-original.
+De forma genérica, um "_[dump](https://pt.wikipedia.org/wiki/Dump_de_banco_de_dados)_"
+é uma descarga de todo o conteúdo de uma base de dados, estruturada de uma
+forma que possa ser novamente carregada em um sistema gerenciador de banco de
+dados (SGBD) idêntico ou compatível, produzindo-se por esse processo uma base
+de dados que é uma cópia fidedigna da original.
 
 Há vários tipos de _dump_. Os formatos textuais podem ser inspecionados em um
 editor de textos e geralmente usam a sintaxe SQL no dialeto particular do SGBD
@@ -436,9 +436,11 @@ nativo de armazenamento em alguns bancos de dados modernos.
 
 ##### XML
 
-XML significa Extensible Markup Language, e é uma sintaxe para codificar
-documentos em um formato legível por máquina. É baseado em texto e tem como
-principais objetivos [fontes?] simplicidade, extensibilidade e usabilidade.
+XML significa [Extensible Markup Language](http://pt.wikipedia.org/wiki/XML),
+e é uma sintaxe para codificar documentos em um formato legível por máquina.
+É baseado em texto e tem como alguns de seus
+[objetivos](http://www.w3.org/TR/REC-xml/#sec-origin-goals) a facilidade de
+uso e legibilidade.
 XML é largamente utilizado como formato de troca de dados nos clássicos Web
 Services SOAP. Apesar da larga utilização, é cada vez menos encorajada a
 utilização desse formato para integração de aplicações. Em substituição,

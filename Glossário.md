@@ -292,8 +292,10 @@ A CGU centraliza os pedidos ao executivo federal através do [e-SIC](#e-sic).
 
 #### XML
 
-Significa
-[Extensible Markup Language](http://pt.wikipedia.org/wiki/XML). 
-É uma linguagem de marcação que define um conjunto de regras para codificação de documentos
-em um formato que seja tanto legível por humanos quanto por máquinas. 
+XML significa [Extensible Markup Language](http://pt.wikipedia.org/wiki/XML),
+e é uma sintaxe para codificar documentos em um formato legível por máquina.
+É baseado em texto e tem como alguns de seus
+[objetivos](http://www.w3.org/TR/REC-xml/#sec-origin-goals) a facilidade de
+uso e legibilidade.
+
 
