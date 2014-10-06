@@ -560,7 +560,7 @@ específicos para dados em RDF.
 
 ##### Turtle
 
-Turtle significa "_ [Terse RDF Triple Language](https://en.wikipedia.org/wiki/Turtle_(syntax))_",
+Turtle significa _"[Terse RDF Triple Language](https://en.wikipedia.org/wiki/Turtle_(syntax))"_,
 ou linguagem sucinta de triplas RDF. Foi criada como uma sintaxe simplificada
 para leitura tanto por humanos quanto por máquinas e
 [padronizada](http://www.w3.org/TR/turtle/) em 2014.
