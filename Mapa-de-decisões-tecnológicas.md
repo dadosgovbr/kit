@@ -522,6 +522,27 @@ Apesar de ser mantido por uma empresa, a sua
 
 #### Formatos baseados em RDF
 
+A família de formatos
+[RDF](https://pt.wikipedia.org/wiki/Resource_Description_Framework)
+baseia-se em um metamodelo de grafos para indicar os relacionamentos entre
+os nós, onde cada nó pode ser qualquer coisa sobre a qual queira se afirmar
+algo. Esse metamodelo possibilita estabelecer relações semânticas entre os
+dados, ao descrevê-los conforme um modelo (vocabulário ou ontologia)
+preestabelecido para aquele domínio da informação.
+
+Dados conforme esse metamodelo de grafos podem ser armazenados em bancos de
+dados especializados, chamados _triple stores_, ou bancos de triplas, numa
+referência à forma de descrever o grafo listando cada tripla nó-aresta-nó,
+representando sujeito, predicado e objeto.
+
+Ao gravar dados RDF em um arquivo, no entanto, é necessário escolher uma entre
+as múltiplas sintaxes possíveis para representar o grafo como uma sequência de
+caracteres: XML, N-Triples, Turtle, Notation 3, JSON-LD, RDFa, etc. A seguir,
+algumas vantagens e desvantagens de se usar RDF em geral para a publicação de
+dados. Em seguida, apresentam-se uma breve descrição e as vantagens e
+desvantagem de cada um dos formatos de arquivo (sintaxes) específicos para
+dados em RDF.
+
 `++++++`:
 * possibilidade de utilizar semântica para descrever os dados
 * facilita o cruzamento e ligação de dados entre fontes diversas
@@ -532,7 +553,7 @@ Apesar de ser mantido por uma empresa, a sua
 * necessita desenvolver
   [ontologia](https://pt.wikipedia.org/wiki/Ontologia_(ci%C3%AAncia_da_computa%C3%A7%C3%A3o))
   que descreve os conceitos relacionados aos dados
-* maior complexidade do meta-modelo (grafos)
+* maior complexidade do metamodelo (grafos)
 * maior heterogeneidade nas estrutura dos dados
 
 ##### RDF/Turtle
