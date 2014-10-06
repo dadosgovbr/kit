@@ -355,6 +355,21 @@ Uma decisão importante para essa opção é a separação ou não do banco de d
 
 ##### Dump SQL
 
+De forma genérica, um "_dump_" é uma descarga de todo o conteúdo de uma base de
+dados, estruturada de uma forma que possa ser novamente carregada em um
+sistema gerenciador de banco de dados (SGBD) idêntico ou compatível,
+produzindo-se por esse processo uma base de dados que é uma cópia fidedigna da
+original.
+
+Há vários tipos de _dump_. Os formatos textuais podem ser inspecionados em um
+editor de textos e geralmente usam a sintaxe SQL no dialeto particular do SGBD
+utilizado. Há também os formatos binários que produzem arquivos menores que os
+textuais, mas a compatibilidade com versões diferentes do SGBD tende a ser
+ainda mais restritiva que a compatibilidade dos formatos textuais.
+
+Os SGBD em geral possuem processos definidos e documentação objetiva de como se
+gerar e carregar um _dump_.
+
 `++++++`: 
 * Forma menos trabalhosa de se publicar os dados
 * Curto prazo para produção
@@ -363,7 +378,8 @@ Uma decisão importante para essa opção é a separação ou não do banco de d
 `------`:
 * Provável necessidade de remoção prévia de dados pessoais
 * Necessidade de realizar carga dos dados em SGBD para acessá-los
-* Despadronização entre dumps de SGBSs diferentes: necessita do mesmo software e versão que gerou o dump
+* Não há padronização entre formatos de dumps de SGBSs diferentes: em geral
+  necessita-se do mesmo software e versão que gerou o dump
 
 ##### CSV
 
@@ -411,7 +427,8 @@ nativo de armazenamento em alguns bancos de dados modernos.
 * Suporta tipagem de valores
 * Facilidade de consumo (qualquer linguagem de programação lê com facilidade)
 * Utilizável diretamente em navegadores (leitura por javascript)
-* Formato padronizado ([RFC 7159 do IETF](https://tools.ietf.org/html/rfc7159), [ECMA-404](http://www.ecma-international.org/publications/files/ECMA-ST/ECMA-404.pdf))
+* Formato padronizado ([RFC 7159 do IETF](https://tools.ietf.org/html/rfc7159),
+  [ECMA-404](http://www.ecma-international.org/publications/files/ECMA-ST/ECMA-404.pdf))
 * Possibilidade de definir esquema de validação
 * Mais leve para processar que o XML
 
@@ -510,7 +527,9 @@ Apesar de ser mantido por uma empresa, a sua
 * facilita a descoberta de conhecimento ao possibilitar queries mais complexas usando dados de diversos domínios
 
 `------`:
-* necessita desenvolver ontologia que descreve os conceitos relacionados aos dados [link para algo sobre ontologias]
+* necessita desenvolver
+  [ontologia](https://pt.wikipedia.org/wiki/Ontologia_(ci%C3%AAncia_da_computa%C3%A7%C3%A3o))
+  que descreve os conceitos relacionados aos dados
 * maior complexidade do meta-modelo (grafos)
 * maior heterogeneidade nas estrutura dos dados
 
