@@ -304,6 +304,7 @@ Abaixo o código HTML da tabela, markdown não suporta colspan.
     </tr>
   </table>
 
+<!---
 ### Lista de Soluções
 
 #### Publicar dump da base de dados
@@ -347,7 +348,7 @@ Uma decisão importante para essa opção é a separação ou não do banco de d
 
 
 #### Publicar dados em API de dados ligados (Linked Data)
-
+-->
 
 ### Glossário de Formatos
 
