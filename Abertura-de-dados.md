@@ -132,7 +132,7 @@ documento. É possível, mas não necessário, estabelecer documentos XML Schema
 ou JSON Schema para validação.
 
 Mais informações para subsidiar essa decisão estão disponíveis no 
-[Mapa de decisões tecnológicas](Mapa-de-decis%C3%B5es-tecnol%C3%B3gicas).
+[Mapa de decisões tecnológicas]({{ site.baseurl }}Mapa-de-decis%C3%B5es-tecnol%C3%B3gicas).
 
 *Próximo passo:* [Realizar extração](#realizar-extra%C3%A7%C3%A3o)
 
