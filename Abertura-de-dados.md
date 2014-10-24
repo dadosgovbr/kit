@@ -64,11 +64,11 @@ as suas partes que tratem dos seguintes aspectos:
 
 Caso o Plano de Dados Abertos tenha sido omisso em relação a algum desses
 aspectos, eles deverão ser definidos durante a
-[reunião de início de projeto](#reuni%C3%A3o-de-in%C3%ADcio-de-projeto).
+[reunião de início de projeto](#reunio-de-incio-de-projeto).
 
 *Insumo para:*
 
-* [Reunião de início de projeto](#reuni%C3%A3o-de-in%C3%ADcio-de-projeto)
+* [Reunião de início de projeto](#reunio-de-incio-de-projeto)
 * [Decidir qualidade mínima](#decidir-qualidade-m%C3%ADnima)
 
 ## Reunião de início de projeto
@@ -166,7 +166,7 @@ Mais considerações sobre os requisitos dos dados podem ser encontradas na
 
 O trabalho a ser feito nessa etapa varia bastante, a depender do tipo de
 solução de dados abertos escolhida no
-[início do projeto]((#reuni%C3%A3o-de-in%C3%ADcio-de-projeto)):
+[início do projeto]((#reunio-de-incio-de-projeto)):
 disponibilização de arquivos [CSV]({{ site.baseurl }}Glossário#csv), de algum tipo de
 [_dumps_]({{ site.baseurl }}Glossário#dump) dos dados, ou ainda, a criação de uma
 [API]({{ site.baseurl }}Glossário#api) de dados abertos.
