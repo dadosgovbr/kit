@@ -20,12 +20,12 @@ As organizações que desenvolvem Planos de Dados Abertos precisam de orientaç�
 
 ## Definições e conceitos
 
-1. [O que são dados abertos](http://dados.gov.br/dados-abertos/) - Definições básicas sobre características dos dados abertos
-2. [Vantagens de publicar dados abertos](vantagens-dados-abertos)
-3. [Parceria para Governo Aberto](http://www.cgu.gov.br/governoaberto/a-ogp/iniciativa.asp) - Sobre a parceria internacional
-4. O [Portal Brasileiro de Dados Abertos](http://dados.gov.br/sobre/) - Sobre o catálogo de dados
-5. O que é a [Infraestrutura Nacional de Dados Abertos - INDA](http://dados.gov.br/instrucao-normativa-da-inda/)
-6. [Glossário](Glossário) dos termos utilizados neste kit
+1. [O que são dados abertos](http://dados.gov.br/dados-abertos/) - Definições básicas sobre características dos dados abertos;
+2. [Vantagens de publicar dados abertos](vantagens-dados-abertos);
+3. [Parceria para Governo Aberto](http://www.cgu.gov.br/governoaberto/a-ogp/iniciativa.asp) - Sobre a parceria internacional;
+4. O [Portal Brasileiro de Dados Abertos](http://dados.gov.br/sobre/) - Sobre o catálogo de dados;
+5. O que é a [Infraestrutura Nacional de Dados Abertos - INDA](http://dados.gov.br/instrucao-normativa-da-inda/);
+6. [Glossário](Glossário) dos termos utilizados neste kit.
 
 ## Guia para implementação de um Plano de Dados Abertos
 
@@ -53,10 +53,10 @@ Esta seção é uma lista exemplificativa, e não exaustiva, de ferramentas úte
 
 ### Conversão de dados
 
-* [JSON-to-CSV Converter](http://konklone.io/json/) - Conversor manual e online de arquivos JSON para visulizar como planilha e baixá-la no formato CSV.
-* [dat](https://github.com/maxogden/dat) - Ferramenta para conversão e tranformação de dados em linha de comando
-* [csvkit](http://csvkit.readthedocs.org/en/0.8.0/) - Transformações e tratamento de arquivos csv
-* [ESRI2Open](http://github.com/project-open-data/esri2open) - Ferramenta que converte dados espaciais e não-espaciais do software proprietário ESRI em arquivos de dados abertos, CSV, JSON, ou GeoJSON
+* [JSON-to-CSV Converter](http://konklone.io/json/) - Conversor manual e online de arquivos JSON para visualizar como planilha e baixá-la no formato CSV;
+* [dat](https://github.com/maxogden/dat) - Ferramenta para conversão e transformação de dados em linha de comando;
+* [csvkit](http://csvkit.readthedocs.org/en/0.8.0/) - Transformações e tratamento de arquivos CSV;
+* [ESRI2Open](http://github.com/project-open-data/esri2open) - Ferramenta que converte dados espaciais e não-espaciais do software; proprietário ESRI em arquivos de dados abertos, CSV, JSON, ou GeoJSON.
 
 ### Higienização de dados
 
@@ -64,17 +64,17 @@ Esta seção é uma lista exemplificativa, e não exaustiva, de ferramentas úte
 
 ## Mais Recursos
 
-* Guia de Dados Abertos ([_Open Data Handbook_](http://opendatahandbook.org/pt_BR/)) - da [_Open Knowledge_](https://okfn.org/)
-* [Manual dos dados abertos: governo](http://www.w3c.br/pub/Materiais/PublicacoesW3C/Manual_Dados_Abertos_WEB.pdf) - do [W3C Brasil](http://www.w3c.br)
+* Guia de Dados Abertos ([_Open Data Handbook_](http://opendatahandbook.org/pt_BR/)) - da [_Open Knowledge_](https://okfn.org/);
+* [Manual dos dados abertos: governo](http://www.w3c.br/pub/Materiais/PublicacoesW3C/Manual_Dados_Abertos_WEB.pdf) - do [W3C Brasil](http://www.w3c.br).
 
 ## PDAs publicados
 
-* [Plano de Dados Abertos do Ministério do Planejamento](http://www.planejamento.gov.br/aberto/pda/)
-* [Plano de Dados Abertos do Ministério da Justiça](http://participa.br/dadosabertos/galeria-encontro-nacional-de-dados-abertos/pdae-mj.pdf)
+* [Plano de Dados Abertos do Ministério do Planejamento](http://www.planejamento.gov.br/aberto/pda/);
+* [Plano de Dados Abertos do Ministério da Justiça](http://participa.br/dadosabertos/galeria-encontro-nacional-de-dados-abertos/pdae-mj.pdf).
 
 ## Legislação relacionada
 
-* [Lei de acesso à informação](http://www.lexml.gov.br/urn/urn:lex:br:federal:lei:2011-11-18;12527) - Dispõe sobre o acesso a informações públicas, inclusive pela internet
+* [Lei de acesso à informação](http://www.lexml.gov.br/urn/urn:lex:br:federal:lei:2011-11-18;12527) - Dispõe sobre o acesso às informações públicas, inclusive pela internet
 * [Decreto nº 7724](http://www.lexml.gov.br/urn/urn:lex:br:federal:decreto:2012-05-16;7724) - Regulamenta a Lei de acesso à informação no âmbito do poder executivo federal
 * [Instrução Normativa da INDA](http://dados.gov.br/instrucao-normativa-da-inda/) - Institui a Infraestrutura Nacional de Dados abertos e seu funcionamento
 * [Decreto de 15 de setembro de 2011](http://www.lexml.gov.br/urn/urn:lex:br:federal:decreto:2011-09-15;seq-sf-0) - Institui o CIGA e o Plano Nacional de Governo Aberto
