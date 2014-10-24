@@ -168,7 +168,7 @@ Mais considerações sobre os requisitos dos dados podem ser encontradas na
 
 O trabalho a ser feito nessa etapa varia bastante, a depender do tipo de
 solução de dados abertos escolhida no
-[início do projeto]((#reunio-de-incio-de-projeto)):
+[início do projeto](#reunio-de-incio-de-projeto):
 disponibilização de arquivos [CSV]({{ site.baseurl }}Glossário#csv), de algum tipo de
 [_dumps_]({{ site.baseurl }}Glossário#dump) dos dados, ou ainda, a criação de uma
 [API]({{ site.baseurl }}Glossário#api) de dados abertos.
