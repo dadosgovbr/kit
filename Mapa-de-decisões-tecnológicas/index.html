@@ -68,23 +68,612 @@
     <!-- MAIN CONTENT -->
     <div id="main_content_wrap" class="outer">
         <section id="main_content" class="inner">
-      <!---
-Abaixo o código HTML da tabela, markdown não suporta colspan. Melhorar isso =p
+      <h2 id="mapa-de-decises-tecnolgicas">Mapa de decisões tecnológicas</h2>
+
+<p>A tabela abaixo mostra as soluções mais comuns para publicar dados abertos, ordenadas por complexidade e prazo de implementação.</p>
+
+<!---
+Abaixo o código HTML da tabela, markdown não suporta colspan.
 --->
 
-<table><colgroup><col width="118" /><col width="424" /><col width="302" /><col width="200" /><col width="117" /></colgroup><tr><td><p>Complexidade</p></td><td><p>Solução</p></td><td><p>Pré-requisitos</p></td><td><p>Prazo de implementação</p></td><td> </td></tr><tr><td rowspan="2"><p>1</p></td><td rowspan="2"><p>Publicar dump da base de dados</p></td><td><p>Acesso à base de dados</p></td><td rowspan="2"><p>Curto<br /></p></td><td> </td></tr><tr><td><p>Servidor web para arquivos</p></td><td> </td></tr><tr><td rowspan="2"><p>2</p></td><td rowspan="2"><p>Publicar dados em arquivos CSV</p></td><td><p>Mecanismo de ETL (caso esteja em banco relacional)</p></td><td rowspan="2"><p>Curto<br /></p></td><td> </td></tr><tr><td><p>Servidor web para arquivos</p></td><td> </td></tr><tr><td rowspan="3"><p>3</p></td><td rowspan="3"><p>Publicar dados em arquivos JSON / XML</p></td><td><p>Mecanismo de ETL (caso esteja em banco relacional)</p></td><td rowspan="3"><p>Médio</p></td><td> </td></tr><tr><td><p>Serviço de desenvolvimento</p></td><td> </td></tr><tr><td><p>Servidor web para arquivos</p></td><td> </td></tr><tr><td rowspan="2"><p>4</p></td><td rowspan="2"><p>Desenvolver módulo de dados abertos em sistema existente</p></td><td><p>Serviço de desenvolvimento</p></td><td rowspan="2"><p>Longo</p></td><td> </td></tr><tr><td><p>Servidor web para deploy da nova solução</p></td><td> </td></tr><tr><td rowspan="3"><p>5</p></td><td rowspan="3"><p>Desenvolver API RESTful de dados abertos desacoplada da solução</p></td><td><p>Mecanismo de ETL</p></td><td rowspan="3"><p>Longo</p></td><td> </td></tr><tr><td><p>Serviço de desenvolvimento</p></td><td> </td></tr><tr><td><p>Servidor web para deploy da nova solução</p></td><td> </td></tr><tr><td rowspan="3"><p>6</p></td><td rowspan="3"><p>Novo Sistema, com a gestão de dados incorporados em sua arquitetura</p></td><td><p>Mecanismo de ETL</p></td><td rowspan="3"><p>Longo</p></td><td> </td></tr><tr><td><p>Serviço de desenvolvimento</p></td><td> </td></tr><tr><td><p>Servidor web para deploy da nova solução</p></td><td> </td></tr><tr><td rowspan="3"><p>8</p></td><td rowspan="3"><p>Publicar dados em arquivos RDF</p></td><td><p>Ontologia da área do conhecimento do sistema</p></td><td rowspan="3"><p>Longo</p></td><td> </td></tr><tr><td><p>Mecanismo de ETL</p></td><td> </td></tr><tr><td><p>Servidor web para arquivos</p></td><td> </td></tr><tr><td rowspan="3"><p>9</p></td><td rowspan="3"><p>Disponibilizar dados por Endpoint SPARQL</p></td><td><p>Ontologia da área do conhecimento do sistema</p></td><td rowspan="3"><p>Mais Longo</p></td><td> </td></tr><tr><td><p>Serviço de ETL</p></td><td> </td></tr><tr><td><p>Banco de dados de triplas</p></td><td> </td></tr><tr><td rowspan="5"><p>11</p></td><td rowspan="5"><p>Publicar dados em API de dados ligados (Linked Data)</p></td><td><p>Ontologia da área do conhecimento do sistema</p></td><td rowspan="5"><p>Mais Longo</p></td><td> </td></tr><tr><td><p>Banco de dados de triplas</p></td><td> </td></tr><tr><td><p>Serviço de desenvolvimento</p></td><td> </td></tr><tr><td><p>Mecanismo de ETL</p></td><td> </td></tr><tr><td><p>Servidor web para deploy da nova solução</p></td><td> </td></tr></table>
+<table class="tabela-decisoes-tecnologicas">
+    <!--<colgroup>
+      <col width="118" />
+      <col width="424" />
+      <col width="302" />
+      <col width="200" />
+    </colgroup>-->
 
-<ol>
-  <li>Publicar dump da base de dados</li>
-  <li>Publicar dados em arquivos CSV</li>
-  <li>Publicar dados em arquivos JSON / XML</li>
-  <li>Desenvolver módulo de dados abertos em sistema existente</li>
-  <li>Desenvolver API RESTful de dados abertos desacoplada da solução</li>
-  <li>Novo Sistema, com a gestão de dados incorporados em sua arquitetura</li>
-  <li>Publicar dados em arquivos RDF</li>
-  <li>Disponibilizar dados por Endpoint SPARQL</li>
-  <li>Publicar dados em API de dados ligados (Linked Data)</li>
-</ol>
+    <tr>
+
+      <th>
+        Solu&ccedil;&atilde;o
+      </th>
+
+      <th>
+        Pr&eacute;-requisitos
+      </th>
+
+      <th>
+        Prazo
+      </th>
+
+    </tr>
+
+    <tr>
+
+      <td rowspan="2">
+        <a href="#publicar-dump-da-base-de-dados">Publicar dump da base de dados</a>
+      </td>
+
+      <td class="celula-meio">
+        Acesso &agrave; base de dados
+      </td>
+
+      <td rowspan="2">
+        Curto<br />
+      </td>
+
+    </tr>
+
+    <tr>
+      <td>
+        Servidor web para arquivos
+      </td>
+
+    </tr>
+
+    <tr>
+
+      <td rowspan="2">
+        <a href="#publicar-dados-em-arquivos-csv">Publicar dados em arquivos CSV</a>
+      </td>
+
+      <td class="celula-meio">
+        Mecanismo de ETL (caso esteja em banco relacional)
+      </td>
+
+      <td rowspan="2">
+        Curto<br />
+      </td>
+
+    </tr>
+
+    <tr>
+      <td>
+        Servidor web para arquivos
+      </td>
+
+    </tr>
+
+    <tr>
+
+      <td rowspan="3">
+        <a href="#publicar-dados-em-arquivos-json--xml">Publicar dados em arquivos JSON / XML</a>
+      </td>
+
+      <td class="celula-meio">
+        Mecanismo de ETL (caso esteja em banco relacional)
+      </td>
+
+      <td rowspan="3">
+        M&eacute;dio
+      </td>
+
+    </tr>
+
+    <tr>
+      <td class="celula-meio">
+        Servi&ccedil;o de desenvolvimento
+      </td>
+
+    </tr>
+
+    <tr>
+      <td>
+        Servidor web para arquivos
+      </td>
+
+    </tr>
+
+    <tr>
+
+      <td rowspan="2">
+        <a href="#desenvolver-mdulo-de-dados-abertos-em-sistema-existente">Desenvolver m&oacute;dulo de dados abertos em sistema existente</a>
+      </td>
+
+      <td class="celula-meio">
+        Servi&ccedil;o de desenvolvimento
+      </td>
+
+      <td rowspan="2">
+        Longo
+      </td>
+
+    </tr>
+
+    <tr>
+      <td>
+        Servidor web para deploy da nova solu&ccedil;&atilde;o
+      </td>
+
+    </tr>
+
+    <tr>
+
+      <td rowspan="3">
+        <a href="#desenvolver-api-restful-de-dados-abertos-desacoplada-da-soluo">Desenvolver API RESTful de dados abertos desacoplada da
+        solu&ccedil;&atilde;o</a>
+      </td>
+
+      <td class="celula-meio">
+        Mecanismo de ETL
+      </td>
+
+      <td rowspan="3">
+        Longo
+      </td>
+
+    </tr>
+
+    <tr>
+      <td class="celula-meio">
+        Servi&ccedil;o de desenvolvimento
+      </td>
+
+    </tr>
+
+    <tr>
+      <td>
+        Servidor web para deploy da nova solu&ccedil;&atilde;o
+      </td>
+
+    </tr>
+
+    <tr>
+
+      <td rowspan="3">
+        <a href="#novo-sistema-com-a-gesto-de-dados-incorporados-em-sua-arquitetura">Novo Sistema, com a gest&atilde;o de dados incorporados em sua arquitetura</a>
+      </td>
+
+      <td class="celula-meio">
+        Mecanismo de ETL
+      </td>
+
+      <td rowspan="3">
+        Longo
+      </td>
+
+    </tr>
+
+    <tr>
+      <td class="celula-meio">
+        Servi&ccedil;o de desenvolvimento
+      </td>
+
+    </tr>
+
+    <tr>
+      <td>
+        Servidor web para deploy da nova solu&ccedil;&atilde;o
+      </td>
+
+    </tr>
+
+    <tr>
+
+      <td rowspan="3">
+        <a href="#publicar-dados-em-arquivos-rdf">Publicar dados em arquivos RDF</a>
+      </td>
+
+      <td class="celula-meio">
+        Ontologia da &aacute;rea do conhecimento do sistema
+      </td>
+
+      <td rowspan="3">
+        Longo
+      </td>
+
+    </tr>
+
+    <tr>
+      <td class="celula-meio">
+        Mecanismo de ETL
+      </td>
+
+    </tr>
+
+    <tr>
+      <td>
+        Servidor web para arquivos
+      </td>
+
+    </tr>
+
+    <tr>
+
+      <td rowspan="3">
+        <a href="#disponibilizar-dados-por-endpoint-sparql">Disponibilizar dados por Endpoint SPARQL</a>
+      </td>
+
+      <td class="celula-meio">
+        Ontologia da &aacute;rea do conhecimento do sistema
+      </td>
+
+      <td rowspan="3">
+        Mais Longo
+      </td>
+
+    </tr>
+
+    <tr>
+      <td class="celula-meio">
+        Mecanismo de ETL
+      </td>
+
+    </tr>
+
+    <tr>
+      <td>
+        Banco de dados de triplas
+      </td>
+
+    </tr>
+
+    <tr>
+
+      <td rowspan="5">
+        <a href="#publicar-dados-em-api-de-dados-ligados-linked-data">Publicar dados em API de dados ligados (Linked Data)</a>
+      </td>
+
+      <td class="celula-meio">
+        Ontologia da &aacute;rea do conhecimento do sistema
+      </td>
+
+      <td rowspan="5">
+        Mais Longo
+      </td>
+
+    </tr>
+
+    <tr>
+      <td class="celula-meio">
+        Banco de dados de triplas
+      </td>
+
+    </tr>
+
+    <tr>
+      <td class="celula-meio">
+        Servi&ccedil;o de desenvolvimento
+      </td>
+
+    </tr>
+
+    <tr>
+      <td class="celula-meio">
+        Mecanismo de ETL
+      </td>
+
+    </tr>
+
+    <tr>
+      <td>
+        Servidor web para deploy da nova solu&ccedil;&atilde;o
+      </td>
+
+    </tr>
+  </table>
+
+<!---
+### Lista de Soluções
+
+#### Publicar dump da base de dados
+
+Essa é a forma mais simples de publicação, caso a base de dados não esteja em ambiente próprio, basta pedir extração ao prestador de serviços, disponibilizar no servidor web e providenciar domínio + URL persistente.
+
+**Vantagens e Desvantagens:** curto prazo de implementação, difícil visualização dos dados.
+
+#### Publicar dados em arquivos CSV
+
+Para essa publicação é necessário um mecanismo mínimo de ETL, para poder transformar as tabelas do SGBD em 'tabelas' CSV.
+
+**Vantagens e Desvantagens:** curto prazo, fácil visualização através de ferramentas conhecidas.
+
+#### Publicar dados em arquivos JSON / XML
+
+No caso do CSV bastaria transformar e normalizar uma tabela em outra tabela (SGBD -> SQL). Para essa publicação, será necessária uma transformação mais customizada, respeitando as estruturas dos formatos JSON e XML.
+
+**Vantagens e Desvantagens:** mais trabalhoso de implementar, facilidade de se trabalhar com esses formatos nas linguagens de programação e apis de visualização.
+
+#### Desenvolver módulo de dados abertos em sistema existente
+
+Essa opção só é viável caso o sistema tenha uma arquitetura modular.
+
+**Vantagens e Desvantagens:** coesão da solução; interface única para usuários; maior custo de desenvolvimento.
+
+#### Desenvolver API RESTful de dados abertos desacoplada da solução
+
+Uma decisão importante para essa opção é a separação ou não do banco de dados da API do de produção, que possui várias implicações (performance, atualidade dos dados etc)
+
+**Vantagens e Desvantagens:** possibilidade de consultas mais específicas; Custo de desenvolvimento.
+
+#### Novo Sistema, com a gestão de dados incorporados em sua arquitetura
+
+**Vantagens e Desvantagens:** Sistema desenhado prevendo atendimento da Lei de Acesso à informação, automatização da extração de dados
+
+#### Publicar dados em arquivos RDF
+
+
+#### Disponibilizar dados por Endpoint SPARQL
+
+
+#### Publicar dados em API de dados ligados (Linked Data)
+-->
+
+<h3 id="glossrio-de-formatos">Glossário de Formatos</h3>
+
+<h4 id="formatos-bsicos">Formatos básicos</h4>
+
+<h5 id="dump-sql">Dump SQL</h5>
+
+<p>De forma genérica, um “<em><a href="https://pt.wikipedia.org/wiki/Dump_de_banco_de_dados">dump</a></em>”
+é uma descarga de todo o conteúdo de uma base de dados, estruturada de uma
+forma que possa ser novamente carregada em um sistema gerenciador de banco de
+dados (SGBD) idêntico ou compatível, produzindo-se por esse processo uma base
+de dados que é uma cópia fidedigna da original.</p>
+
+<p>Há vários tipos de <em>dump</em>. Os formatos textuais podem ser inspecionados em um
+editor de textos e geralmente usam a sintaxe SQL no dialeto particular do SGBD
+utilizado. Há também os formatos binários que produzem arquivos menores que os
+textuais, mas a compatibilidade com versões diferentes do SGBD tende a ser
+ainda mais restritiva que a compatibilidade dos formatos textuais.</p>
+
+<p>Os SGBD em geral possuem processos definidos e documentação objetiva de como se
+gerar e carregar um <em>dump</em>.</p>
+
+<p><code>++++++</code>: 
+* Forma menos trabalhosa de se publicar os dados
+* Curto prazo para produção
+* Preserva a estrutura dos dados como o são em produção</p>
+
+<p><code>------</code>:
+* Provável necessidade de remoção prévia de dados pessoais
+* Necessidade de realizar carga dos dados em SGBD para acessá-los
+* Não há padronização entre formatos de dumps de SGBSs diferentes: em geral
+  necessita-se do mesmo software e versão que gerou o dump</p>
+
+<h5 id="csv">CSV</h5>
+
+<p>Pode significar <a href="https://pt.wikipedia.org/wiki/Comma-separated_values">Comma-Separated Values</a>
+(valores separados por vírgula), ou
+ainda, Character-Separated Values (valores separados por caractere). É um
+formato para armazenamento de dados tabulares em texto. A codificação é
+muito simples: cada linha do arquivo representa uma linha na tabela, e as
+colunas são separadas por vírgula. Campos que podem conter vírgula devem ser
+delimitados por aspas. CSV é recomendado para representação de estrutura de
+dados mais simples, de natureza tabular, onde não existem subpropriedades ou
+listas, gerando um arquivo menor e mais leve para processamento. Arquivos CSV
+são processáveis diretamente por editores de planilhas, como o OpenOffice e o
+MS Excel. (do <a href="/Gloss%C3%A1rio/#csv">Glossário</a>)</p>
+
+<p><code>++++++</code>:
+* Simplicidade. Registros em estrutura tabular.
+* Facilidade de geração (qualquer banco de dados exporta)
+* Facilidade de consumo (qualquer editor de planilhas manipula)
+* Sucinto (os arquivos gerados são menores)</p>
+
+<p><code>------</code>:
+* Falta de padronização do formato
+* Não suporta tipagem de valores
+* Dificuldade em se representar ligações entre os dados</p>
+
+<h5 id="json">JSON</h5>
+
+<p>É um acrônimo para
+<a href="https://pt.wikipedia.org/wiki/JSON"><em>JavaScript Object Notation</em></a>.
+É um padrão aberto de estruturação de dados baseado em texto e legível por
+humano. A especificação é a <a href="https://tools.ietf.org/html/rfc7159">RFC 7159</a>.
+JSON ganhou maior utilização com a utilização de carga dinâmica de conteúdo
+em páginas web com Javascript (técnica denominada “Ajax”). A serialização em
+JSON é muito simples e resulta em uma
+estrutura pouco verbosa o que se mostra uma ótima alternativa para o XML.
+JSON possibilita serialização de estrutura de objetos complexos, como listas e
+subpropriedades. JSON está se tornando o padrão mais utilizado para integração
+de dados entre repositórios e frameworks, também está se tornando o padrão
+nativo de armazenamento em alguns bancos de dados modernos.
+(do <a href="/Gloss%C3%A1rio/#json">Glossário</a>)</p>
+
+<p><code>++++++</code>:
+* Facilidade para representar hierarquias
+* Suporta tipagem de valores
+* Facilidade de consumo (qualquer linguagem de programação lê com facilidade)
+* Utilizável diretamente em navegadores (leitura por javascript)
+* Formato padronizado (<a href="https://tools.ietf.org/html/rfc7159">RFC 7159 do IETF</a>,
+  <a href="http://www.ecma-international.org/publications/files/ECMA-ST/ECMA-404.pdf">ECMA-404</a>)
+* Possibilidade de definir esquema de validação
+* Mais leve para processar que o XML</p>
+
+<p><code>------</code>:</p>
+
+<h5 id="xml">XML</h5>
+
+<p>XML significa <a href="http://pt.wikipedia.org/wiki/XML">Extensible Markup Language</a>,
+e é uma sintaxe para codificar documentos em um formato legível por máquina.
+É baseado em texto e tem como alguns de seus
+<a href="http://www.w3.org/TR/REC-xml/#sec-origin-goals">objetivos</a> a facilidade de
+uso e legibilidade.
+XML é largamente utilizado como formato de troca de dados nos clássicos Web
+Services SOAP. Apesar da larga utilização, é cada vez menos encorajada a
+utilização desse formato para integração de aplicações. Em substituição,
+recomenda-se utilizar JSON, por economizar banda e ser de processamento mais
+leve. (do <a href="/Gloss%C3%A1rio/#xml">Glossário</a>).</p>
+
+<p><code>++++++</code>:
+* Facilidade para representar hierarquias
+* Suporta tipagem de valores
+* Amplo suporte de ferramentas
+* Formato padronizado (<a href="http://www.w3.org/TR/2006/REC-xml11-20060816/">W3C</a>)
+* Possilidade de definir esquema de validação</p>
+
+<p><code>------</code>:
+* Prolixo (os arquivos gerados são maiores)
+* Maior gasto de processamento para geração e consumo em relação ao JSON.</p>
+
+<h4 id="formatos-geo">Formatos geo</h4>
+
+<p>Alguns formatos de arquivo servem especificamente para representar dados
+geográficos. A seguir, são relacionados os principais padrões abertos para
+dados geo, juntamente com as vantagens e desvantagens de cada um.</p>
+
+<h5 id="geojson">GeoJSON</h5>
+
+<p>É um formato aberto baseado em <a href="/Gloss%C3%A1rio/#json">JSON</a> para representar
+informações geográficas. Possibilita representar formas como pontos, linhas e
+polígonos com coordenadas geográficas, juntamente com seus atributos
+não-espaciais.
+O GeoJSON não é mantido por um órgão formal de padronização, como alguns
+outros formatos para informações geográficas. Em vez disso, ele é
+<a href="http://geojson.org/geojson-spec.html">especificado</a>
+por um grupo de trabalho de desenvolvedores.
+(do <a href="/Gloss%C3%A1rio/#geojson">Glossário</a>).</p>
+
+<p><code>++++++</code>:
+* Todos os benefícios do JSON
+* Bom suporte de ferramentas
+* Leve para processamento</p>
+
+<p><code>------</code>:
+* Falta padronização (embora a especificação seja aberta)</p>
+
+<h5 id="kml">KML</h5>
+
+<p>Acrônimo para
+<em><a href="https://en.wikipedia.org/wiki/Keyhole_Markup_Language">Keyhole Markup Language</a></em>.
+É um formato baseado em XML, desenvolvido originalmente pelo Google e depois
+<a href="http://www.opengeospatial.org/standards/kml">padronizado</a> pelo Open Geospatial
+Consortium. Pode representar informações geográficas, tais como
+marcadores de local, imagens, polígonos, modelos tridimensionais ou descrições
+textuais, usando coordenadas de latitude, longitude e elevação conforme o
+sistema <a href="https://en.wikipedia.org/wiki/World_Geodetic_System">WGS84</a>.
+(do <a href="/Gloss%C3%A1rio/#kml">Glossário</a>).</p>
+
+<p><code>++++++</code>:
+* Formato padronizado
+* Bom suporte de ferramentas</p>
+
+<p><code>------</code>:
+* Mais pesado para processamento que o GeoJSON</p>
+
+<h5 id="shapefile-esri">Shapefile ESRI</h5>
+
+<p>Formato aberto para dados geoespaciais, desenvolvido pela empresa Esri, que
+produz soluções de software para sistemas de informações geográficas (GIS).
+Apesar de ser mantido por uma empresa, a sua
+<a href="http://www.esri.com/library/whitepapers/pdfs/shapefile.pdf">especificação</a>
+é aberta e é implementada por praticamente todas as ferramentas de GIS.
+(do <a href="/Gloss%C3%A1rio/#shapefile">Glossário</a>).</p>
+
+<p><code>++++++</code>:
+* Amplo suporte de ferramentas</p>
+
+<p><code>------</code>:
+* Falta padronização (embora a especificação seja aberta)
+* Necessita múltiplos arquivos para um único mapa
+* Possui limitações no armazenamento de atributos</p>
+
+<h4 id="formatos-baseados-em-rdf">Formatos baseados em RDF</h4>
+
+<p>A família de formatos
+<a href="https://pt.wikipedia.org/wiki/Resource_Description_Framework">RDF</a>
+baseia-se em um metamodelo de grafos para indicar os relacionamentos entre
+os nós, onde cada nó pode ser qualquer coisa sobre a qual queira se afirmar
+algo. Esse metamodelo possibilita estabelecer relações semânticas entre os
+dados, ao descrevê-los conforme um modelo (vocabulário ou ontologia)
+preestabelecido para aquele domínio da informação.</p>
+
+<p>Dados conforme esse metamodelo de grafos podem ser armazenados em bancos de
+dados especializados, chamados <em>triple stores</em>, ou bancos de triplas, numa
+referência à forma de descrever o grafo listando cada tripla nó-aresta-nó,
+representando sujeito, predicado e objeto.</p>
+
+<p>Ao gravar dados RDF em um arquivo, no entanto, é necessário escolher uma entre
+as múltiplas sintaxes possíveis para representar o grafo como uma sequência de
+caracteres: XML, N-Triples, Turtle, JSON-LD, RDFa, etc.
+(do <a href="/Gloss%C3%A1rio/#rdf">Glossário</a>).</p>
+
+<p>A seguir, algumas vantagens e desvantagens de se usar RDF em geral para a
+publicação de dados. Em seguida, apresentam-se uma breve descrição e as
+vantagens e desvantagens de cada um dos formatos de arquivo (sintaxes)
+específicos para dados em RDF.</p>
+
+<p><code>++++++</code>:
+* possibilidade de utilizar semântica para descrever os dados
+* facilita o cruzamento e ligação de dados entre fontes diversas
+* potencializa a reutilização de ferramentas especializadas em dados de determinado domínio da informação
+* facilita a descoberta de conhecimento ao possibilitar queries mais complexas usando dados de diversos domínios</p>
+
+<p><code>------</code>:
+* necessita desenvolver
+  <a href="https://pt.wikipedia.org/wiki/Ontologia_(ci%C3%AAncia_da_computa%C3%A7%C3%A3o)">ontologia</a>
+  que descreve os conceitos relacionados aos dados
+* maior complexidade do metamodelo (grafos)
+* maior heterogeneidade nas estrutura dos dados</p>
+
+<h5 id="turtle">Turtle</h5>
+
+<p>Turtle significa <em>“<a href="https://en.wikipedia.org/wiki/Turtle_(syntax)">Terse RDF Triple Language</a>“</em>,
+ou linguagem sucinta de triplas RDF. Foi criada como uma sintaxe simplificada
+para leitura tanto por humanos quanto por máquinas e
+<a href="http://www.w3.org/TR/turtle/">padronizada</a> em 2014.
+A indentação e o uso de prefixos são
+elementos que facilitam a leitura, assim como o agrupamento de triplas que
+possuem o mesmo sujeito ou que possuem o mesmo sujeito e mesmo predicado.</p>
+
+<p><code>++++++</code>:
+* Sucinto (os arquivos gerados são menores)
+* Simplicidade de leitura por humanos
+* Formato padronizado
+* Bom suporte de ferramentas
+* Leve para processamento</p>
+
+<p><code>------</code>:</p>
+
+<h5 id="rdfxml">RDF/XML</h5>
+
+<p>A sintaxe original, quando o padrão RDF foi inicialmente estabelecido, foi a
+baseada em XML. Por ser a primeira sintaxe para RDF, o seu suporte em
+ferramentas é excelente. Por outro lado, pela verbosidade do XML e pela
+sua estrutura hierárquica, os arquivos gerados são geralmente complexos e de
+difícil leitura.</p>
+
+<p><code>++++++</code>:
+* Formato padronizado
+* Amplo suporte de ferramentas</p>
+
+<p><code>------</code>:
+* Dificuldade de leitura por humanos
+* Utiliza estrutura hierárquica para representar um modelo de grafos
+* Prolixo (os arquivos gerados são maiores)
+* Mais pesado para processamento</p>
+
+<h5 id="json-ld">JSON-LD</h5>
+
+<p>É um formato baseado em
+<a href="https://en.wikipedia.org/wiki/JSON-LD">JSON para Linked Data</a>, também
+<a href="http://www.w3.org/TR/json-ld/">padronizado</a> em 2014.
+Traz todas as vantagens do formato JSON. A estrutura de mapeamento para IRIs
+pode opcionalmente ser separada em um documento JSON de contexto, o que deixa
+o JSON principal, onde estão os dados, essencialmente com a mesma estrutura que
+um documento JSON comum.</p>
+
+<p><code>++++++</code>:
+* Formato padronizado
+* Leve para processamento
+* Utilizável diretamente em navegadores (leitura por javascript)</p>
+
+<p><code>------</code>:
+* Menor suporte de ferramentas por ser um padrão mais recente</p>
 
 
         </section>

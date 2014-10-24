@@ -165,6 +165,18 @@ A extração e carga são obrigatórias para o processo, sendo a transformação
 mas que são boas práticas, tendo em vista que os dados já foram encaminhados para o 
 sistema de destino. É considerada uma das fases mais críticas do Data Warehouse e/ou Data Mart.</p>
 
+<h3 id="g">G</h3>
+
+<h4 id="geojson">GeoJSON</h4>
+
+<p>É um formato aberto baseado em <a href="#json">JSON</a> para representar informações
+geográficas. Possibilita representar formas como pontos, linhas e polígonos
+com coordenadas geográficas, juntamente com seus atributos não-espaciais.
+O GeoJSON não é mantido por um órgão formal de padronização, como alguns
+outros formatos para informações geográficas. Em vez disso, ele é
+<a href="http://geojson.org/geojson-spec.html">especificado</a>
+por um grupo de trabalho de desenvolvedores.</p>
+
 <h3 id="h">H</h3>
 
 <h4 id="hackathon">Hackathon</h4>
@@ -191,7 +203,7 @@ nossos estados e nosso país.</p>
 <p>É um acrônimo para
 <a href="https://pt.wikipedia.org/wiki/JSON"><em>JavaScript Object Notation</em></a>.
 É um padrão aberto de estruturação de dados baseado em texto e legível por
-humano. A especificação é a <a href="https://tools.ietf.org/html/rfc4627">RFC 4627</a>.
+humano. A especificação é a <a href="https://tools.ietf.org/html/rfc7159">RFC 7159</a>.
 JSON ganhou maior utilização com a utilização de carga dinâmica de conteúdo
 em páginas web com Javascript (técnica denominada “Ajax”). A serialização em
 JSON é muito simples e resulta em uma
@@ -200,6 +212,32 @@ JSON possibilita serialização de estrutura de objetos complexos, como listas e
 subpropriedades. JSON está se tornando o padrão mais utilizado para integração
 de dados entre repositórios e frameworks, também está se tornando o padrão
 nativo de armazenamento em alguns bancos de dados modernos.</p>
+
+<h5 id="json-ld">JSON-LD</h5>
+
+<p>É um formato baseado em
+<a href="https://en.wikipedia.org/wiki/JSON-LD">JSON para Linked Data</a>, também
+<a href="http://www.w3.org/TR/json-ld/">padronizado</a> em 2014.
+Traz todas as vantagens do formato JSON. A estrutura de mapeamento para IRIs
+pode opcionalmente ser separada em um documento JSON de contexto, o que deixa
+o JSON principal, onde estão os dados, essencialmente com a mesma estrutura que
+um documento JSON comum.</p>
+
+<h3 id="k">K</h3>
+
+<h4 id="kml">KML</h4>
+
+<p>Acrônimo para
+<em><a href="https://en.wikipedia.org/wiki/Keyhole_Markup_Language">Keyhole Markup Language</a></em>.
+É um formato baseado em XML, desenvolvido originalmente pelo Google e depois
+<a href="http://www.opengeospatial.org/standards/kml">padronizado</a> pelo Open Geospatial
+Consortium. Pode representar informações geográficas, tais como
+marcadores de local, imagens, polígonos, modelos tridimensionais ou descrições
+textuais, usando coordenadas de latitude, longitude e elevação conforme o
+sistema <a href="https://en.wikipedia.org/wiki/World_Geodetic_System">WGS84</a>.</p>
+
+<p>Em alguns casos os arquivos KML são distribuídos compactados no formato zip,
+e o arquivo compactado recebe a extensão .kmz.</p>
 
 <h3 id="l">L</h3>
 
@@ -276,7 +314,44 @@ lançada em 2011, é uma iniciativa internacional que pretende difundir e incent
 globalmente práticas governamentais relacionadas à transparência dos governos, 
 ao acesso à informação pública e à participação social.</p>
 
+<h3 id="r">R</h3>
+
+<h4 id="rdf">RDF</h4>
+
+<p>A família de formatos
+<a href="https://pt.wikipedia.org/wiki/Resource_Description_Framework">RDF</a>
+baseia-se em um metamodelo de grafos para indicar os relacionamentos entre
+os nós, onde cada nó pode ser qualquer coisa sobre a qual queira se afirmar
+algo. Esse metamodelo possibilita estabelecer relações semânticas entre os
+dados, ao descrevê-los conforme um modelo (vocabulário ou ontologia)
+preestabelecido para aquele domínio da informação.</p>
+
+<p>Dados conforme esse metamodelo de grafos podem ser armazenados em bancos de
+dados especializados, chamados <em>triple stores</em>, ou bancos de triplas, numa
+referência à forma de descrever o grafo listando cada tripla nó-aresta-nó,
+representando sujeito, predicado e objeto.</p>
+
+<p>Ao gravar dados RDF em um arquivo, no entanto, é necessário escolher uma entre
+as múltiplas sintaxes possíveis para representar o grafo como uma sequência de
+caracteres: XML, N-Triples, Turtle, JSON-LD, RDFa, etc.</p>
+
+<h5 id="rdfxml">RDF/XML</h5>
+
+<p>A sintaxe original, quando o padrão RDF foi inicialmente estabelecido, foi a
+baseada em XML. Por ser a primeira sintaxe para RDF, o seu suporte em
+ferramentas é excelente. Por outro lado, pela verbosidade do XML e pela
+sua estrutura hierárquica, os arquivos gerados são geralmente complexos e de
+difícil leitura.</p>
+
 <h3 id="s">S</h3>
+
+<h5 id="shapefile">Shapefile</h5>
+
+<p>Formato aberto para dados geoespaciais, desenvolvido pela empresa Esri, que
+produz soluções de software para sistemas de informações geográficas (GIS).
+Apesar de ser mantido por uma empresa, a sua
+<a href="http://www.esri.com/library/whitepapers/pdfs/shapefile.pdf">especificação</a>
+é aberta e é implementada por praticamente todas as ferramentas de GIS.</p>
 
 <h4 id="software-livre">Software Livre</h4>
 
@@ -310,14 +385,27 @@ no âmbito do poder executivo federal, o Serviço de Informações ao Cidadão t
 <p>As organizações também dispõe de serviços de informação ao cidadão de maneira eletrônica. 
 A CGU centraliza os pedidos ao executivo federal através do <a href="#e-sic">e-SIC</a>.</p>
 
+<h3 id="t">T</h3>
+
+<h5 id="turtle">Turtle</h5>
+
+<p>Turtle significa “<em><a href="https://en.wikipedia.org/wiki/Turtle_(syntax)">Terse RDF Triple Language</a></em>”,
+ou linguagem sucinta de triplas RDF. Foi criada como uma sintaxe simplificada
+para leitura tanto por humanos quanto por máquinas e
+<a href="http://www.w3.org/TR/turtle/">padronizada</a> em 2014.
+A indentação e o uso de prefixos são
+elementos que facilitam a leitura, assim como o agrupamento de triplas que
+possuem o mesmo sujeito ou que possuem o mesmo sujeito e mesmo predicado.</p>
+
 <h3 id="x">X</h3>
 
 <h4 id="xml">XML</h4>
 
-<p>Significa
-<a href="http://pt.wikipedia.org/wiki/XML">Extensible Markup Language</a>. 
-É uma linguagem de marcação que define um conjunto de regras para codificação de documentos
-em um formato que seja tanto legível por humanos quanto por máquinas. </p>
+<p>XML significa <a href="http://pt.wikipedia.org/wiki/XML">Extensible Markup Language</a>,
+e é uma sintaxe para codificar documentos em um formato legível por máquina.
+É baseado em texto e tem como alguns de seus
+<a href="http://www.w3.org/TR/REC-xml/#sec-origin-goals">objetivos</a> a facilidade de
+uso e legibilidade.</p>
 
 
         </section>

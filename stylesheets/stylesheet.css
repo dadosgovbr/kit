@@ -254,6 +254,37 @@ form {
   padding: 20px;
 }
 
+/*
+	Customizações Time de dados abertos
+*/
+
+.tabela-decisoes-tecnologicas {
+  font-size: 14px;
+  border: none;
+  border-spacing: 2;
+  border-collapse: separate;
+  background: white;
+}
+
+.tabela-decisoes-tecnologicas td {
+  padding: 5px;
+  border: none;
+  border-bottom: 1px solid #DDD;
+}
+
+td.celula-meio {
+  border-bottom: none;
+}
+
+.tabela-decisoes-tecnologicas th {
+  padding: 5px;
+  color: #454545;
+  background: #EEEFF1;
+  font-weight: bold;
+}
+
+
+
 /*******************************************************************************
 Full-Width Styles
 *******************************************************************************/
