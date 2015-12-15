@@ -3,7 +3,7 @@ published: true
 permalink: /
 layout: slate
 filename: README.md
-title: Kit de Dados Abertos
+title: Kit para Dados Abertos
 desc: O kit é um conjunto de documentos que descreve o processo, métodos e técnicas para a implementação de uma política de dados abertos no âmbito de uma instituição.
 ---
 
