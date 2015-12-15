@@ -371,12 +371,14 @@ ainda mais restritiva que a compatibilidade dos formatos textuais.
 Os SGBD em geral possuem processos definidos e documentação objetiva de como se
 gerar e carregar um _dump_.
 
-`++++++`: 
+`++++++`:
+ 
 * Forma menos trabalhosa de se publicar os dados
 * Curto prazo para produção
 * Preserva a estrutura dos dados como o são em produção
 
 `------`:
+
 * Provável necessidade de remoção prévia de dados pessoais
 * Necessidade de realizar carga dos dados em SGBD para acessá-los
 * Não há padronização entre formatos de dumps de SGBSs diferentes: em geral
@@ -397,25 +399,28 @@ são processáveis diretamente por editores de planilhas, como o OpenOffice e o
 MS Excel. (do [Glossário](/Gloss%C3%A1rio/#csv))
 
 `++++++`:
+
 * Simplicidade. Registros em estrutura tabular.
 * Facilidade de geração (qualquer banco de dados exporta)
 * Facilidade de consumo (qualquer editor de planilhas manipula)
 * Sucinto (os arquivos gerados são menores)
 
 `------`:
+
 * Falta de padronização do formato
 * Não suporta tipagem de valores
 * Dificuldade em se representar ligações entre os dados
 
 ###### Exemplo
 
-```csv
-Quantidade do item,Valor estimado do item,Decreto 7174,Margem preferencial,Unidade de fornecimento,Situação do item,Valor melhor lance
-6,"R$ 1,590.33",Não,Não,SV,encerrado,R$ 360.00
-8,"R$ 1,480.67",Não,Não,SV,encerrado,R$ 314.98
-6,"R$ 1,700.00",Não,Não,SV,encerrado,R$ 989.00
-```
-Fonte: http://compras.dados.gov.br/pregoes/doc/pregao/1600850000132014/itens.csv
+ 
+    Quantidade do item,Valor estimado do item,Decreto 7174,Margem preferencial,Unidade de fornecimento,Situação do item,Valor melhor lance
+    6,"R$ 1,590.33",Não,Não,SV,encerrado,R$ 360.00
+    8,"R$ 1,480.67",Não,Não,SV,encerrado,R$ 314.98
+    6,"R$ 1,700.00",Não,Não,SV,encerrado,R$ 989.00
+
+
+Fonte: [http://compras.dados.gov.br/pregoes/doc/pregao/1600850000132014/itens.csv](http://compras.dados.gov.br/pregoes/doc/pregao/1600850000132014/itens.csv)
 
 ##### JSON
 
@@ -434,6 +439,7 @@ nativo de armazenamento em alguns bancos de dados modernos.
 (do [Glossário](/Gloss%C3%A1rio/#json))
 
 `++++++`:
+
 * Facilidade para representar hierarquias
 * Suporta tipagem de valores
 * Facilidade de consumo (qualquer linguagem de programação lê com facilidade)
@@ -447,26 +453,25 @@ nativo de armazenamento em alguns bancos de dados modernos.
 
 ###### Exemplo
 
-```json
-{
+    {
 
-    "uasg": ​160085,
-    "modalidade": ​5,
-    "numero_aviso": ​132014,
-    "identificador": "16008505000132014",
-    "tipo_pregao": "Eletrônico",
-    "situacao_aviso": "Publicado",
-    "numero_processo": "64535.029433/2014",
-    "tipo_recurso": "Nacional",
-    "nome_responsavel": "ELIAS ANTONIO MARCOS CARNEIRO DE ALBUQUERQUE",
-    "funcao_responsavel": "Ordenador de Despesas",
-    "data_entrega_edital": "2015-04-08T09:00:00",
-    "endereco_entrega_edital": "Qg Ex Bl.a 1. Pavimento  - Setor Militar Urbano - Smu/DF",
-    "data_abertura_proposta": "2015-04-22T09:00:00",
-    "data_entrega_proposta": "2015-04-08T09:00:00"
-}
-```
-Fonte: http://compras.dados.gov.br/licitacoes/doc/licitacao/16008505000132014.json
+        "uasg": ​160085,
+        "modalidade": ​5,
+        "numero_aviso": ​132014,
+        "identificador": "16008505000132014",
+        "tipo_pregao": "Eletrônico",
+        "situacao_aviso": "Publicado",
+        "numero_processo": "64535.029433/2014",
+        "tipo_recurso": "Nacional",
+        "nome_responsavel": "ELIAS ANTONIO MARCOS CARNEIRO DE ALBUQUERQUE",
+        "funcao_responsavel": "Ordenador de Despesas",
+        "data_entrega_edital": "2015-04-08T09:00:00",
+        "endereco_entrega_edital": "Qg Ex Bl.a 1. Pavimento  - Setor Militar Urbano - Smu/DF",
+        "data_abertura_proposta": "2015-04-22T09:00:00",
+        "data_entrega_proposta": "2015-04-08T09:00:00"
+    }
+
+Fonte: [http://compras.dados.gov.br/licitacoes/doc/licitacao/16008505000132014.json](http://compras.dados.gov.br/licitacoes/doc/licitacao/16008505000132014.json)
 
 ##### XML
 
@@ -482,6 +487,7 @@ recomenda-se utilizar JSON, por economizar banda e ser de processamento mais
 leve. (do [Glossário](/Gloss%C3%A1rio/#xml)).
 
 `++++++`:
+
 * Facilidade para representar hierarquias
 * Suporta tipagem de valores
 * Amplo suporte de ferramentas
@@ -489,26 +495,25 @@ leve. (do [Glossário](/Gloss%C3%A1rio/#xml)).
 * Possilidade de definir esquema de validação
 
 `------`:
+
 * Prolixo (os arquivos gerados são maiores)
 * Maior gasto de processamento para geração e consumo em relação ao JSON.
 
 ###### Exemplo
 
-```xml
-<resource>
-    <_links>
-        <link href="/fornecedores/id/linha_fornecimento/308" rel="self" title="Linha de Fornecimento 308: EQUIPAMENTOS PARA PURIFICAÇÃO DE ÁGUA"/>
-        <link href="/fornecedores/v1/fornecedores?id_linha_fornecimento=308" rel="fornecedores" title="Fornecedores associados a esta Linha de Fornecimento"/>
-        <link href="/materiais/id/material/4610" rel="material" title="Material 4610: EQUIPAMENTOS PARA PURIFICAÇÃO DE ÁGUA"/>
-    </_links>
-    <id>308</id>
-    <codigo_material>4610</codigo_material>
-    <tipo>Material</tipo>
-    <ativo>true</ativo>
-</resource>
-```
+    <resource>
+        <_links>
+            <link href="/fornecedores/id/linha_fornecimento/308" rel="self" title="Linha de Fornecimento 308: EQUIPAMENTOS PARA PURIFICAÇÃO DE ÁGUA"/>
+            <link href="/fornecedores/v1/fornecedores?id_linha_fornecimento=308" rel="fornecedores" title="Fornecedores associados a esta Linha de Fornecimento"/>
+            <link href="/materiais/id/material/4610" rel="material" title="Material 4610: EQUIPAMENTOS PARA PURIFICAÇÃO DE ÁGUA"/>
+        </_links>
+        <id>308</id>
+        <codigo_material>4610</codigo_material>
+        <tipo>Material</tipo>
+        <ativo>true</ativo>
+    </resource>
 
-Fonte: http://compras.dados.gov.br/fornecedores/doc/linha_fornecimento/308.xml
+Fonte: [http://compras.dados.gov.br/fornecedores/doc/linha_fornecimento/308.xml](http://compras.dados.gov.br/fornecedores/doc/linha_fornecimento/308.xml)
 
 #### Formatos geo
 
@@ -529,82 +534,82 @@ por um grupo de trabalho de desenvolvedores.
 (do [Glossário](/Gloss%C3%A1rio/#geojson)).
 
 `++++++`:
+
 * Todos os benefícios do JSON
 * Bom suporte de ferramentas
 * Leve para processamento
 
 `------`:
+
 * Falta padronização (embora a especificação seja aberta)
 
 ###### Exemplo
 
-```json
-{
-   "type":"FeatureCollection",
-   "features":[
-      {
-         "type":"Feature",
-         "id":"ubs.fid--4ce37384_151a5912be6_34da",
-         "geometry":{
-            "type":"MultiPoint",
-            "coordinates":[
-               [
-                  -43.023,
-                  -6.767
-               ]
-            ]
-         },
-         "geometry_name":"geometria",
-         "properties":{
-            "codigo":"9724",
-            "empreendimento":"Floriano - PI - UBS I",
-            "subeixo":"Comunidade CidadÃ£",
-            "tipo":"UBS",
-            "orgao_responsavel":"MinistÃ©rio da SaÃºde",
-            "executor":"MunicÃ­pio",
-            "unidade_federativa":"PI",
-            "municipio":"FLORIANO",
-            "investimento_previsto":"--",
-            "observacao":"",
-            "estagio":"ConcluÃ­do",
-            "data_de_referencia":"31 de Outubro de 2014",
-            "count":0
-         }
-      },
-      {
-         "type":"Feature",
-         "id":"ubs.fid--4ce37384_151a5912be6_34db",
-         "geometry":{
-            "type":"MultiPoint",
-            "coordinates":[
-               [
-                  -40.616,
-                  -7.088
-               ]
-            ]
-         },
-         "geometry_name":"geometria",
-         "properties":{
-            "codigo":"9725",
-            "empreendimento":"Fronteiras - PI - UBS I",
-            "subeixo":"Comunidade CidadÃ£",
-            "tipo":"UBS",
-            "orgao_responsavel":"MinistÃ©rio da SaÃºde",
-            "executor":"MunicÃ­pio",
-            "unidade_federativa":"PI",
-            "municipio":"FRONTEIRAS",
-            "investimento_previsto":"--",
-            "observacao":"",
-            "estagio":"Em obras",
-            "data_de_referencia":"31 de Outubro de 2014",
-            "count":0
-         }
-      }
-   ]
-}
-```
+    {
+       "type":"FeatureCollection",
+       "features":[
+          {
+             "type":"Feature",
+             "id":"ubs.fid--4ce37384_151a5912be6_34da",
+             "geometry":{
+                "type":"MultiPoint",
+                "coordinates":[
+                   [
+                      -43.023,
+                      -6.767
+                   ]
+                ]
+             },
+             "geometry_name":"geometria",
+             "properties":{
+                "codigo":"9724",
+                "empreendimento":"Floriano - PI - UBS I",
+                "subeixo":"Comunidade Cidadã",
+                "tipo":"UBS",
+                "orgao_responsavel":"Ministério da Saúde",
+                "executor":"Municí­pio",
+                "unidade_federativa":"PI",
+                "municipio":"FLORIANO",
+                "investimento_previsto":"--",
+                "observacao":"",
+                "estagio":"Concluí­do",
+                "data_de_referencia":"31 de Outubro de 2014",
+                "count":0
+             }
+          },
+          {
+             "type":"Feature",
+             "id":"ubs.fid--4ce37384_151a5912be6_34db",
+             "geometry":{
+                "type":"MultiPoint",
+                "coordinates":[
+                   [
+                      -40.616,
+                      -7.088
+                   ]
+                ]
+             },
+             "geometry_name":"geometria",
+             "properties":{
+                "codigo":"9725",
+                "empreendimento":"Fronteiras - PI - UBS I",
+                "subeixo":"Comunidade Cidadã",
+                "tipo":"UBS",
+                "orgao_responsavel":"Ministério da Saúde",
+                "executor":"Municí­pio",
+                "unidade_federativa":"PI",
+                "municipio":"FRONTEIRAS",
+                "investimento_previsto":"--",
+                "observacao":"",
+                "estagio":"Em obras",
+                "data_de_referencia":"31 de Outubro de 2014",
+                "count":0
+             }
+          }
+       ]
+    }
 
-Fonte: http://189.9.137.169:8080/geoserver/pac/wms?service=WFS&version=1.0.0&request=GetFeature&typeName=pac:ubs&outputFormat=JSON
+Fonte: [http://189.9.137.169:8080/geoserver/pac/wms?service=WFS&version=1.0.0&request=GetFeature&typeName=pac:ubs&outputFormat=JSON](http://189.9.137.169:8080/geoserver/pac/wms?service=WFS&version=1.0.0&request=GetFeature&typeName=pac:ubs&outputFormat=JSON)
 
 ##### KML
 
@@ -619,10 +624,12 @@ sistema [WGS84](https://en.wikipedia.org/wiki/World_Geodetic_System).
 (do [Glossário](/Gloss%C3%A1rio/#kml)).
 
 `++++++`:
+
 * Formato padronizado
 * Bom suporte de ferramentas
 
 `------`:
+
 * Mais pesado para processamento que o GeoJSON
 
 ##### Shapefile ESRI
@@ -635,9 +642,11 @@ Apesar de ser mantido por uma empresa, a sua
 (do [Glossário](/Gloss%C3%A1rio/#shapefile)).
 
 `++++++`:
+
 * Amplo suporte de ferramentas
 
 `------`:
+
 * Falta padronização (embora a especificação seja aberta)
 * Necessita múltiplos arquivos para um único mapa
 * Possui limitações no armazenamento de atributos
@@ -668,12 +677,14 @@ vantagens e desvantagens de cada um dos formatos de arquivo (sintaxes)
 específicos para dados em RDF.
 
 `++++++`:
+
 * possibilidade de utilizar semântica para descrever os dados
 * facilita o cruzamento e ligação de dados entre fontes diversas
 * potencializa a reutilização de ferramentas especializadas em dados de determinado domínio da informação
 * facilita a descoberta de conhecimento ao possibilitar queries mais complexas usando dados de diversos domínios
 
 `------`:
+
 * necessita desenvolver
   [ontologia](https://pt.wikipedia.org/wiki/Ontologia_(ci%C3%AAncia_da_computa%C3%A7%C3%A3o))
   que descreve os conceitos relacionados aos dados
@@ -691,6 +702,7 @@ elementos que facilitam a leitura, assim como o agrupamento de triplas que
 possuem o mesmo sujeito ou que possuem o mesmo sujeito e mesmo predicado.
 
 `++++++`:
+
 * Sucinto (os arquivos gerados são menores)
 * Simplicidade de leitura por humanos
 * Formato padronizado
@@ -701,20 +713,18 @@ possuem o mesmo sujeito ou que possuem o mesmo sujeito e mesmo predicado.
 
 ###### Exemplo
 
-```
-<http://orcamento.dados.gov.br/id/2015/Acao/0011>
-      a       loa:OperacaoEspecial , loa:Acao ;
-      rdfs:label "Contribuição ao Fundo Global para o Meio Ambiente - GEF (MP)" ;
-      loa:codigo "0011" .
+    <http://orcamento.dados.gov.br/id/2015/Acao/0011>
+          a       loa:OperacaoEspecial , loa:Acao ;
+          rdfs:label "Contribuição ao Fundo Global para o Meio Ambiente - GEF (MP)" ;
+          loa:codigo "0011" .
 
-<http://orcamento.dados.gov.br/id/2015/ItemDespesa/322014>
-      loa:temAcao <http://orcamento.dados.gov.br/id/2015/Acao/0005> .
+    <http://orcamento.dados.gov.br/id/2015/ItemDespesa/322014>
+          loa:temAcao <http://orcamento.dados.gov.br/id/2015/Acao/0005> .
 
-<http://orcamento.dados.gov.br/id/2015/ItemDespesa/357389>
-      loa:temAcao <http://orcamento.dados.gov.br/id/2015/Acao/0005> .
-```
+    <http://orcamento.dados.gov.br/id/2015/ItemDespesa/357389>
+          loa:temAcao <http://orcamento.dados.gov.br/id/2015/Acao/0005> .
 
-Fonte: http://orcamento.dados.gov.br/doc/2015/Acao.ttl
+Fonte: [http://orcamento.dados.gov.br/doc/2015/Acao.ttl](http://orcamento.dados.gov.br/doc/2015/Acao.ttl)
 
 ##### RDF/XML
 
@@ -725,10 +735,12 @@ sua estrutura hierárquica, os arquivos gerados são geralmente complexos e de
 difícil leitura.
 
 `++++++`:
+
 * Formato padronizado
 * Amplo suporte de ferramentas
 
 `------`:
+
 * Dificuldade de leitura por humanos
 * Utiliza estrutura hierárquica para representar um modelo de grafos
 * Prolixo (os arquivos gerados são maiores)
@@ -745,10 +757,12 @@ o JSON principal, onde estão os dados, essencialmente com a mesma estrutura que
 um documento JSON comum.
 
 `++++++`:
+
 * Formato padronizado
 * Leve para processamento
 * Utilizável diretamente em navegadores (leitura por javascript)
 
 `------`:
+
 * Menor suporte de ferramentas por ser um padrão mais recente
 
