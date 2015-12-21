@@ -137,6 +137,25 @@ qualquer um - que está disposto a colaborar com os outros para criar, construir
 inventar para resolver problemas relevantes para nossos bairros, nossas cidades,
 nossos estados e nosso país.
 
+### I
+
+#### INDA
+
+A Infraestrutura Nacional de Dados Abertos (INDA) é uma política para garantir
+e facilitar o acesso pelos cidadãos, pela sociedade e, em especial, pelas
+diversas instâncias do setor público aos dados e informações produzidas ou
+custodiadas pelo Poder Executivo Federal.
+
+Ela consiste em um conjunto de padrões, tecnologias, procedimentos e mecanismos
+de controle necessários para atender às condições de disseminação e
+compartilhamento de dados e informações públicas no modelo de Dados Abertos.
+
+Sua gestão cabe a um [comitê
+gestor](http://wiki.gtinda.ibge.gov.br/Comite-Gestor-da-INDA.ashx), presidido
+pela Secretaria de Tecnologia da Informação do Ministério do Planejamento e
+composto por representantes da sociedade civil, do setor acadêmico e de nove
+entes federais.
+
 ### J
 
 #### JSON
@@ -239,6 +258,20 @@ Parceria para Governo Aberto - *Vide [Parceria para Governo Aberto](#parceria-pa
 #### PDA
 
 *Vide [Plano de Dados Abertos](#plano-de-dados-abertos)*
+
+#### Plano de Ação da INDA
+
+O [Plano de Ação da INDA](http://wiki.gtinda.ibge.gov.br/Plano-de-Acao.ashx)
+é o instrumento de planejamento da política de dados abertos, no âmbito da
+Infraestrutura Nacional de Dados Abertos - INDA. O plano é previsto no inciso
+VII do art. 6º da [Instrução Normativa SLTI/MP nº
+4/2012](http://dados.gov.br/instrucao-normativa-da-inda/). Ele contém, entre
+outras informações, os marcos de iniciativas que serão realizadas no período,
+no que se refere à implementação da política como um todo.
+
+Não se confunde com o [Plano de Dados Abertos](#plano-de-dados-abertos) (PDA),
+que é um instrumento de planejamento das iniciativas e projetos de dados
+abertos no âmbito da organização que o institui.
 
 #### Plano de Dados Abertos
 
