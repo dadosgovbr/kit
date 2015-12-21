@@ -432,16 +432,22 @@ ainda mais restritiva que a compatibilidade dos formatos textuais.</p>
 <p>Os SGBD em geral possuem processos definidos e documentação objetiva de como se
 gerar e carregar um <em>dump</em>.</p>
 
-<p><code>++++++</code>: 
-* Forma menos trabalhosa de se publicar os dados
-* Curto prazo para produção
-* Preserva a estrutura dos dados como o são em produção</p>
+<p><code>++++++</code>:</p>
 
-<p><code>------</code>:
-* Provável necessidade de remoção prévia de dados pessoais
-* Necessidade de realizar carga dos dados em SGBD para acessá-los
-* Não há padronização entre formatos de dumps de SGBSs diferentes: em geral
-  necessita-se do mesmo software e versão que gerou o dump</p>
+<ul>
+  <li>Forma menos trabalhosa de se publicar os dados</li>
+  <li>Curto prazo para produção</li>
+  <li>Preserva a estrutura dos dados como o são em produção</li>
+</ul>
+
+<p><code>------</code>:</p>
+
+<ul>
+  <li>Provável necessidade de remoção prévia de dados pessoais</li>
+  <li>Necessidade de realizar carga dos dados em SGBD para acessá-los</li>
+  <li>Não há padronização entre formatos de dumps de SGBSs diferentes: em geral
+necessita-se do mesmo software e versão que gerou o dump</li>
+</ul>
 
 <h5 id="csv">CSV</h5>
 
@@ -457,16 +463,32 @@ listas, gerando um arquivo menor e mais leve para processamento. Arquivos CSV
 são processáveis diretamente por editores de planilhas, como o OpenOffice e o
 MS Excel. (do <a href="/Gloss%C3%A1rio/#csv">Glossário</a>)</p>
 
-<p><code>++++++</code>:
-* Simplicidade. Registros em estrutura tabular.
-* Facilidade de geração (qualquer banco de dados exporta)
-* Facilidade de consumo (qualquer editor de planilhas manipula)
-* Sucinto (os arquivos gerados são menores)</p>
+<p><code>++++++</code>:</p>
 
-<p><code>------</code>:
-* Falta de padronização do formato
-* Não suporta tipagem de valores
-* Dificuldade em se representar ligações entre os dados</p>
+<ul>
+  <li>Simplicidade. Registros em estrutura tabular.</li>
+  <li>Facilidade de geração (qualquer banco de dados exporta)</li>
+  <li>Facilidade de consumo (qualquer editor de planilhas manipula)</li>
+  <li>Sucinto (os arquivos gerados são menores)</li>
+</ul>
+
+<p><code>------</code>:</p>
+
+<ul>
+  <li>Falta de padronização do formato</li>
+  <li>Não suporta tipagem de valores</li>
+  <li>Dificuldade em se representar ligações entre os dados</li>
+</ul>
+
+<h6 id="exemplo">Exemplo</h6>
+
+<pre><code>Quantidade do item,Valor estimado do item,Decreto 7174,Margem preferencial,Unidade de fornecimento,Situação do item,Valor melhor lance
+6,"R$ 1,590.33",Não,Não,SV,encerrado,R$ 360.00
+8,"R$ 1,480.67",Não,Não,SV,encerrado,R$ 314.98
+6,"R$ 1,700.00",Não,Não,SV,encerrado,R$ 989.00
+</code></pre>
+
+<p>Fonte: <a href="http://compras.dados.gov.br/pregoes/doc/pregao/1600850000132014/itens.csv">http://compras.dados.gov.br/pregoes/doc/pregao/1600850000132014/itens.csv</a></p>
 
 <h5 id="json">JSON</h5>
 
@@ -484,17 +506,43 @@ de dados entre repositórios e frameworks, também está se tornando o padrão
 nativo de armazenamento em alguns bancos de dados modernos.
 (do <a href="/Gloss%C3%A1rio/#json">Glossário</a>)</p>
 
-<p><code>++++++</code>:
-* Facilidade para representar hierarquias
-* Suporta tipagem de valores
-* Facilidade de consumo (qualquer linguagem de programação lê com facilidade)
-* Utilizável diretamente em navegadores (leitura por javascript)
-* Formato padronizado (<a href="https://tools.ietf.org/html/rfc7159">RFC 7159 do IETF</a>,
-  <a href="http://www.ecma-international.org/publications/files/ECMA-ST/ECMA-404.pdf">ECMA-404</a>)
-* Possibilidade de definir esquema de validação
-* Mais leve para processar que o XML</p>
+<p><code>++++++</code>:</p>
+
+<ul>
+  <li>Facilidade para representar hierarquias</li>
+  <li>Suporta tipagem de valores</li>
+  <li>Facilidade de consumo (qualquer linguagem de programação lê com facilidade)</li>
+  <li>Utilizável diretamente em navegadores (leitura por javascript)</li>
+  <li>Formato padronizado (<a href="https://tools.ietf.org/html/rfc7159">RFC 7159 do IETF</a>,
+<a href="http://www.ecma-international.org/publications/files/ECMA-ST/ECMA-404.pdf">ECMA-404</a>)</li>
+  <li>Possibilidade de definir esquema de validação</li>
+  <li>Mais leve para processar que o XML</li>
+</ul>
 
 <p><code>------</code>:</p>
+
+<h6 id="exemplo-1">Exemplo</h6>
+
+<pre><code>{
+
+    "uasg": ​160085,
+    "modalidade": ​5,
+    "numero_aviso": ​132014,
+    "identificador": "16008505000132014",
+    "tipo_pregao": "Eletrônico",
+    "situacao_aviso": "Publicado",
+    "numero_processo": "64535.029433/2014",
+    "tipo_recurso": "Nacional",
+    "nome_responsavel": "ELIAS ANTONIO MARCOS CARNEIRO DE ALBUQUERQUE",
+    "funcao_responsavel": "Ordenador de Despesas",
+    "data_entrega_edital": "2015-04-08T09:00:00",
+    "endereco_entrega_edital": "Qg Ex Bl.a 1. Pavimento  - Setor Militar Urbano - Smu/DF",
+    "data_abertura_proposta": "2015-04-22T09:00:00",
+    "data_entrega_proposta": "2015-04-08T09:00:00"
+}
+</code></pre>
+
+<p>Fonte: <a href="http://compras.dados.gov.br/licitacoes/doc/licitacao/16008505000132014.json">http://compras.dados.gov.br/licitacoes/doc/licitacao/16008505000132014.json</a></p>
 
 <h5 id="xml">XML</h5>
 
@@ -509,16 +557,39 @@ utilização desse formato para integração de aplicações. Em substituição,
 recomenda-se utilizar JSON, por economizar banda e ser de processamento mais
 leve. (do <a href="/Gloss%C3%A1rio/#xml">Glossário</a>).</p>
 
-<p><code>++++++</code>:
-* Facilidade para representar hierarquias
-* Suporta tipagem de valores
-* Amplo suporte de ferramentas
-* Formato padronizado (<a href="http://www.w3.org/TR/2006/REC-xml11-20060816/">W3C</a>)
-* Possilidade de definir esquema de validação</p>
+<p><code>++++++</code>:</p>
 
-<p><code>------</code>:
-* Prolixo (os arquivos gerados são maiores)
-* Maior gasto de processamento para geração e consumo em relação ao JSON.</p>
+<ul>
+  <li>Facilidade para representar hierarquias</li>
+  <li>Suporta tipagem de valores</li>
+  <li>Amplo suporte de ferramentas</li>
+  <li>Formato padronizado (<a href="http://www.w3.org/TR/2006/REC-xml11-20060816/">W3C</a>)</li>
+  <li>Possilidade de definir esquema de validação</li>
+</ul>
+
+<p><code>------</code>:</p>
+
+<ul>
+  <li>Prolixo (os arquivos gerados são maiores)</li>
+  <li>Maior gasto de processamento para geração e consumo em relação ao JSON.</li>
+</ul>
+
+<h6 id="exemplo-2">Exemplo</h6>
+
+<pre><code>&lt;resource&gt;
+    &lt;_links&gt;
+        &lt;link href="/fornecedores/id/linha_fornecimento/308" rel="self" title="Linha de Fornecimento 308: EQUIPAMENTOS PARA PURIFICAÇÃO DE ÁGUA"/&gt;
+        &lt;link href="/fornecedores/v1/fornecedores?id_linha_fornecimento=308" rel="fornecedores" title="Fornecedores associados a esta Linha de Fornecimento"/&gt;
+        &lt;link href="/materiais/id/material/4610" rel="material" title="Material 4610: EQUIPAMENTOS PARA PURIFICAÇÃO DE ÁGUA"/&gt;
+    &lt;/_links&gt;
+    &lt;id&gt;308&lt;/id&gt;
+    &lt;codigo_material&gt;4610&lt;/codigo_material&gt;
+    &lt;tipo&gt;Material&lt;/tipo&gt;
+    &lt;ativo&gt;true&lt;/ativo&gt;
+&lt;/resource&gt;
+</code></pre>
+
+<p>Fonte: <a href="http://compras.dados.gov.br/fornecedores/doc/linha_fornecimento/308.xml">http://compras.dados.gov.br/fornecedores/doc/linha_fornecimento/308.xml</a></p>
 
 <h4 id="formatos-geo">Formatos geo</h4>
 
@@ -538,13 +609,88 @@ outros formatos para informações geográficas. Em vez disso, ele é
 por um grupo de trabalho de desenvolvedores.
 (do <a href="/Gloss%C3%A1rio/#geojson">Glossário</a>).</p>
 
-<p><code>++++++</code>:
-* Todos os benefícios do JSON
-* Bom suporte de ferramentas
-* Leve para processamento</p>
+<p><code>++++++</code>:</p>
 
-<p><code>------</code>:
-* Falta padronização (embora a especificação seja aberta)</p>
+<ul>
+  <li>Todos os benefícios do JSON</li>
+  <li>Bom suporte de ferramentas</li>
+  <li>Leve para processamento</li>
+</ul>
+
+<p><code>------</code>:</p>
+
+<ul>
+  <li>Falta padronização (embora a especificação seja aberta)</li>
+</ul>
+
+<h6 id="exemplo-3">Exemplo</h6>
+
+<pre><code>{
+   "type":"FeatureCollection",
+   "features":[
+      {
+         "type":"Feature",
+         "id":"ubs.fid--4ce37384_151a5912be6_34da",
+         "geometry":{
+            "type":"MultiPoint",
+            "coordinates":[
+               [
+                  -43.023,
+                  -6.767
+               ]
+            ]
+         },
+         "geometry_name":"geometria",
+         "properties":{
+            "codigo":"9724",
+            "empreendimento":"Floriano - PI - UBS I",
+            "subeixo":"Comunidade Cidadã",
+            "tipo":"UBS",
+            "orgao_responsavel":"Ministério da Saúde",
+            "executor":"Municí­pio",
+            "unidade_federativa":"PI",
+            "municipio":"FLORIANO",
+            "investimento_previsto":"--",
+            "observacao":"",
+            "estagio":"Concluí­do",
+            "data_de_referencia":"31 de Outubro de 2014",
+            "count":0
+         }
+      },
+      {
+         "type":"Feature",
+         "id":"ubs.fid--4ce37384_151a5912be6_34db",
+         "geometry":{
+            "type":"MultiPoint",
+            "coordinates":[
+               [
+                  -40.616,
+                  -7.088
+               ]
+            ]
+         },
+         "geometry_name":"geometria",
+         "properties":{
+            "codigo":"9725",
+            "empreendimento":"Fronteiras - PI - UBS I",
+            "subeixo":"Comunidade Cidadã",
+            "tipo":"UBS",
+            "orgao_responsavel":"Ministério da Saúde",
+            "executor":"Municí­pio",
+            "unidade_federativa":"PI",
+            "municipio":"FRONTEIRAS",
+            "investimento_previsto":"--",
+            "observacao":"",
+            "estagio":"Em obras",
+            "data_de_referencia":"31 de Outubro de 2014",
+            "count":0
+         }
+      }
+   ]
+}
+</code></pre>
+
+<p>Fonte: <a href="http://189.9.137.169:8080/geoserver/pac/wms?service=WFS&amp;version=1.0.0&amp;request=GetFeature&amp;typeName=pac:ubs&amp;outputFormat=JSON">http://189.9.137.169:8080/geoserver/pac/wms?service=WFS&amp;version=1.0.0&amp;request=GetFeature&amp;typeName=pac:ubs&amp;outputFormat=JSON</a></p>
 
 <h5 id="kml">KML</h5>
 
@@ -558,12 +704,18 @@ textuais, usando coordenadas de latitude, longitude e elevação conforme o
 sistema <a href="https://en.wikipedia.org/wiki/World_Geodetic_System">WGS84</a>.
 (do <a href="/Gloss%C3%A1rio/#kml">Glossário</a>).</p>
 
-<p><code>++++++</code>:
-* Formato padronizado
-* Bom suporte de ferramentas</p>
+<p><code>++++++</code>:</p>
 
-<p><code>------</code>:
-* Mais pesado para processamento que o GeoJSON</p>
+<ul>
+  <li>Formato padronizado</li>
+  <li>Bom suporte de ferramentas</li>
+</ul>
+
+<p><code>------</code>:</p>
+
+<ul>
+  <li>Mais pesado para processamento que o GeoJSON</li>
+</ul>
 
 <h5 id="shapefile-esri">Shapefile ESRI</h5>
 
@@ -574,13 +726,19 @@ Apesar de ser mantido por uma empresa, a sua
 é aberta e é implementada por praticamente todas as ferramentas de GIS.
 (do <a href="/Gloss%C3%A1rio/#shapefile">Glossário</a>).</p>
 
-<p><code>++++++</code>:
-* Amplo suporte de ferramentas</p>
+<p><code>++++++</code>:</p>
 
-<p><code>------</code>:
-* Falta padronização (embora a especificação seja aberta)
-* Necessita múltiplos arquivos para um único mapa
-* Possui limitações no armazenamento de atributos</p>
+<ul>
+  <li>Amplo suporte de ferramentas</li>
+</ul>
+
+<p><code>------</code>:</p>
+
+<ul>
+  <li>Falta padronização (embora a especificação seja aberta)</li>
+  <li>Necessita múltiplos arquivos para um único mapa</li>
+  <li>Possui limitações no armazenamento de atributos</li>
+</ul>
 
 <h4 id="formatos-baseados-em-rdf">Formatos baseados em RDF</h4>
 
@@ -607,18 +765,24 @@ publicação de dados. Em seguida, apresentam-se uma breve descrição e as
 vantagens e desvantagens de cada um dos formatos de arquivo (sintaxes)
 específicos para dados em RDF.</p>
 
-<p><code>++++++</code>:
-* possibilidade de utilizar semântica para descrever os dados
-* facilita o cruzamento e ligação de dados entre fontes diversas
-* potencializa a reutilização de ferramentas especializadas em dados de determinado domínio da informação
-* facilita a descoberta de conhecimento ao possibilitar queries mais complexas usando dados de diversos domínios</p>
+<p><code>++++++</code>:</p>
 
-<p><code>------</code>:
-* necessita desenvolver
-  <a href="https://pt.wikipedia.org/wiki/Ontologia_(ci%C3%AAncia_da_computa%C3%A7%C3%A3o)">ontologia</a>
-  que descreve os conceitos relacionados aos dados
-* maior complexidade do metamodelo (grafos)
-* maior heterogeneidade nas estrutura dos dados</p>
+<ul>
+  <li>possibilidade de utilizar semântica para descrever os dados</li>
+  <li>facilita o cruzamento e ligação de dados entre fontes diversas</li>
+  <li>potencializa a reutilização de ferramentas especializadas em dados de determinado domínio da informação</li>
+  <li>facilita a descoberta de conhecimento ao possibilitar queries mais complexas usando dados de diversos domínios</li>
+</ul>
+
+<p><code>------</code>:</p>
+
+<ul>
+  <li>necessita desenvolver
+<a href="https://pt.wikipedia.org/wiki/Ontologia_(ci%C3%AAncia_da_computa%C3%A7%C3%A3o)">ontologia</a>
+que descreve os conceitos relacionados aos dados</li>
+  <li>maior complexidade do metamodelo (grafos)</li>
+  <li>maior heterogeneidade nas estrutura dos dados</li>
+</ul>
 
 <h5 id="turtle">Turtle</h5>
 
@@ -630,14 +794,33 @@ A indentação e o uso de prefixos são
 elementos que facilitam a leitura, assim como o agrupamento de triplas que
 possuem o mesmo sujeito ou que possuem o mesmo sujeito e mesmo predicado.</p>
 
-<p><code>++++++</code>:
-* Sucinto (os arquivos gerados são menores)
-* Simplicidade de leitura por humanos
-* Formato padronizado
-* Bom suporte de ferramentas
-* Leve para processamento</p>
+<p><code>++++++</code>:</p>
+
+<ul>
+  <li>Sucinto (os arquivos gerados são menores)</li>
+  <li>Simplicidade de leitura por humanos</li>
+  <li>Formato padronizado</li>
+  <li>Bom suporte de ferramentas</li>
+  <li>Leve para processamento</li>
+</ul>
 
 <p><code>------</code>:</p>
+
+<h6 id="exemplo-4">Exemplo</h6>
+
+<pre><code>&lt;http://orcamento.dados.gov.br/id/2015/Acao/0011&gt;
+      a       loa:OperacaoEspecial , loa:Acao ;
+      rdfs:label "Contribuição ao Fundo Global para o Meio Ambiente - GEF (MP)" ;
+      loa:codigo "0011" .
+
+&lt;http://orcamento.dados.gov.br/id/2015/ItemDespesa/322014&gt;
+      loa:temAcao &lt;http://orcamento.dados.gov.br/id/2015/Acao/0005&gt; .
+
+&lt;http://orcamento.dados.gov.br/id/2015/ItemDespesa/357389&gt;
+      loa:temAcao &lt;http://orcamento.dados.gov.br/id/2015/Acao/0005&gt; .
+</code></pre>
+
+<p>Fonte: <a href="http://orcamento.dados.gov.br/doc/2015/Acao.ttl">http://orcamento.dados.gov.br/doc/2015/Acao.ttl</a></p>
 
 <h5 id="rdfxml">RDF/XML</h5>
 
@@ -647,15 +830,21 @@ ferramentas é excelente. Por outro lado, pela verbosidade do XML e pela
 sua estrutura hierárquica, os arquivos gerados são geralmente complexos e de
 difícil leitura.</p>
 
-<p><code>++++++</code>:
-* Formato padronizado
-* Amplo suporte de ferramentas</p>
+<p><code>++++++</code>:</p>
 
-<p><code>------</code>:
-* Dificuldade de leitura por humanos
-* Utiliza estrutura hierárquica para representar um modelo de grafos
-* Prolixo (os arquivos gerados são maiores)
-* Mais pesado para processamento</p>
+<ul>
+  <li>Formato padronizado</li>
+  <li>Amplo suporte de ferramentas</li>
+</ul>
+
+<p><code>------</code>:</p>
+
+<ul>
+  <li>Dificuldade de leitura por humanos</li>
+  <li>Utiliza estrutura hierárquica para representar um modelo de grafos</li>
+  <li>Prolixo (os arquivos gerados são maiores)</li>
+  <li>Mais pesado para processamento</li>
+</ul>
 
 <h5 id="json-ld">JSON-LD</h5>
 
@@ -667,13 +856,19 @@ pode opcionalmente ser separada em um documento JSON de contexto, o que deixa
 o JSON principal, onde estão os dados, essencialmente com a mesma estrutura que
 um documento JSON comum.</p>
 
-<p><code>++++++</code>:
-* Formato padronizado
-* Leve para processamento
-* Utilizável diretamente em navegadores (leitura por javascript)</p>
+<p><code>++++++</code>:</p>
 
-<p><code>------</code>:
-* Menor suporte de ferramentas por ser um padrão mais recente</p>
+<ul>
+  <li>Formato padronizado</li>
+  <li>Leve para processamento</li>
+  <li>Utilizável diretamente em navegadores (leitura por javascript)</li>
+</ul>
+
+<p><code>------</code>:</p>
+
+<ul>
+  <li>Menor suporte de ferramentas por ser um padrão mais recente</li>
+</ul>
 
 
         </section>
