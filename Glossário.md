@@ -227,7 +227,7 @@ e o arquivo compactado recebe a extensão .kmz.
 
 #### LAI
 
-*Vide [Lei de Acesso à Informação](#lei-de-acesso--informação)*
+*Vide [Lei de Acesso à Informação](#lei-de-acesso--informao)*
 
 #### Lei de Acesso à Informação
 
@@ -366,7 +366,7 @@ proprietário para modificá-lo.
 #### Serviço de Informações ao Cidadão
 
 Conforme o [decreto nº 7.724](http://www.lexml.gov.br/urn/urn:lex:br:federal:decreto:2012-05-16;7724), 
-que regulamenta a [Lei de Acesso à Informação](#lei-de-acesso--informação) 
+que regulamenta a [Lei de Acesso à Informação](#lei-de-acesso--informao) 
 no âmbito do poder executivo federal, o Serviço de Informações ao Cidadão tem o objetivo de:
 1. atender e orientar o público quanto ao acesso à informação; 
 2. informar sobre a tramitação de documentos nas unidades; e 
