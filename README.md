@@ -62,15 +62,17 @@ Esta seção é uma lista exemplificativa, e não exaustiva, de ferramentas úte
 
 * [Open Refine](http://openrefine.org/) - Limpeza e transformação de dados, unificação de registros duplicados, etc.
 
-## Mais Recursos
+## Guias de referência
+
+Os guias abaixo servem como referência para a construção de uma política ou iniciativa de dados abertos (por exemplo, em um estado ou município).
 
 * Guia de Dados Abertos ([_Open Data Handbook_](http://opendatahandbook.org/pt_BR/)) - da [_Open Knowledge_](https://okfn.org/);
-* [Manual dos dados abertos: governo](http://www.w3c.br/pub/Materiais/PublicacoesW3C/Manual_Dados_Abertos_WEB.pdf) - do [W3C Brasil](http://www.w3c.br).
+* [Manual dos dados abertos: governo](http://www.w3c.br/pub/Materiais/PublicacoesW3C/Manual_Dados_Abertos_WEB.pdf) - do [W3C Brasil](http://www.w3c.br);
+* [Open Government Toolkit](http://opendatatoolkit.worldbank.org/en/index.html) - do Banco Mundial.
 
 ## PDAs publicados
 
-* [Plano de Dados Abertos do Ministério do Planejamento](http://www.planejamento.gov.br/aberto/pda/);
-* [Plano de Dados Abertos do Ministério da Justiça](http://participa.br/dadosabertos/galeria-encontro-nacional-de-dados-abertos/pdae-mj.pdf).
+Para informações sobre quais instituições do poder executivo federal já publicaram planos de dados abertos, consulte a [wiki da INDA](http://wiki.gtinda.ibge.gov.br/Plano-de-Dados-Abertos.ashx).
 
 ## Legislação relacionada
 
@@ -78,3 +80,5 @@ Esta seção é uma lista exemplificativa, e não exaustiva, de ferramentas úte
 * [Decreto nº 7724](http://www.lexml.gov.br/urn/urn:lex:br:federal:decreto:2012-05-16;7724) - Regulamenta a Lei de acesso à informação no âmbito do poder executivo federal
 * [Instrução Normativa da INDA](http://dados.gov.br/instrucao-normativa-da-inda/) - Institui a Infraestrutura Nacional de Dados abertos e seu funcionamento
 * [Decreto de 15 de setembro de 2011](http://www.lexml.gov.br/urn/urn:lex:br:federal:decreto:2011-09-15;seq-sf-0) - Institui o CIGA e o Plano Nacional de Governo Aberto
+* [Decreto 8.638, de 15 de janeiro de 2016](http://www.lexml.gov.br/urn/urn:lex:br:federal:decreto:2016-01-15;8638) - Institui a Política de Governança Digital
+
