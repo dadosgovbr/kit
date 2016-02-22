@@ -68,7 +68,7 @@ Os guias abaixo servem como referência para a construção de uma política ou 
 
 * Guia de Dados Abertos ([_Open Data Handbook_](http://opendatahandbook.org/pt_BR/)) - da [_Open Knowledge_](https://okfn.org/);
 * [Manual dos dados abertos: governo](http://www.w3c.br/pub/Materiais/PublicacoesW3C/Manual_Dados_Abertos_WEB.pdf) - do [W3C Brasil](http://www.w3c.br);
-* [Open Government Toolkit](http://opendatatoolkit.worldbank.org/en/index.html) - do Banco Mundial.
+* [Open Government Data Toolkit](http://opendatatoolkit.worldbank.org/en/index.html) - do Banco Mundial.
 
 ## PDAs publicados
 
