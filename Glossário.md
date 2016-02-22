@@ -57,6 +57,11 @@ Excel.
 
 ### E
 
+#### EGD
+
+Estratégia de Governança Digital. Ver
+[governança digital](#governança-digital).
+
 #### e-MAG
 
 O [Modelo de Acessibilidade em Governo Eletrônico](http://www.governoeletronico.gov.br/acoes-e-projetos/e-MAG) 
@@ -94,6 +99,9 @@ informação, acompanhe o prazo e receba a resposta da solicitação realizada p
 e entidades do Executivo Federal. O cidadão ainda pode entrar com recursos e apresentar 
 reclamações sem burocracia.
 
+#### Estratégia de Governança Digital
+
+Ver [governança digital](#governança-digital).
 
 #### ETL
 
@@ -117,6 +125,22 @@ O GeoJSON não é mantido por um órgão formal de padronização, como alguns
 outros formatos para informações geográficas. Em vez disso, ele é
 [especificado](http://geojson.org/geojson-spec.html)
 por um grupo de trabalho de desenvolvedores.
+
+#### Governança Digital
+
+Política instituída pelo
+[Decreto 8.638, de 15 de janeiro de 2016](http://www.lexml.gov.br/urn/urn:lex:br:federal:decreto:2016-01-15;8638)
+e que estabelece a
+[Estratégia de Governança Digital](http://www.governoeletronico.gov.br/estrategia-de-governanca-digital-egd/) (EGD).
+Baseia-se no
+[conceito de Governo Digital da OCDE](https://www.oecd.org/gov/digital-government/recommendation-on-digital-government-strategies.htm)
+e refere-se ao uso de tecnologias digitais, como parte integrada das
+estratégias de modernização governamentais, para gerar benefícios para a
+sociedade.
+
+A EGD tem três eixos estruturantes: acesso à informação, prestação de serviços
+públicos e participação social. A política de dados abertos é parte importante
+do eixo "acesso à informação".
 
 ### H
 
