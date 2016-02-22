@@ -60,7 +60,7 @@ Excel.
 #### EGD
 
 Estratégia de Governança Digital. Ver
-[governança digital](#governança-digital).
+[governança digital](#governana-digital).
 
 #### e-MAG
 
@@ -93,7 +93,7 @@ meios eletrônicos pelos órgãos do Governo Federal.
 #### e-SIC
 
 O [Sistema Eletrônico do Serviço de Informações ao Cidadão](http://www.acessoainformacao.gov.br/sistema/site/index.html?ReturnUrl=%2fsistema%2f) 
-(e-SIC) é o [Serviço de Informações ao Cidadão](#serviço-de-informações-ao-cidadão) do poder executivo federal 
+(e-SIC) é o [Serviço de Informações ao Cidadão](#servio-de-informaes-ao-cidado) do poder executivo federal 
 prestado na web. Ele permite que qualquer pessoa, física ou jurídica, encaminhe pedidos de acesso à 
 informação, acompanhe o prazo e receba a resposta da solicitação realizada para órgãos 
 e entidades do Executivo Federal. O cidadão ainda pode entrar com recursos e apresentar 
@@ -101,7 +101,7 @@ reclamações sem burocracia.
 
 #### Estratégia de Governança Digital
 
-Ver [governança digital](#governança-digital).
+Ver [governança digital](#governana-digital).
 
 #### ETL
 
@@ -227,7 +227,7 @@ e o arquivo compactado recebe a extensão .kmz.
 
 #### LAI
 
-*Vide [Lei de Acesso à Informação](#lei-de-acesso-à-informação)*
+*Vide [Lei de Acesso à Informação](#lei-de-acesso--informação)*
 
 #### Lei de Acesso à Informação
 
@@ -361,12 +361,12 @@ proprietário para modificá-lo.
 
 #### SIC
 
-*Vide [Serviço de Informações ao Cidadão](#serviço-de-informações-ao-cidadão)*
+*Vide [Serviço de Informações ao Cidadão](#servio-de-informaes-ao-cidado)*
 
 #### Serviço de Informações ao Cidadão
 
 Conforme o [decreto nº 7.724](http://www.lexml.gov.br/urn/urn:lex:br:federal:decreto:2012-05-16;7724), 
-que regulamenta a [Lei de Acesso à Informação](#lei-de-acesso-à-informação) 
+que regulamenta a [Lei de Acesso à Informação](#lei-de-acesso--informação) 
 no âmbito do poder executivo federal, o Serviço de Informações ao Cidadão tem o objetivo de:
 1. atender e orientar o público quanto ao acesso à informação; 
 2. informar sobre a tramitação de documentos nas unidades; e 
