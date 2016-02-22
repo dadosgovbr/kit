@@ -33,9 +33,22 @@ Nos últimos anos, vários eventos exclusivos sobre dados abertos foram realizad
 #### Gerar receita e criar novos empregos <a name="receita"></a>
 
 
-Segundo [Neelie Kroes](http://ec.europa.eu/commission_2010-2014/kroes/), Vice-Presidente 
-da comissão européia e responsável pela [Agenda Digital](http://ec.europa.eu/digital-agenda/), 
-em 2011 [a economia de dados abertos já gerava cerca de 32 bilhões de Euros por ano na Europa](http://europa.eu/rapid/press-release_SPEECH-11-872_en.htm?locale=en).
+[Neelie Kroes](http://ec.europa.eu/commission_2010-2014/kroes/), então
+Vice-Presidente da Comissão Européia, ao
+[apresentar em 2011](http://europa.eu/rapid/press-release_SPEECH-11-872_en.htm?locale=en)
+a [Agenda Digital](http://ec.europa.eu/digital-agenda/), citou
+[estudo da Capgemini](https://www.capgemini-consulting.com/the-open-data-economy-0)
+que revelou que a economia de dados abertos já gerava cerca de 32 bilhões de
+Euros por ano na Europa.
+[Outro estudo, da McKinsey & Company](http://www.mckinsey.com/business-functions/business-technology/our-insights/open-data-unlocking-innovation-and-performance-with-liquid-information),
+avaliou o valor anual gerado pelos dados abertos globalmente em 3 trilhões
+de dólares. As Nações Unidas apresentaram o
+[relatório "A Revolução dos Dados"](http://www.undatarevolution.org/report/),
+no qual avaliam como os dados abertos podem ajudar a alcançar as metas para o
+desenvolvimento sustentável. A Lateral Economics, em estudo encomendado pela
+Omidyar Network, pesquisou [como os dados abertos podem contribuir para as
+metas de crescimento econômico do
+G20](https://www.omidyar.com/insights/open-business).
 
 Portanto acredita-se que a publicação de dados abertos tende a estimular a 
 economia, na medida em que agentes econômicos privados os utilizam na 
