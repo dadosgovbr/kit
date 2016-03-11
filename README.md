@@ -44,7 +44,24 @@ Os seguintes subprocessos estão detalhados:
 
 ## Ferramentas
 
-Esta seção é uma lista exemplificativa, e não exaustiva, de ferramentas úteis para [projetos de abertura de dados](Abertura-de-dados). Todas são ferramentas livres, criadas por comunidades de [software livre](Glossário#software-livre), e podem ser utilizadas pelos órgãos governamentais sem restrição. Em geral, são soluções para extração, manipulação e preparação dos dados para sua publicação na Internet. A lista é baseada no [_Project Open Data_](http://project-open-data.github.io/#tools) e [_ODI open data tech review_](https://github.com/dadosgovbr/open-data-tech-review/wiki). Contudo, está restrita a ferramentas que podem ser utilizadas sem a necessidade de conhecimentos de programação.
+Esta seção é uma lista exemplificativa, e não exaustiva, de ferramentas úteis
+para [projetos de abertura de dados](Abertura-de-dados). É importante ter em
+mente que o rol de ferramentas para lidar com dados está em constante mutação.
+São criadas novas ferramentas e outras, mesmo que muito utilizadas,
+[são descontinuadas](http://techtohuman.com/5_in_5_teaching/#tool-volatility).
+Por isso, é altamente recomendável não se basear apenas em listas e
+levantamentos de ferramentas, mas sempre fazer novas pesquisas visando
+encontrar a ferramenta mais adequada para o problema que se pretende tratar.
+
+Todas as ferramentas aqui listadas são livres, criadas por comunidades de
+[software livre](Glossário#software-livre), e podem ser utilizadas pelos
+órgãos governamentais sem restrição. Em geral, são soluções para extração,
+manipulação e preparação dos dados para sua publicação na Internet. A lista é
+baseada no [_Project Open Data_](http://project-open-data.github.io/#tools) e
+[_ODI open data tech
+review_](https://github.com/dadosgovbr/open-data-tech-review/wiki). Contudo,
+está restrita a ferramentas que podem ser utilizadas sem a necessidade de
+conhecimentos de programação.
 
 ### Criação de APIs de dados abertos
 
