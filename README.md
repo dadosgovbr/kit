@@ -7,7 +7,14 @@ title: Kit para Dados Abertos
 desc: O kit é um conjunto de documentos que descreve o processo, métodos e técnicas para a implementação de uma política de dados abertos no âmbito de uma instituição.
 ---
 
-O kit é um conjunto de documentos que descreve o processo, métodos e técnicas para a implementação de uma política de dados abertos no âmbito de uma instituição. Ele é primariamente focado em órgãos e entidades da administração pública federal para a criação e implementação de seus respectivos [Planos de Dados Abertos](Glossário#plano-de-dados-abertos) (PDAs), mas procura ser genérico o suficiente para que possa ser aproveitado em outras instituições.
+O kit é um conjunto de documentos que descreve o processo, métodos e técnicas
+para a implementação de uma política de dados abertos no âmbito de uma
+instituição. Ele é primariamente focado em órgãos e entidades da administração
+pública federal, para a execução de sua [política de dados
+abertos](http://wiki.gtinda.ibge.gov.br/Politica-de-Dados-Abertos.ashx) e para
+a criação e implementação de seus respectivos [Planos de Dados
+Abertos](Glossário#plano-de-dados-abertos) (PDAs), mas procura ser geral o
+suficiente para que possa ser aproveitado em outras instituições.
 
 ## Contexto e objetivo
 
