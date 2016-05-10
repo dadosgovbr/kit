@@ -74,6 +74,8 @@ conhecimentos de programação.
 
 * [CSV to API](https://github.com/project-open-data/csv-to-api) - Dinamicamente gera APIs Restful de arquivos CSVs estáticos 
 * [sandman](https://github.com/jeffknupp/sandman) - Cria API Restful automaticamente a partir de conexão com bancos de dados relacionais
+* [Tastypie](https://django-tastypie.readthedocs.io/en/latest/) - framework para criar APIs REST em Django
+* [Especificação OpenAPI](https://openapis.org/) - uma especificação aberta para interfaces de APIs REST
 
 ### Conversão de dados
 
