@@ -114,6 +114,8 @@ no plano como um todo, avaliando se a organização deveria fazer alguma mudanç
 Publicação do PDA no sítio da instituição, nos formatos HTML e PDF na página
 exemplo.gov.br/aberto da instituição. Exemplo [http://planejamento.gov.br/aberto].
 
+É importante formalizar a publicação do plano, por exemplo, por meio de portaria.
+
 ## Execução do PDA <a name="execucao-pda"></a>
 
 [Execução do Plano de Dados Abertos]({{ site.baseurl }}Execu%C3%A7%C3%A3o-do-PDA).
