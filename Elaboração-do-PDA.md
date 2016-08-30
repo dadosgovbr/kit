@@ -84,7 +84,7 @@ Nesse momento já está definido, para cada um dos dados priorizados, a tática 
 
 Essa é a ocasião certa para pensar em ações de comunicação e articulação com a sociedade civil para 
 aumentar a legitimidade e potencializar a publicação dos dados. Conforme o [Manual para elaboração de 
-PDA]((http://www.planejamento.gov.br/secretarias/upload/Arquivos/governo_aberto/manual_elaboracao_plano_dados_abertos.pdf)), exemplos de ação como essas são: 
+PDA](http://www.planejamento.gov.br/secretarias/upload/Arquivos/governo_aberto/manual_elaboracao_plano_dados_abertos.pdf), exemplos de ação como essas são: 
 
 * realizar encontros com os interessados nos dados
 * realizar concursos de aplicativos (exemplos notórios: [concursos do MJ](http://www.justica.gov.br/dados-abertos), 
