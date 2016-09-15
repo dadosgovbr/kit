@@ -21,7 +21,7 @@ relevantes para as atividades em questão. Essas atividades estão estruturadas 
 [processo sistêmico]({{ site.baseurl }}Processo-sistêmico),
 vale a pena conferir antes de começar..
 
-De maneira resumida, o processo de criação do PDA se resume a 4 etapas:
+De maneira resumida, o processo de criação do PDA consiste em 4 etapas:
 
 ## Organizar Inventário de Dados
 
