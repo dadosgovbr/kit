@@ -80,19 +80,31 @@ Além da forma de publicação, a periodicidade de publicação e a forma de hos
 
 ## Definir cronograma e marcos
 
-Nesse momento já está definido, para cada um dos dados priorizados, a tática de publicação, dentro das limitações da organização e das particularidades das bases de dados. Resta agora pensar nas datas de publicação de cada um deles.
+Nesse momento já está definido, para cada um dos dados priorizados, a tática
+de publicação, dentro das limitações da organização e das particularidades das
+bases de dados. Resta agora pensar nas datas de publicação de cada um deles.
 
-Essa é a ocasião certa para pensar em ações de comunicação e articulação com a sociedade civil para 
-aumentar a legitimidade e potencializar a publicação dos dados. Conforme o [Manual para elaboração de 
+Entretanto, é preciso ter em mente que não apenas as ações de abertura de
+dados devem integrar o Plano de Ação do Plano de Dados Abertos. É importante
+pensar também em ações como:
+
+* melhorias na qualidade de dados de dados que já são publicados
+* melhorias na frequência de atualização dos dados já publicados
+* melhorias na documentação dos dados já publicados (incluindo dicionários de dados, metadados, etc.)
+* criação de catálogos de dados institucionais
+* ações de integração de catálogos de dados existentes na instituição com o [Portal Brasileiro de Dados Abertos](http://dados.gov.br)
+* ações de capacitação interna
+
+Além disso, essa é a ocasião certa para pensar em ações de comunicação e
+articulação com a sociedade civil para aumentar a legitimidade e potencializar
+a publicação dos dados. Conforme o [Manual para elaboração de
 PDA](http://www.planejamento.gov.br/secretarias/upload/Arquivos/governo_aberto/manual_elaboracao_plano_dados_abertos.pdf), exemplos de ação como essas são: 
 
-* realizar encontros com os interessados nos dados
-* realizar concursos de aplicativos (exemplos notórios: [concursos do MJ](http://www.justica.gov.br/dados-abertos), 
-[concursos do INEP](http://hackathondadoseducacionais.org.br/), 
-[concurso do Ministério Planejamento](http://dados.gov.br/noticia/conheca-os-vencedores-do-concurso-nacional-de-dados-abertos/), 
+* realizar encontros com os interessados nos dados (por exemplo, promover uma [expedição de dados](http://escoladedados.org/expedicao-de-dados/))
+* realizar concursos de aplicativos (exemplos pioneiros: [concursos do MJ](http://www.justica.gov.br/dados-abertos), [concursos do INEP](http://hackathondadoseducacionais.org.br/), [concurso do Ministério do Planejamento](http://dados.gov.br/noticia/conheca-os-vencedores-do-concurso-nacional-de-dados-abertos/), 
 [Desarrollando América Latina](http://desarrollandoamerica.org/))
-* utilizar os dados mais pedidos do SIC
+* produzir guias de utilição dos dados
+* apresetar em destaque os dados mais pedidos pelo SIC
 * estimular o uso interno e por outros órgãos públicos dos dados publicados
 * disseminar na organização a cultura de acesso à informação e de disponibilização de dados públicos.
-
 
