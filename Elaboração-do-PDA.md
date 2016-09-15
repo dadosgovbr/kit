@@ -98,7 +98,7 @@ pensar também em ações como:
 Além disso, essa é a ocasião certa para pensar em ações de comunicação e
 articulação com a sociedade civil para aumentar a legitimidade e potencializar
 a publicação dos dados. Conforme o [Manual para elaboração de
-PDA](http://www.planejamento.gov.br/secretarias/upload/Arquivos/governo_aberto/manual_elaboracao_plano_dados_abertos.pdf), exemplos de ação como essas são: 
+PDA](http://www.planejamento.gov.br/secretarias/upload/Arquivos/governo_aberto/manual_elaboracao_plano_dados_abertos.pdf), exemplos de ações como essas são: 
 
 * realizar encontros com os interessados nos dados (por exemplo, promover uma [expedição de dados](http://escoladedados.org/expedicao-de-dados/))
 * realizar concursos de aplicativos (exemplos pioneiros: [concursos do MJ](http://www.justica.gov.br/dados-abertos), [concursos do INEP](http://hackathondadoseducacionais.org.br/), [concurso do Ministério do Planejamento](http://dados.gov.br/noticia/conheca-os-vencedores-do-concurso-nacional-de-dados-abertos/), 
