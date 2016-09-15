@@ -89,7 +89,7 @@ dados devem integrar o Plano de Ação do Plano de Dados Abertos. É importante
 pensar também em ações como:
 
 * melhorias na qualidade de dados de dados que já são publicados
-* melhorias na frequência de atualização dos dados já publicados
+* melhorias na frequência de atualização automatizada dos dados já publicados
 * melhorias na documentação dos dados já publicados (incluindo dicionários de dados, metadados, etc.)
 * criação de catálogos de dados institucionais
 * ações de integração de catálogos de dados existentes na instituição com o [Portal Brasileiro de Dados Abertos](http://dados.gov.br)
