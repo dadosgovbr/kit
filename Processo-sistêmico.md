@@ -111,8 +111,8 @@ no plano como um todo, avaliando se a organização deveria fazer alguma mudanç
 
 ## Publicação do PDA <a name="publicar-pda"></a>
 
-Publicação do PDA no sítio da instituição, nos formatos HTML e PDF na página
-exemplo.gov.br/aberto da instituição
+É importante publicar o PDA no sítio da instituição, nos formatos HTML e PDF,
+na página exemplo.gov.br/aberto da instituição
 ([exemplo](http://www.justica.gov.br/dados-abertos)).
 
 É importante formalizar a publicação do plano, por exemplo, por meio de portaria.
