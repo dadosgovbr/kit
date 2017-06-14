@@ -42,7 +42,11 @@ que revelou que a economia de dados abertos já gerava cerca de 32 bilhões de
 Euros por ano na Europa.
 [Outro estudo, da McKinsey & Company](http://www.mckinsey.com/business-functions/business-technology/our-insights/open-data-unlocking-innovation-and-performance-with-liquid-information),
 avaliou o valor anual gerado pelos dados abertos globalmente em 3 trilhões
-de dólares. As Nações Unidas apresentaram o
+de dólares. Segundo a [Deloitte](https://www2.deloitte.com/content/dam/Deloitte/uk/Documents/deloitte-analytics/open-data-driving-growth-ingenuity-and-innovation.pdf),
+as empresas podem se beneficiar não somente dos dados abertos pelo governo, mas
+também com a criação de serviços relacionados à abertura dos próprios dados.
+
+As Nações Unidas apresentaram o
 [relatório "A Revolução dos Dados"](http://www.undatarevolution.org/report/),
 no qual avaliam como os dados abertos podem ajudar a alcançar as metas para o
 desenvolvimento sustentável. A Lateral Economics, em estudo encomendado pela
