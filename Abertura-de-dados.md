@@ -268,7 +268,7 @@ manual original (em inglês) do CKAN encontra-se no endereço
 traduzida e adaptada pelo IBICT para o idioma português.
 
 Outras informações sobre catalogação de dados no Portal Brasileiro de Dados
-Abertos podem ser encontrados na
+Abertos, incluindo o Manual de Catalogação, podem ser encontrados na
 [wiki da INDA](http://wiki.dados.gov.br/Capacitacao-para-Catalogacao-de-Dados.ashx).
 
 No caso de instuição que ainda não faz parte da INDA (por exemplo, empresas
