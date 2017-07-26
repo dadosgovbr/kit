@@ -222,7 +222,9 @@ tais como listas de discussão da [INDA]({{ site.baseurl }}Glossário#inda) e de
 sociedade civil que acompanham o tema finalístico dos dados.
 
 Nesse momento pode-se decidir pelo planejamento ou não de um futuro
-[hackaton]({{ site.baseurl }}Glossário#hackathon) ou concurso de dados abertos.
+[hackaton]({{ site.baseurl }}Glossário#hackathon) ou concurso de dados abertos,
+caso isso já não tenha sido previsto durante o processo de
+[elaboração do PDA]({{ site.baseurl }}Elaboração-do-PDA).
 
 É importante destacar ainda que os dados logicamente compreendem ativos
 digitais da instituição e por isso devem estar disponíveis e visíveis em
@@ -232,14 +234,39 @@ local apropriado em seu próprio sítio.
 
 ## Catalogar no dados.gov.br
 
-O objetivo dessa catalogação é tornar os dados "descobríveis" na web para seus 
+A catalogação no Portal Brasileiro de Dados Abertos ([dados.gov.br](http://dados.gov.br))
+deve ser feita com o objetivo de tornar os dados "descobríveis" na web para seus 
 interessados. Isso aumenta as chances das pessoas encontrarem os dados 
-prontamente, sem precisar recorrer ao [SIC]({{ site.baseurl }}Glossário#sic) da sua
-organização.
+prontamente, evitando assim solicitações por dados já disponibilizados, algo
+que poderiam onerar desnecessariamente o [SIC]({{ site.baseurl }}Glossário#sic)
+da sua organização.
 
 Para catalogar o novo conjunto de dados no [dados.gov.br](http://dados.gov.br) 
-é necessário levantar um conjunto mínimo de metadados que são utilizados no portal 
-Esses metadados estão melhor descritos na
+é necessário levantar um conjunto mínimo de metadados que são utilizados no portal.
+Esses metadados estão descritos na
 [Cartilha Técnica para Publicação de Dados Abertos no Brasil](http://dados.gov.br/cartilha-publicacao-dados-abertos/)
 , capítulo 7.
+
+É necessário observar a forma de catalogação prevista no PDA ou, ainda,
+defini-la caso essa informação tenha sido omitida no plano.
+
+Uma das maneiras é solicitar a criação de uma
+[organização](http://dados.gov.br/organization) no Portal Brasileiro de
+Dados Abertos. Essa solicitação deve ter a anuência da autoridade de
+monitoramento, como definida no art. 40 da Lei de Acesso à Informação,
+e incluir o nome e o contato da pessoa que por ela ficará responsável no
+portal. Essa pessoa terá as responsabilidades de curadoria do conteúdo da
+organização e por cadastrar as pessoas que farão a catalogação dos
+metadados.
+
+A outra maneira é criar um catálogo de dados abertos próprio da instituição,
+preferencialmente utilizando a ferramenta CKAN, que é software livre. O
+manual original (em inglês) do CKAN encontra-se no endereço
+[docs.ckan.org](http://docs.ckan.org/), mas há uma
+[versão](http://wiki.ibict.br/index.php/Manual_do_usu%C3%A1rio)
+traduzida e adaptada pelo IBICT para o idioma português.
+
+Outras informações sobre catalogação de dados no Portal Brasileiro de Dados
+Abertos podem ser encontrados na
+[wiki da INDA](http://wiki.dados.gov.br/Capacitacao-para-Catalogacao-de-Dados.ashx).
 
