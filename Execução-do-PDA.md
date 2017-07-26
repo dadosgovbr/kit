@@ -44,9 +44,15 @@ o processo.
 
 ## Monitorar a execução de cada processo
 
-Esse é um processo de monitoramento e controle comum. O Gestor deve agendar
+Esse é um processo de monitoramento e controle comum. O gestor deve agendar
 reuniões periódicas para essa atividade e, durante as reuniões, acompanhar as
 metas estabelecidas no PDA e verificar suas entregas.
-É uma boa prática mantes as informações de andamento da execução do PDA 
+É uma boa prática manter as informações de andamento da execução do PDA 
 publicizadas no sítio da instituição no própio local o onde o 
 [PDA está publicado]({{ site.baseurl }}Processo-sistêmico#publicação-do-pda-).
+
+Além disso, no caso de órgão ou entidade do poder executivo federal, tenha em
+mente o fato de que a execução do PDA também é monitorada pelo Ministério da
+Transparência e Controladoria-Geral da União por meio do
+[Painel Monitoramento de Dados Abertos](http://paineis.cgu.gov.br/dadosabertos/index.htm).
+
