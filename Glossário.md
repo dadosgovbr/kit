@@ -175,7 +175,7 @@ de controle necessários para atender às condições de disseminação e
 compartilhamento de dados e informações públicas no modelo de Dados Abertos.
 
 Sua gestão cabe a um [comitê
-gestor](http://wiki.gtinda.ibge.gov.br/Comite-Gestor-da-INDA.ashx), presidido
+gestor](http://wiki.dados.gov.br/Comite-Gestor-da-INDA.ashx), presidido
 pela Secretaria de Tecnologia da Informação do Ministério do Planejamento e
 composto por representantes da sociedade civil, do setor acadêmico e de nove
 entes federais.
@@ -285,7 +285,7 @@ Parceria para Governo Aberto - *Vide [Parceria para Governo Aberto](#parceria-pa
 
 #### Plano de Ação da INDA
 
-O [Plano de Ação da INDA](http://wiki.gtinda.ibge.gov.br/Plano-de-Acao.ashx)
+O [Plano de Ação da INDA](http://wiki.dados.gov.br/Plano-de-Acao.ashx)
 é o instrumento de planejamento da política de dados abertos, no âmbito da
 Infraestrutura Nacional de Dados Abertos - INDA. O plano é previsto no inciso
 VII do art. 6º da [Instrução Normativa SLTI/MP nº
