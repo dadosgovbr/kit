@@ -217,7 +217,8 @@ pode-se dar início à ampla divulgação dos seus resultados.
 
 Isso pode ser feito pelos canais de comunicação que o órgão possui e também
 naqueles que alcancem o público que já se antecipe estar interessado nos dados,
-tais como listas de discussão da [INDA]({{ site.baseurl }}Glossário#inda) e de
+tais como listas de discussão da Infraestrurua Nacional de Dados Abertos -
+[INDA]({{ site.baseurl }}Glossário#inda) e de
 [hackers cívicos]({{ site.baseurl }}Glossário#hacker-cívico), bem como de organizações da
 sociedade civil que acompanham o tema finalístico dos dados.
 
@@ -269,4 +270,13 @@ traduzida e adaptada pelo IBICT para o idioma português.
 Outras informações sobre catalogação de dados no Portal Brasileiro de Dados
 Abertos podem ser encontrados na
 [wiki da INDA](http://wiki.dados.gov.br/Capacitacao-para-Catalogacao-de-Dados.ashx).
+
+No caso de instuição que ainda não faz parte da INDA (por exemplo, empresas
+públicas ou organizações públicas de outros poderes e esferas), antes de
+realizar a catalogação no portal, seria importante avaliar a oportunidade de
+realizar a adesão voluntária à INDA (ver
+"[Como participar da INDA](http://wiki.dados.gov.br/Como-Participar-da-INDA.ashx#Participa%C3%A7%C3%A3o_institucional_7)"
+na wiki da INDA). A adesão formal é uma maneira de assegurar a continuidade
+da publicação e atualização dos dados, mesmo após eventuais trocas de gestão
+na organização.
 
