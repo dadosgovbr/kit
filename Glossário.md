@@ -70,14 +70,14 @@ processo de acessibilidade dos sítios e portais do governo brasileiro seja cond
 
 #### e-PING
 
-A arquitetura [ePING – Padrões de Interoperabilidade de Governo Eletrônico](http://www.governoeletronico.gov.br/acoes-e-projetos/e-ping-padroes-de-interoperabilidade) 
+A arquitetura [ePING – Padrões de Interoperabilidade de Governo Eletrônico](https://www.governoeletronico.gov.br/eixos-de-atuacao/governo/interoperabilidade/eping-padroes-de-interoperabilidade-de-governo-eletronico) 
 – define um conjunto mínimo de premissas, políticas e especificações técnicas que regulamentam a utilização 
 da Tecnologia de Informação e Comunicação (TIC) no governo federal, estabelecendo as condições de interação 
 com os demais Poderes e esferas de governo e com a sociedade em geral.
 
 #### e-PMG
 
-O objetivo do  [Padrão de Metadados do Governo Eletrônico - e-PMG](http://www.governoeletronico.gov.br/acoes-e-projetos/e-ping-padroes-de-interoperabilidade/padrao-de-metadados-do-governo-eletronico-e-pmg)
+O objetivo do  [Padrão de Metadados do Governo Eletrônico - e-PMG](https://www.governoeletronico.gov.br/eixos-de-atuacao/governo/interoperabilidade/padrao-de-metadados-do-governo-eletronico-epmg)
 é assegurar às pessoas, que pesquisam as informações do governo brasileiro na Web, 
 o acesso rápido e eficiente a descrições dos recursos. Os elementos e-PMG têm o 
 propósito de facilitar a localização dos recursos que as pessoas necessitam, 
@@ -85,7 +85,7 @@ mesmo que elas não possuam conhecimento detalhado da localização ou da entida
 
 #### e-PWG
 
-Os [Padrões Web em Governo Eletrônico (ePWG)](http://www.governoeletronico.gov.br/acoes-e-projetos/padroes-brasil-e-gov) 
+Os [Padrões Web em Governo Eletrônico (ePWG)](https://www.governoeletronico.gov.br/eixos-de-atuacao/governo/epwg-padroes-web-em-governo-eletronico) 
 são recomendações de boas práticas agrupadas em formato de cartilhas com o objetivo 
 de aprimorar a comunicação e o fornecimento de informações e serviços prestados por 
 meios eletrônicos pelos órgãos do Governo Federal.
