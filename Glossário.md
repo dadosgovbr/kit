@@ -64,7 +64,7 @@ Estratégia de Governança Digital. Ver
 
 #### e-MAG
 
-O [Modelo de Acessibilidade em Governo Eletrônico](http://www.governoeletronico.gov.br/acoes-e-projetos/e-MAG) 
+O [Modelo de Acessibilidade em Governo Eletrônico](https://www.governoeletronico.gov.br/eixos-de-atuacao/governo/acessibilidade/emag-modelo-de-acessibilidade-em-governo-eletronico) 
 (eMAG) consiste em um conjunto de recomendações a ser considerado para que o 
 processo de acessibilidade dos sítios e portais do governo brasileiro seja conduzido de forma padronizada e de fácil implementação.
 
