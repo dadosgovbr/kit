@@ -33,7 +33,7 @@ depreciando o modelo de serviços SOAP para a técnica REST.
 
 #### Arquivo Legível por Máquina
 
-[Arquivo Legível por Máquina](https://www.niem.gov/glossary/Pages/Glossary.aspx?alpha=M)
+[Arquivo Legível por Máquina](https://www.data.gov/developers/blog/primer-machine-readability-online-documents-and-data)
 refere-se a informações ou dados que estejam em um formato que pode ser
 facilmente processado por um computador, sem intervenção humana,
 assegurando nenhum significado semântico está perdido
@@ -92,7 +92,7 @@ meios eletrônicos pelos órgãos do Governo Federal.
 
 #### e-SIC
 
-O [Sistema Eletrônico do Serviço de Informações ao Cidadão](http://www.acessoainformacao.gov.br/sistema/site/index.html?ReturnUrl=%2fsistema%2f) 
+O [Sistema Eletrônico do Serviço de Informações ao Cidadão](https://esic.cgu.gov.br/sistema/site/index.html?ReturnUrl=%2Fsistema%2F) 
 (e-SIC) é o [Serviço de Informações ao Cidadão](#serviço-de-informações-ao-cidadão) do poder executivo federal 
 prestado na web. Ele permite que qualquer pessoa, física ou jurídica, encaminhe pedidos de acesso à 
 informação, acompanhe o prazo e receba a resposta da solicitação realizada para órgãos 
@@ -105,7 +105,7 @@ Ver [governança digital](#governança-digital).
 
 #### ETL
 
-ETL, do inglês [Extract Transform Load](http://pt.wikipedia.org/wiki/Extract,_transform,_load) 
+ETL, do inglês [Extract Transform Load](https://pt.wikipedia.org/wiki/Extract,_transform,_load) 
 (Extração Transformação Carga), são ferramentas de software cuja função é a extração 
 de dados de diversos sistemas, transformação desses dados conforme regras de negócios 
 e por fim a carga dos dados geralmente em um Data Mart e um Data Warehouse, porém nada 
@@ -146,7 +146,7 @@ do eixo "acesso à informação".
 
 #### Hackathon
 
-Um [hackathon](http://en.wikipedia.org/wiki/Hackathon)
+Um [hackathon](https://pt.wikipedia.org/wiki/Hackathon)
 (também conhecido como um Hack Day, Hackfest ou codefest) é um
 evento em que programadores e outras pessoas envolvidas em desenvolvimento
 de software, incluindo designers gráficos, designers de interface e gerentes
@@ -155,7 +155,7 @@ de tempo curto, que pode durar de 24 horas a 1 semana.
 
 #### Hacker Cívico
 
-[Hacker Cívico](http://www.codeforamerica.org/blog/2013/05/06/what-is-a-civic-hacker/)
+[Hacker Cívico](https://www.codeforamerica.org/blog/2013/05/06/what-is-a-civic-hacker/)
 são tecnólogos, servidores públicos, designers, empresários, engenheiros -
 qualquer um - que está disposto a colaborar com os outros para criar, construir e
 inventar para resolver problemas relevantes para nossos bairros, nossas cidades,
@@ -237,19 +237,19 @@ o direito, previsto na Constituição, de qualquer pessoa solicitar e receber do
 por eles produzidas ou custodiadas.
 
 A Controladoria Geral da União mantém 
-[site com mais informações sobre a lei](http://www.acessoainformacao.gov.br/perguntas-frequentes-2/aspectos-gerais-da-lei).
+[site com mais informações sobre a lei](http://www.acessoainformacao.gov.br/perguntas-frequentes/aspectos-gerais-da-lei).
 
 ### M
 
 #### Método Ágil
 
 Desenvolvimento ágil de software ou
-[Método ágil](http://pt.wikipedia.org/wiki/Desenvolvimento_%C3%A1gil_de_software)
+[Método ágil](https://pt.wikipedia.org/wiki/Desenvolvimento_%C3%A1gil_de_software)
 é um conjunto de metodologias de desenvolvimento de software. O desenvolvimento ágil,
 tal como qualquer metodologia de software, providencia uma estrutura conceitual para
 reger projetos de engenharia de software.
 
-O [Manifesto Ágil](http://pt.wikipedia.org/wiki/Desenvolvimento_%C3%A1gil_de_software)
+O [Manifesto Ágil](https://pt.wikipedia.org/wiki/Desenvolvimento_%C3%A1gil_de_software)
 é uma declaração de princípios que fundamentam o desenvolvimento ágil de software.
 
 ### O
@@ -299,7 +299,7 @@ abertos no âmbito da organização que o institui.
 
 #### Plano de Dados Abertos
 
-O [Plano de Dados Abertos](http://www.planejamento.gov.br/editoria.asp?p=editoria&index=115&ler=c819) 
+O [Plano de Dados Abertos](http://wiki.dados.gov.br/Plano-de-Dados-Abertos.ashx) 
 orienta as ações de implementação e promoção de abertura de dados, inclusive geoespacializados, 
 de uma organização. O documento faz parte da política de dados abertos, e seu objetivo é 
 organizar e padronizar os processos de publicação de dados abertos do estado, resultando 
@@ -307,8 +307,8 @@ na melhoria da qualidade dos serviços prestados ao cidadão e à própria admin
 
 #### Parceria para Governo Aberto
 
-A Parceria para Governo Aberto([site da CGU](http://www.cgu.gov.br/governoaberto/a-ogp/iniciativa.asp)) 
-ou OGP (do inglês Open Government Partnership - [site oficial](http://www.opengovpartnership.org/)), 
+A Parceria para Governo Aberto([site da CGU](http://www.governoaberto.cgu.gov.br/a-ogp/o-que-e-a-iniciativa)) 
+ou OGP (do inglês Open Government Partnership - [site oficial](https://www.opengovpartnership.org/)), 
 lançada em 2011, é uma iniciativa internacional que pretende difundir e incentivar 
 globalmente práticas governamentais relacionadas à transparência dos governos, 
 ao acesso à informação pública e à participação social.
@@ -400,7 +400,7 @@ possuem o mesmo sujeito ou que possuem o mesmo sujeito e mesmo predicado.
 
 #### XML
 
-XML significa [Extensible Markup Language](http://pt.wikipedia.org/wiki/XML),
+XML significa [Extensible Markup Language](https://pt.wikipedia.org/wiki/XML),
 e é uma sintaxe para codificar documentos em um formato legível por máquina.
 É baseado em texto e tem como alguns de seus
 [objetivos](http://www.w3.org/TR/REC-xml/#sec-origin-goals) a facilidade de
