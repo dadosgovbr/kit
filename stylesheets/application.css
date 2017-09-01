@@ -1664,7 +1664,7 @@ body > header.masthead #news {
           width: 20px; /*saint> */
           overflow: hidden;
           background-position: 0 0;
-          background-image: url("../img/bg/bts_redes_brancos.png"); /* luiz> background-image: url("../img/bg/bts_redes.png");*/
+          background-image: url("http://dados.gov.br/img/bg/bts_redes_brancos.png"); /* get from main dados.gov.br site */
           display: block;
           padding-top: 35px;
        }
