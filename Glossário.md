@@ -131,7 +131,7 @@ por um grupo de trabalho de desenvolvedores.
 Política instituída pelo
 [Decreto 8.638, de 15 de janeiro de 2016](http://www.lexml.gov.br/urn/urn:lex:br:federal:decreto:2016-01-15;8638)
 e que estabelece a
-[Estratégia de Governança Digital](http://www.governoeletronico.gov.br/estrategia-de-governanca-digital-egd/) (EGD).
+[Estratégia de Governança Digital](https://www.governoeletronico.gov.br/egd/estrategia-de-governanca-digital) (EGD).
 Baseia-se no
 [conceito de Governo Digital da OCDE](https://www.oecd.org/gov/digital-government/recommendation-on-digital-government-strategies.htm)
 e refere-se ao uso de tecnologias digitais, como parte integrada das
@@ -227,7 +227,7 @@ e o arquivo compactado recebe a extensão .kmz.
 
 #### LAI
 
-*Vide [Lei de Acesso à Informação](#lei-de-acesso--informao)*
+*Vide [Lei de Acesso à Informação](#lei-de-acesso-à-informação)*
 
 #### Lei de Acesso à Informação
 
@@ -366,7 +366,7 @@ proprietário para modificá-lo.
 #### Serviço de Informações ao Cidadão
 
 Conforme o [decreto nº 7.724](http://www.lexml.gov.br/urn/urn:lex:br:federal:decreto:2012-05-16;7724), 
-que regulamenta a [Lei de Acesso à Informação](#lei-de-acesso--informao) 
+que regulamenta a [Lei de Acesso à Informação](#lei-de-acesso-à-informação) 
 no âmbito do poder executivo federal, o Serviço de Informações ao Cidadão tem o objetivo de:
 1. atender e orientar o público quanto ao acesso à informação; 
 2. informar sobre a tramitação de documentos nas unidades; e 
