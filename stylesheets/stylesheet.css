@@ -74,7 +74,7 @@ h1 {
 h2 {
   padding-bottom: 10px;
   font-size: 32px;
-  background: url('../images/bg_hr.png') repeat-x bottom;
+  /* background: url('../images/bg_hr.png') repeat-x bottom; */
 }
 
 h3 {
@@ -394,7 +394,7 @@ Full-Width Styles
 }
 
 #footer_wrap {
-  background: #212121;
+  background: #025310;
 }
 
 
