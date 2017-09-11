@@ -305,6 +305,9 @@ de uma organização. O documento faz parte da política de dados abertos, e seu
 organizar e padronizar os processos de publicação de dados abertos do estado, resultando 
 na melhoria da qualidade dos serviços prestados ao cidadão e à própria administração pública.
 
+A lista de instituições públicas federais que possuem Planos de Dados Abertos
+pode ser consultada [na wiki da INDA](http://wiki.dados.gov.br/Plano-de-Dados-Abertos.ashx).
+
 #### Parceria para Governo Aberto
 
 A Parceria para Governo Aberto([site da CGU](http://www.governoaberto.cgu.gov.br/a-ogp/o-que-e-a-iniciativa)) 
