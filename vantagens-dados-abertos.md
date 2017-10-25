@@ -55,7 +55,7 @@ metas de crescimento econômico do
 G20](https://www.omidyar.com/insights/open-business). Em 2015,
 [um novo estudo feito pela Capgemini](https://www.europeandataportal.eu/sites/default/files/edp_creating_value_through_open_data_0.pdf)
 sob encomenda do
-[Portal Europeu de Dados Abertos](https://www.europeandataportal.eu) previu
+[Portal Europeu de Dados](https://www.europeandataportal.eu) previu
 em 75,7 bilhões de Euros o valor de mercado promovido pelos dados abertos
 em toda a Europa para o ano de 2020. O mesmo estudo também estimou em 1,7
 bilhões de Euros a redução de custos no setor público e previu a criação
@@ -70,5 +70,9 @@ um comerciante decide onde instalar uma nova filial com base em informações
 demográficas ou na existência de determinados serviços públicos no local. Assim, 
 visa-se também alcançar esse resultado indireto ao propor que os dados abertos 
 sejam um instrumento de interoperabilidade.
+
+Um resumo dos benefícios dos dados abertos pode ser encontrado no
+[Portal Europeu de Dados](https://www.europeandataportal.eu/en/using-data/benefits-of-open-data)
+(em inglês).
 
 Traduzido e adaptado do [Project Open Data](http://project-open-data.github.io/business-case/)
