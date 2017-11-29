@@ -9,7 +9,15 @@ desc: Neste mapa são apresentadas diversas formas de publicação de dados aber
 
 ## Mapa de decisões tecnológicas
 
-A tabela abaixo mostra as soluções mais comuns para publicar dados abertos, ordenadas por complexidade e prazo de implementação.
+Durante o [processo de abertura de dados](/Abertura-de-dados), será necessário
+definir a arquitetura tecnológica da solução de abertura de dados. Não há um
+modelo único aplicável a todas as situações, mas sim uma gama de possibilidades
+que devem ser avaliadas à luz da configuração de arquitetura na origem onde os
+dados a serem abertos estão armazenados, no tempo e recursos disponíveis para o
+projeto de abertura e do resultado final desejado.
+
+A tabela abaixo mostra algumas possíveis soluções para publicar dados abertos,
+ordenadas por complexidade e prazo de implementação.
 
 <!---
 Abaixo o código HTML da tabela, markdown não suporta colspan.
@@ -304,20 +312,63 @@ Abaixo o código HTML da tabela, markdown não suporta colspan.
     </tr>
   </table>
 
-<!---
-### Lista de Soluções
+
+### Exemplos de cenários da arquitetura da solução para abertura de dados
 
 #### Publicar dump da base de dados
 
-Essa é a forma mais simples de publicação, caso a base de dados não esteja em ambiente próprio, basta pedir extração ao prestador de serviços, disponibilizar no servidor web e providenciar domínio + URL persistente.
+Consiste na exportação de bases de dados, após tomar o devido cuidado em
+remover informações sensíveis, como nomes de usuários, senhas e informações
+pessoais.
 
-**Vantagens e Desvantagens:** curto prazo de implementação, difícil visualização dos dados.
+É necessário estabelecer o processo de exportação de maneira automática, para
+manter os dados atualiados, bem como hospedar o arquivo resultante em um
+servidor de arquivos de onde o mesmo possa ser acessado através da internet
+por meio de uma URL fixa.
+
+Para mais informações, consulte "[Dump SQL](#dump-sql)" no
+[Glossário de Formatos](#glossário-de-formatos).
+
+**Vantagens:**
+* simplicidade e rapidez de implementação
+* possibilita o uso para análises de dados que dependam do acesso completo
+  aos dados
+* validação dos tipos de campos, associações entre tabelas
+
+**Desvantagens:**
+* formato de arquivo e compatibilidade dependem do Sistema Gerenciador de
+  Banco de Dados - SGBD - utilizado
+* os tamanhos grandes dos arquivos podem ser um fator dificultador a
+  determinadas necessidades de uso dos dados
 
 #### Publicar dados em arquivos CSV
 
-Para essa publicação é necessário um mecanismo mínimo de ETL, para poder transformar as tabelas do SGBD em 'tabelas' CSV.
+A forma mais simples de disponibilizar dados abertos é por meio de uma
+planilha CSV. Para mais informações sobre o formato, consulte "[CSV](#csv)" no
+[Glossário de Formatos](#glossário-de-formatos).
 
-**Vantagens e Desvantagens:** curto prazo, fácil visualização através de ferramentas conhecidas.
+O fluxo de publicação depende da origem dos dados. Nos casos em que eles estão
+localizados em um banco de dados, um processo de [ETL](/Glossário/#etl) deve
+ser estabelecido para ler os dados na orgiem, fazer as transformações
+necessárias (tais como remoção de informações sensíveis e melhorias na
+legibilidade e estrutura das tabelas), gerar e gravar o arquivo CSV.
+
+Se a origem dos dados estiver em uma planilha de suíte de escritório (ex.:
+Microsoft Excel ou LibreOffice Calc), pode ser feita uma exportação manual
+para o foremato CSV. Entretanto, não é aconselhável, uma vez que a
+atualização dos dados terá de ser feita também manualmente.
+
+**Vantagens:**
+* simplicidade e rapidez de implementação
+* facilidade de uso: pode ser aberto em diversas ferramentas amplamente
+  conhecidas, por exemplo, em editores de planilhas, desde que o tamanho das
+  tabelas seja compatível
+
+**Desvantagens:**
+* não possibilita a validação dos tipos de campos
+* formato não padronizado
+
+<!-- revisar o texto abaixo
 
 #### Publicar dados em arquivos JSON / XML
 
