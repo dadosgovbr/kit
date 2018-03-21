@@ -35,6 +35,9 @@ Existem algumas formas de fazer esse levantamento, provavelmente a melhor estrat
 * Fazer uma lista com os dados pedidos pelo SIC
 * Caso a manutenção de todos os sistemas seja centralizada em uma única área de TI, obter a lista dos sistemas com a área
 
+No caso de instituições federais de ensino, recomenda-se conhecer a
+[proposta de sugestões de bases de dados para abertura](http://wiki.dados.gov.br/Abertura-de-bases-de-dados-nas-instituicoes-federais-de-ensino.ashx)
+e contribuir com a minuta, caso tenha alguma alteração a propor.
 
 ## Priorizar os dados que serão abertos
 
