@@ -11,7 +11,7 @@ Elaboração do Plano de Dados Abertos
 ====
 
 O conteúdo que orienta a criação de um PDA está estruturado no
-[Manual para elaboração de Plano de Dados Abertos](http://www.planejamento.gov.br/secretarias/upload/Arquivos/governo_aberto/manual_elaboracao_plano_dados_abertos.pdf). 
+[Manual para elaboração de Plano de Dados Abertos](http://wiki.dados.gov.br/Capacitacao-para-Elaboracao-de-Planos-de-Dados-Abertos.ashx#__Material_Did%C3%A1tico_0). 
 Este documento se dispõe a resumir os principais passos do manual e trazer
 novas referências.
 
@@ -43,7 +43,7 @@ e contribuir com a minuta, caso tenha alguma alteração a propor.
 
 A priorização ocorre porque não vale a pena a organização fazer um esforço para publicar todos os seus dados simultaneamente, o custo é alto e não implica necessariamente na publicação de **dados relevantes para o público**. 
 
-Conforme o [manual para elaboração de PDA](http://www.planejamento.gov.br/secretarias/upload/Arquivos/governo_aberto/manual_elaboracao_plano_dados_abertos.pdf), a etapa de priorização deve considerar esses critérios:
+Conforme o [manual para elaboração de PDA](http://wiki.dados.gov.br/Capacitacao-para-Elaboracao-de-Planos-de-Dados-Abertos.ashx#__Material_Did%C3%A1tico_0), a etapa de priorização deve considerar esses critérios:
 
 1. O grau de relevância para o cidadão, observando-se especialmente as
    **demandas encaminhadas via solicitações de [acesso à
